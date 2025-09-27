@@ -80,11 +80,22 @@ The Machinedrum uses a unique MIDI implementation:
 1. Copy the desired .cki files to your Cirklon's SD card
 2. Load them via the Cirklon's instrument definition menu (DISK → LOAD → INSTR)
 3. Assign to tracks as needed
-4. **Configure your Machinedrum MIDI settings** - See [Machinedrum MIDI Setup Guide](doc/machinedrum_midi_setup.md)
+4. **Configure your Machinedrum MIDI settings** - See [Documentation](doc/)
 
-## Contributing
+## Documentation & Community
 
-Feel free to submit pull requests with new instrument definitions or improvements to existing ones.
+📚 **[View Full Documentation](doc/)**
+
+### Contributing
+
+We welcome contributions from the Cirklon community!
+
+- **Documentation improvements**: Help us clarify and expand our guides
+- **New instrument definitions**: Share your creations
+- **Bug reports & discussions**: [Open an issue](https://github.com/FredHasselot/cirklon_instruments/issues)
+- **Questions about track_values**: See [Track Values Limitations](doc/track_values_limitations.md) and help us understand
+
+The best way to contribute is through GitHub Issues where you can reference specific documentation and discuss with other users.
 
 ## Author
 
