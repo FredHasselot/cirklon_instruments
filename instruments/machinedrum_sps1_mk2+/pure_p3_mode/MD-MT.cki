@@ -1,0 +1,46 @@
+{
+  "InstrName": "MD-MT",
+  "midi_port": 1,
+  "midi_chan": 1,
+  "multi": false,
+  "default_note": "F 1",
+  "default_patt": "P3",
+  "no_xpose": false,
+  "no_fts": false,
+  "poly_spread": "off",
+  "no_thru": false,
+  "no_bankM": false,
+  "no_bankL": false,
+
+  "CC_defs": [
+    {"cc": 96, "name": "MT Para1", "min": 0, "max": 127},
+    {"cc": 97, "name": "MT Para2", "min": 0, "max": 127},
+    {"cc": 98, "name": "MT Para3", "min": 0, "max": 127},
+    {"cc": 99, "name": "MT Para4", "min": 0, "max": 127},
+    {"cc": 100, "name": "MT Para5", "min": 0, "max": 127},
+    {"cc": 101, "name": "MT Para6", "min": 0, "max": 127},
+    {"cc": 102, "name": "MT Para7", "min": 0, "max": 127},
+    {"cc": 103, "name": "MT Para8", "min": 0, "max": 127},
+
+    {"cc": 104, "name": "MT AM Depth", "min": 0, "max": 127},
+    {"cc": 105, "name": "MT AM Rate", "min": 0, "max": 127},
+    {"cc": 106, "name": "MT EQ Freq", "min": 0, "max": 127},
+    {"cc": 107, "name": "MT EQ Gain", "min": 0, "max": 127},
+    {"cc": 108, "name": "MT Freq", "min": 0, "max": 127},
+    {"cc": 109, "name": "MT Width", "min": 0, "max": 127},
+    {"cc": 110, "name": "MT Q", "min": 0, "max": 127},
+    {"cc": 111, "name": "MT SR", "min": 0, "max": 127},
+    {"cc": 112, "name": "MT Dist", "min": 0, "max": 127},
+    {"cc": 113, "name": "MT Volume", "min": 0, "max": 127},
+    {"cc": 114, "name": "MT Pan", "min": 0, "max": 127},
+    {"cc": 115, "name": "MT DelSend", "min": 0, "max": 127},
+    {"cc": 116, "name": "MT RevSend", "min": 0, "max": 127},
+    {"cc": 117, "name": "MT Speed", "min": 0, "max": 127},
+    {"cc": 118, "name": "MT Amount", "min": 0, "max": 127},
+    {"cc": 119, "name": "MT Shape", "min": 0, "max": 127}
+  ],
+
+  "row_defs": [
+    ["F 1", "MT", true]
+  ]
+}

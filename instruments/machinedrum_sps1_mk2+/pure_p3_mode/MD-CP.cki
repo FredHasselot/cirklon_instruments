@@ -1,0 +1,46 @@
+{
+  "InstrName": "MD-CP",
+  "midi_port": 1,
+  "midi_chan": 2,
+  "multi": false,
+  "default_note": "A 1",
+  "default_patt": "P3",
+  "no_xpose": false,
+  "no_fts": false,
+  "poly_spread": "off",
+  "no_thru": false,
+  "no_bankM": false,
+  "no_bankL": false,
+
+  "CC_defs": [
+    {"cc": 40, "name": "CP Para1", "min": 0, "max": 127},
+    {"cc": 41, "name": "CP Para2", "min": 0, "max": 127},
+    {"cc": 42, "name": "CP Para3", "min": 0, "max": 127},
+    {"cc": 43, "name": "CP Para4", "min": 0, "max": 127},
+    {"cc": 44, "name": "CP Para5", "min": 0, "max": 127},
+    {"cc": 45, "name": "CP Para6", "min": 0, "max": 127},
+    {"cc": 46, "name": "CP Para7", "min": 0, "max": 127},
+    {"cc": 47, "name": "CP Para8", "min": 0, "max": 127},
+
+    {"cc": 48, "name": "CP AM Depth", "min": 0, "max": 127},
+    {"cc": 49, "name": "CP AM Rate", "min": 0, "max": 127},
+    {"cc": 50, "name": "CP EQ Freq", "min": 0, "max": 127},
+    {"cc": 51, "name": "CP EQ Gain", "min": 0, "max": 127},
+    {"cc": 52, "name": "CP Freq", "min": 0, "max": 127},
+    {"cc": 53, "name": "CP Width", "min": 0, "max": 127},
+    {"cc": 54, "name": "CP Q", "min": 0, "max": 127},
+    {"cc": 55, "name": "CP SR", "min": 0, "max": 127},
+    {"cc": 56, "name": "CP Dist", "min": 0, "max": 127},
+    {"cc": 57, "name": "CP Volume", "min": 0, "max": 127},
+    {"cc": 58, "name": "CP Pan", "min": 0, "max": 127},
+    {"cc": 59, "name": "CP DelSend", "min": 0, "max": 127},
+    {"cc": 60, "name": "CP RevSend", "min": 0, "max": 127},
+    {"cc": 61, "name": "CP Speed", "min": 0, "max": 127},
+    {"cc": 62, "name": "CP Amount", "min": 0, "max": 127},
+    {"cc": 63, "name": "CP Shape", "min": 0, "max": 127}
+  ],
+
+  "row_defs": [
+    ["A 1", "CP", true]
+  ]
+}

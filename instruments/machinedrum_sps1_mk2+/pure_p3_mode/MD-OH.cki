@@ -1,0 +1,46 @@
+{
+  "InstrName": "MD-OH",
+  "midi_port": 1,
+  "midi_chan": 3,
+  "multi": false,
+  "default_note": "E 2",
+  "default_patt": "P3",
+  "no_xpose": false,
+  "no_fts": false,
+  "poly_spread": "off",
+  "no_thru": false,
+  "no_bankM": false,
+  "no_bankL": false,
+
+  "CC_defs": [
+    {"cc": 40, "name": "OH Para1", "min": 0, "max": 127},
+    {"cc": 41, "name": "OH Para2", "min": 0, "max": 127},
+    {"cc": 42, "name": "OH Para3", "min": 0, "max": 127},
+    {"cc": 43, "name": "OH Para4", "min": 0, "max": 127},
+    {"cc": 44, "name": "OH Para5", "min": 0, "max": 127},
+    {"cc": 45, "name": "OH Para6", "min": 0, "max": 127},
+    {"cc": 46, "name": "OH Para7", "min": 0, "max": 127},
+    {"cc": 47, "name": "OH Para8", "min": 0, "max": 127},
+
+    {"cc": 48, "name": "OH AM Depth", "min": 0, "max": 127},
+    {"cc": 49, "name": "OH AM Rate", "min": 0, "max": 127},
+    {"cc": 50, "name": "OH EQ Freq", "min": 0, "max": 127},
+    {"cc": 51, "name": "OH EQ Gain", "min": 0, "max": 127},
+    {"cc": 52, "name": "OH Freq", "min": 0, "max": 127},
+    {"cc": 53, "name": "OH Width", "min": 0, "max": 127},
+    {"cc": 54, "name": "OH Q", "min": 0, "max": 127},
+    {"cc": 55, "name": "OH SR", "min": 0, "max": 127},
+    {"cc": 56, "name": "OH Dist", "min": 0, "max": 127},
+    {"cc": 57, "name": "OH Volume", "min": 0, "max": 127},
+    {"cc": 58, "name": "OH Pan", "min": 0, "max": 127},
+    {"cc": 59, "name": "OH DelSend", "min": 0, "max": 127},
+    {"cc": 60, "name": "OH RevSend", "min": 0, "max": 127},
+    {"cc": 61, "name": "OH Speed", "min": 0, "max": 127},
+    {"cc": 62, "name": "OH Amount", "min": 0, "max": 127},
+    {"cc": 63, "name": "OH Shape", "min": 0, "max": 127}
+  ],
+
+  "row_defs": [
+    ["E 2", "OH", true]
+  ]
+}

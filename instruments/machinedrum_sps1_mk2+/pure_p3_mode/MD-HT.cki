@@ -1,0 +1,46 @@
+{
+  "InstrName": "MD-HT",
+  "midi_port": 1,
+  "midi_chan": 1,
+  "multi": false,
+  "default_note": "E 1",
+  "default_patt": "P3",
+  "no_xpose": false,
+  "no_fts": false,
+  "poly_spread": "off",
+  "no_thru": false,
+  "no_bankM": false,
+  "no_bankL": false,
+
+  "CC_defs": [
+    {"cc": 72, "name": "HT Para1", "min": 0, "max": 127},
+    {"cc": 73, "name": "HT Para2", "min": 0, "max": 127},
+    {"cc": 74, "name": "HT Para3", "min": 0, "max": 127},
+    {"cc": 75, "name": "HT Para4", "min": 0, "max": 127},
+    {"cc": 76, "name": "HT Para5", "min": 0, "max": 127},
+    {"cc": 77, "name": "HT Para6", "min": 0, "max": 127},
+    {"cc": 78, "name": "HT Para7", "min": 0, "max": 127},
+    {"cc": 79, "name": "HT Para8", "min": 0, "max": 127},
+
+    {"cc": 80, "name": "HT AM Depth", "min": 0, "max": 127},
+    {"cc": 81, "name": "HT AM Rate", "min": 0, "max": 127},
+    {"cc": 82, "name": "HT EQ Freq", "min": 0, "max": 127},
+    {"cc": 83, "name": "HT EQ Gain", "min": 0, "max": 127},
+    {"cc": 84, "name": "HT Freq", "min": 0, "max": 127},
+    {"cc": 85, "name": "HT Width", "min": 0, "max": 127},
+    {"cc": 86, "name": "HT Q", "min": 0, "max": 127},
+    {"cc": 87, "name": "HT SR", "min": 0, "max": 127},
+    {"cc": 88, "name": "HT Dist", "min": 0, "max": 127},
+    {"cc": 89, "name": "HT Volume", "min": 0, "max": 127},
+    {"cc": 90, "name": "HT Pan", "min": 0, "max": 127},
+    {"cc": 91, "name": "HT DelSend", "min": 0, "max": 127},
+    {"cc": 92, "name": "HT RevSend", "min": 0, "max": 127},
+    {"cc": 93, "name": "HT Speed", "min": 0, "max": 127},
+    {"cc": 94, "name": "HT Amount", "min": 0, "max": 127},
+    {"cc": 95, "name": "HT Shape", "min": 0, "max": 127}
+  ],
+
+  "row_defs": [
+    ["E 1", "HT", true]
+  ]
+}

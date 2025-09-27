@@ -1,0 +1,40 @@
+{
+  "InstrName": "MD-Hybrid-CK",
+  "midi_port": 1,
+  "midi_chan": 1,
+  "multi": true,
+  "default_note": "C 3",
+  "default_patt": "CK",
+  "no_xpose": false,
+  "no_fts": false,
+  "poly_spread": "off",
+  "no_thru": false,
+  "no_bankM": false,
+  "no_bankL": false,
+
+  "CC_defs": [
+    {"cc": 33, "name": "Volume", "min": 0, "max": 127},
+    {"cc": 34, "name": "Pan", "min": 0, "max": 127},
+    {"cc": 35, "name": "DelSend", "min": 0, "max": 127},
+    {"cc": 36, "name": "RevSend", "min": 0, "max": 127}
+  ],
+
+  "row_defs": [
+    ["C 3", "BD", true],
+    ["C#3", "SD", true],
+    ["D 3", "HT", true],
+    ["D#3", "MT", true],
+    ["E 3", "LT", true],
+    ["F 3", "CP", true],
+    ["F#3", "RS", true],
+    ["G 3", "CB", true],
+    ["G#3", "CH", true],
+    ["A 3", "OH", true],
+    ["A#3", "RC", true],
+    ["B 3", "CC", true],
+    ["C 4", "M1", true],
+    ["C#4", "M2", true],
+    ["D 4", "M3", true],
+    ["D#4", "M4", true]
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "InstrName": "MD-LT",
+  "midi_port": 1,
+  "midi_chan": 2,
+  "multi": false,
+  "default_note": "G 1",
+  "default_patt": "P3",
+  "no_xpose": false,
+  "no_fts": false,
+  "poly_spread": "off",
+  "no_thru": false,
+  "no_bankM": false,
+  "no_bankL": false,
+
+  "CC_defs": [
+    {"cc": 16, "name": "LT Para1", "min": 0, "max": 127},
+    {"cc": 17, "name": "LT Para2", "min": 0, "max": 127},
+    {"cc": 18, "name": "LT Para3", "min": 0, "max": 127},
+    {"cc": 19, "name": "LT Para4", "min": 0, "max": 127},
+    {"cc": 20, "name": "LT Para5", "min": 0, "max": 127},
+    {"cc": 21, "name": "LT Para6", "min": 0, "max": 127},
+    {"cc": 22, "name": "LT Para7", "min": 0, "max": 127},
+    {"cc": 23, "name": "LT Para8", "min": 0, "max": 127},
+
+    {"cc": 24, "name": "LT AM Depth", "min": 0, "max": 127},
+    {"cc": 25, "name": "LT AM Rate", "min": 0, "max": 127},
+    {"cc": 26, "name": "LT EQ Freq", "min": 0, "max": 127},
+    {"cc": 27, "name": "LT EQ Gain", "min": 0, "max": 127},
+    {"cc": 28, "name": "LT Freq", "min": 0, "max": 127},
+    {"cc": 29, "name": "LT Width", "min": 0, "max": 127},
+    {"cc": 30, "name": "LT Q", "min": 0, "max": 127},
+    {"cc": 31, "name": "LT SR", "min": 0, "max": 127},
+    {"cc": 32, "name": "LT Dist", "min": 0, "max": 127},
+    {"cc": 33, "name": "LT Volume", "min": 0, "max": 127},
+    {"cc": 34, "name": "LT Pan", "min": 0, "max": 127},
+    {"cc": 35, "name": "LT DelSend", "min": 0, "max": 127},
+    {"cc": 36, "name": "LT RevSend", "min": 0, "max": 127},
+    {"cc": 37, "name": "LT Speed", "min": 0, "max": 127},
+    {"cc": 38, "name": "LT Amount", "min": 0, "max": 127},
+    {"cc": 39, "name": "LT Shape", "min": 0, "max": 127}
+  ],
+
+  "row_defs": [
+    ["G 1", "LT", true]
+  ]
+}

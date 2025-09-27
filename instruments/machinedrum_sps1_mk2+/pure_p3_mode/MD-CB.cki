@@ -1,0 +1,46 @@
+{
+  "InstrName": "MD-CB",
+  "midi_port": 1,
+  "midi_chan": 2,
+  "multi": false,
+  "default_note": "C 2",
+  "default_patt": "P3",
+  "no_xpose": false,
+  "no_fts": false,
+  "poly_spread": "off",
+  "no_thru": false,
+  "no_bankM": false,
+  "no_bankL": false,
+
+  "CC_defs": [
+    {"cc": 96, "name": "CB Para1", "min": 0, "max": 127},
+    {"cc": 97, "name": "CB Para2", "min": 0, "max": 127},
+    {"cc": 98, "name": "CB Para3", "min": 0, "max": 127},
+    {"cc": 99, "name": "CB Para4", "min": 0, "max": 127},
+    {"cc": 100, "name": "CB Para5", "min": 0, "max": 127},
+    {"cc": 101, "name": "CB Para6", "min": 0, "max": 127},
+    {"cc": 102, "name": "CB Para7", "min": 0, "max": 127},
+    {"cc": 103, "name": "CB Para8", "min": 0, "max": 127},
+
+    {"cc": 104, "name": "CB AM Depth", "min": 0, "max": 127},
+    {"cc": 105, "name": "CB AM Rate", "min": 0, "max": 127},
+    {"cc": 106, "name": "CB EQ Freq", "min": 0, "max": 127},
+    {"cc": 107, "name": "CB EQ Gain", "min": 0, "max": 127},
+    {"cc": 108, "name": "CB Freq", "min": 0, "max": 127},
+    {"cc": 109, "name": "CB Width", "min": 0, "max": 127},
+    {"cc": 110, "name": "CB Q", "min": 0, "max": 127},
+    {"cc": 111, "name": "CB SR", "min": 0, "max": 127},
+    {"cc": 112, "name": "CB Dist", "min": 0, "max": 127},
+    {"cc": 113, "name": "CB Volume", "min": 0, "max": 127},
+    {"cc": 114, "name": "CB Pan", "min": 0, "max": 127},
+    {"cc": 115, "name": "CB DelSend", "min": 0, "max": 127},
+    {"cc": 116, "name": "CB RevSend", "min": 0, "max": 127},
+    {"cc": 117, "name": "CB Speed", "min": 0, "max": 127},
+    {"cc": 118, "name": "CB Amount", "min": 0, "max": 127},
+    {"cc": 119, "name": "CB Shape", "min": 0, "max": 127}
+  ],
+
+  "row_defs": [
+    ["C 2", "CB", true]
+  ]
+}

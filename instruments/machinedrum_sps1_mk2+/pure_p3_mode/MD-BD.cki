@@ -1,0 +1,46 @@
+{
+  "InstrName": "MD-BD",
+  "midi_port": 1,
+  "midi_chan": 1,
+  "multi": false,
+  "default_note": "C 1",
+  "default_patt": "P3",
+  "no_xpose": false,
+  "no_fts": false,
+  "poly_spread": "off",
+  "no_thru": false,
+  "no_bankM": false,
+  "no_bankL": false,
+
+  "CC_defs": [
+    {"cc": 16, "name": "BD Para1", "min": 0, "max": 127},
+    {"cc": 17, "name": "BD Para2", "min": 0, "max": 127},
+    {"cc": 18, "name": "BD Para3", "min": 0, "max": 127},
+    {"cc": 19, "name": "BD Para4", "min": 0, "max": 127},
+    {"cc": 20, "name": "BD Para5", "min": 0, "max": 127},
+    {"cc": 21, "name": "BD Para6", "min": 0, "max": 127},
+    {"cc": 22, "name": "BD Para7", "min": 0, "max": 127},
+    {"cc": 23, "name": "BD Para8", "min": 0, "max": 127},
+
+    {"cc": 24, "name": "BD AM Depth", "min": 0, "max": 127},
+    {"cc": 25, "name": "BD AM Rate", "min": 0, "max": 127},
+    {"cc": 26, "name": "BD EQ Freq", "min": 0, "max": 127},
+    {"cc": 27, "name": "BD EQ Gain", "min": 0, "max": 127},
+    {"cc": 28, "name": "BD Freq", "min": 0, "max": 127},
+    {"cc": 29, "name": "BD Width", "min": 0, "max": 127},
+    {"cc": 30, "name": "BD Q", "min": 0, "max": 127},
+    {"cc": 31, "name": "BD SR", "min": 0, "max": 127},
+    {"cc": 32, "name": "BD Dist", "min": 0, "max": 127},
+    {"cc": 33, "name": "BD Volume", "min": 0, "max": 127},
+    {"cc": 34, "name": "BD Pan", "min": 0, "max": 127},
+    {"cc": 35, "name": "BD DelSend", "min": 0, "max": 127},
+    {"cc": 36, "name": "BD RevSend", "min": 0, "max": 127},
+    {"cc": 37, "name": "BD Speed", "min": 0, "max": 127},
+    {"cc": 38, "name": "BD Amount", "min": 0, "max": 127},
+    {"cc": 39, "name": "BD Shape", "min": 0, "max": 127}
+  ],
+
+  "row_defs": [
+    ["C 1", "BD", true]
+  ]
+}

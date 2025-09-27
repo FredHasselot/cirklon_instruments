@@ -1,0 +1,46 @@
+{
+  "InstrName": "MD-RC",
+  "midi_port": 1,
+  "midi_chan": 3,
+  "multi": false,
+  "default_note": "F 2",
+  "default_patt": "P3",
+  "no_xpose": false,
+  "no_fts": false,
+  "poly_spread": "off",
+  "no_thru": false,
+  "no_bankM": false,
+  "no_bankL": false,
+
+  "CC_defs": [
+    {"cc": 72, "name": "RC Para1", "min": 0, "max": 127},
+    {"cc": 73, "name": "RC Para2", "min": 0, "max": 127},
+    {"cc": 74, "name": "RC Para3", "min": 0, "max": 127},
+    {"cc": 75, "name": "RC Para4", "min": 0, "max": 127},
+    {"cc": 76, "name": "RC Para5", "min": 0, "max": 127},
+    {"cc": 77, "name": "RC Para6", "min": 0, "max": 127},
+    {"cc": 78, "name": "RC Para7", "min": 0, "max": 127},
+    {"cc": 79, "name": "RC Para8", "min": 0, "max": 127},
+
+    {"cc": 80, "name": "RC AM Depth", "min": 0, "max": 127},
+    {"cc": 81, "name": "RC AM Rate", "min": 0, "max": 127},
+    {"cc": 82, "name": "RC EQ Freq", "min": 0, "max": 127},
+    {"cc": 83, "name": "RC EQ Gain", "min": 0, "max": 127},
+    {"cc": 84, "name": "RC Freq", "min": 0, "max": 127},
+    {"cc": 85, "name": "RC Width", "min": 0, "max": 127},
+    {"cc": 86, "name": "RC Q", "min": 0, "max": 127},
+    {"cc": 87, "name": "RC SR", "min": 0, "max": 127},
+    {"cc": 88, "name": "RC Dist", "min": 0, "max": 127},
+    {"cc": 89, "name": "RC Volume", "min": 0, "max": 127},
+    {"cc": 90, "name": "RC Pan", "min": 0, "max": 127},
+    {"cc": 91, "name": "RC DelSend", "min": 0, "max": 127},
+    {"cc": 92, "name": "RC RevSend", "min": 0, "max": 127},
+    {"cc": 93, "name": "RC Speed", "min": 0, "max": 127},
+    {"cc": 94, "name": "RC Amount", "min": 0, "max": 127},
+    {"cc": 95, "name": "RC Shape", "min": 0, "max": 127}
+  ],
+
+  "row_defs": [
+    ["F 2", "RC", true]
+  ]
+}

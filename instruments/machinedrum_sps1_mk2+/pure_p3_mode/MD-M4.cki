@@ -1,0 +1,46 @@
+{
+  "InstrName": "MD-M4",
+  "midi_port": 1,
+  "midi_chan": 4,
+  "multi": false,
+  "default_note": "D 3",
+  "default_patt": "P3",
+  "no_xpose": false,
+  "no_fts": false,
+  "poly_spread": "off",
+  "no_thru": false,
+  "no_bankM": false,
+  "no_bankL": false,
+
+  "CC_defs": [
+    {"cc": 96, "name": "M4 Para1", "min": 0, "max": 127},
+    {"cc": 97, "name": "M4 Para2", "min": 0, "max": 127},
+    {"cc": 98, "name": "M4 Para3", "min": 0, "max": 127},
+    {"cc": 99, "name": "M4 Para4", "min": 0, "max": 127},
+    {"cc": 100, "name": "M4 Para5", "min": 0, "max": 127},
+    {"cc": 101, "name": "M4 Para6", "min": 0, "max": 127},
+    {"cc": 102, "name": "M4 Para7", "min": 0, "max": 127},
+    {"cc": 103, "name": "M4 Para8", "min": 0, "max": 127},
+
+    {"cc": 104, "name": "M4 AM Depth", "min": 0, "max": 127},
+    {"cc": 105, "name": "M4 AM Rate", "min": 0, "max": 127},
+    {"cc": 106, "name": "M4 EQ Freq", "min": 0, "max": 127},
+    {"cc": 107, "name": "M4 EQ Gain", "min": 0, "max": 127},
+    {"cc": 108, "name": "M4 Freq", "min": 0, "max": 127},
+    {"cc": 109, "name": "M4 Width", "min": 0, "max": 127},
+    {"cc": 110, "name": "M4 Q", "min": 0, "max": 127},
+    {"cc": 111, "name": "M4 SR", "min": 0, "max": 127},
+    {"cc": 112, "name": "M4 Dist", "min": 0, "max": 127},
+    {"cc": 113, "name": "M4 Volume", "min": 0, "max": 127},
+    {"cc": 114, "name": "M4 Pan", "min": 0, "max": 127},
+    {"cc": 115, "name": "M4 DelSend", "min": 0, "max": 127},
+    {"cc": 116, "name": "M4 RevSend", "min": 0, "max": 127},
+    {"cc": 117, "name": "M4 Speed", "min": 0, "max": 127},
+    {"cc": 118, "name": "M4 Amount", "min": 0, "max": 127},
+    {"cc": 119, "name": "M4 Shape", "min": 0, "max": 127}
+  ],
+
+  "row_defs": [
+    ["D 3", "M4", true]
+  ]
+}

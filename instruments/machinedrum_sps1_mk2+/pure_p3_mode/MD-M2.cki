@@ -1,0 +1,46 @@
+{
+  "InstrName": "MD-M2",
+  "midi_port": 1,
+  "midi_chan": 4,
+  "multi": false,
+  "default_note": "B 2",
+  "default_patt": "P3",
+  "no_xpose": false,
+  "no_fts": false,
+  "poly_spread": "off",
+  "no_thru": false,
+  "no_bankM": false,
+  "no_bankL": false,
+
+  "CC_defs": [
+    {"cc": 40, "name": "M2 Para1", "min": 0, "max": 127},
+    {"cc": 41, "name": "M2 Para2", "min": 0, "max": 127},
+    {"cc": 42, "name": "M2 Para3", "min": 0, "max": 127},
+    {"cc": 43, "name": "M2 Para4", "min": 0, "max": 127},
+    {"cc": 44, "name": "M2 Para5", "min": 0, "max": 127},
+    {"cc": 45, "name": "M2 Para6", "min": 0, "max": 127},
+    {"cc": 46, "name": "M2 Para7", "min": 0, "max": 127},
+    {"cc": 47, "name": "M2 Para8", "min": 0, "max": 127},
+
+    {"cc": 48, "name": "M2 AM Depth", "min": 0, "max": 127},
+    {"cc": 49, "name": "M2 AM Rate", "min": 0, "max": 127},
+    {"cc": 50, "name": "M2 EQ Freq", "min": 0, "max": 127},
+    {"cc": 51, "name": "M2 EQ Gain", "min": 0, "max": 127},
+    {"cc": 52, "name": "M2 Freq", "min": 0, "max": 127},
+    {"cc": 53, "name": "M2 Width", "min": 0, "max": 127},
+    {"cc": 54, "name": "M2 Q", "min": 0, "max": 127},
+    {"cc": 55, "name": "M2 SR", "min": 0, "max": 127},
+    {"cc": 56, "name": "M2 Dist", "min": 0, "max": 127},
+    {"cc": 57, "name": "M2 Volume", "min": 0, "max": 127},
+    {"cc": 58, "name": "M2 Pan", "min": 0, "max": 127},
+    {"cc": 59, "name": "M2 DelSend", "min": 0, "max": 127},
+    {"cc": 60, "name": "M2 RevSend", "min": 0, "max": 127},
+    {"cc": 61, "name": "M2 Speed", "min": 0, "max": 127},
+    {"cc": 62, "name": "M2 Amount", "min": 0, "max": 127},
+    {"cc": 63, "name": "M2 Shape", "min": 0, "max": 127}
+  ],
+
+  "row_defs": [
+    ["B 2", "M2", true]
+  ]
+}
