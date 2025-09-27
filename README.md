@@ -89,6 +89,17 @@ Feel free to submit pull requests with new instrument definitions or improvement
 
 Fred Hasselot (2025)
 
+## Documentation
+
+### Manuals
+- [Cirklon Operation Manual v1.20 (PDF)](http://files.sequentix.com/cirklon-manual-1.20.pdf)
+- [Machinedrum User Manual (PDF)](https://www.elektron.se/wp-content/uploads/2021/05/Machinedrum-User-Manual_ENG.pdf)
+
+### Resources
+- [Sequentix Official Website](https://www.sequentix.com)
+- [Cirklon FAQ](https://www.sequentix.com/pages/faq)
+- [Elektron Support](https://www.elektron.se/support/)
+
 ## License
 
 MIT License - See [LICENSE](LICENSE) file for details
