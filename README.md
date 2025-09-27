@@ -1,6 +1,6 @@
 ```
 ╔════════════════════════════════════════════════════════════════════════════════════════╗
-║  (c) Fred Hasselot                                                            v0.1.18  ║
+║  (c) Fred Hasselot                                                            v0.1.19  ║
 ║  cirklon instruments definitions                                                       ║
 ║                                                                                        ║
 ║   ██████ ██ ██████  ██   ██ ██       ██████  ███    ██                                 ║
@@ -83,6 +83,16 @@ The Machinedrum uses a unique MIDI implementation:
 2. Load them via the Cirklon's instrument definition menu (DISK → LOAD → INSTR)
 3. Assign to tracks as needed
 4. **Configure your Machinedrum MIDI settings** - See [Documentation](doc/)
+
+## Machinedrum Firmware X.11
+
+🚀 **[Complete X.11 Firmware Installation Guide](doc/machinedrum_x11_firmware_guide.md)**
+
+Upgrade your Machinedrum to the unofficial X.11 firmware for:
+- New synthesis machines (GND-SN-PRO, GND-SW, GND-PU)
+- Neighbor FX machines (NFX-EV, NFX-CO, NFX-UC)
+- Improved MIDI timing (no more latency/jitter)
+- Solo mode, new LFO shapes, and many bug fixes
 
 ## Documentation & Community
 
