@@ -90,6 +90,8 @@ Feel free to submit pull requests with new instrument definitions or improvement
 
 Fred Hasselot (2025)
 
+Created for [Patrick Pattern](https://soundcloud.com/patrick-packard) productions.
+
 ## Documentation
 
 ### Manuals
