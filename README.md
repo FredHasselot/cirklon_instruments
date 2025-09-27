@@ -1,6 +1,6 @@
 ```
 ╔════════════════════════════════════════════════════════════════════════════════════════╗
-║  (c) Fred Hasselot                                                               v0.6  ║
+║  (c) Fred Hasselot                                                               v0.8  ║
 ║  cirklon instruments definitions                                                       ║
 ║                                                                                        ║
 ║   ██████ ██ ██████  ██   ██ ██       ██████  ███    ██                                 ║
@@ -87,7 +87,7 @@ Feel free to submit pull requests with new instrument definitions or improvement
 
 ## Author
 
-Fred Hasselot
+Fred Hasselot (2025)
 
 ## License
 
