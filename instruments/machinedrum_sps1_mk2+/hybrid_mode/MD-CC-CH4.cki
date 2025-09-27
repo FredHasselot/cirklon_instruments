@@ -1,123 +1,512 @@
 {
-  "InstrName": "MD-CC-CH4",
-  "midi_port": 1,
-  "midi_chan": 4,
-  "multi": true,
-  "default_note": "C 1",
-  "default_patt": "P3",
-  "no_xpose": false,
-  "no_fts": false,
-  "poly_spread": "off",
-  "no_thru": false,
-  "no_bankM": false,
-  "no_bankL": false,
-
-  "CC_defs": [
-    {"cc": 16, "name": "M1 Para1", "min": 0, "max": 127},
-    {"cc": 17, "name": "M1 Para2", "min": 0, "max": 127},
-    {"cc": 18, "name": "M1 Para3", "min": 0, "max": 127},
-    {"cc": 19, "name": "M1 Para4", "min": 0, "max": 127},
-    {"cc": 20, "name": "M1 Para5", "min": 0, "max": 127},
-    {"cc": 21, "name": "M1 Para6", "min": 0, "max": 127},
-    {"cc": 22, "name": "M1 Para7", "min": 0, "max": 127},
-    {"cc": 23, "name": "M1 Para8", "min": 0, "max": 127},
-    {"cc": 24, "name": "M1 AM Depth", "min": 0, "max": 127},
-    {"cc": 25, "name": "M1 AM Rate", "min": 0, "max": 127},
-    {"cc": 26, "name": "M1 EQ Freq", "min": 0, "max": 127},
-    {"cc": 27, "name": "M1 EQ Gain", "min": 0, "max": 127},
-    {"cc": 28, "name": "M1 Freq", "min": 0, "max": 127},
-    {"cc": 29, "name": "M1 Width", "min": 0, "max": 127},
-    {"cc": 30, "name": "M1 Q", "min": 0, "max": 127},
-    {"cc": 31, "name": "M1 SR", "min": 0, "max": 127},
-    {"cc": 32, "name": "M1 Dist", "min": 0, "max": 127},
-    {"cc": 33, "name": "M1 Volume", "min": 0, "max": 127},
-    {"cc": 34, "name": "M1 Pan", "min": 0, "max": 127},
-    {"cc": 35, "name": "M1 DelSend", "min": 0, "max": 127},
-    {"cc": 36, "name": "M1 RevSend", "min": 0, "max": 127},
-    {"cc": 37, "name": "M1 Speed", "min": 0, "max": 127},
-    {"cc": 38, "name": "M1 Amount", "min": 0, "max": 127},
-    {"cc": 39, "name": "M1 Shape", "min": 0, "max": 127},
-
-    {"cc": 40, "name": "M2 Para1", "min": 0, "max": 127},
-    {"cc": 41, "name": "M2 Para2", "min": 0, "max": 127},
-    {"cc": 42, "name": "M2 Para3", "min": 0, "max": 127},
-    {"cc": 43, "name": "M2 Para4", "min": 0, "max": 127},
-    {"cc": 44, "name": "M2 Para5", "min": 0, "max": 127},
-    {"cc": 45, "name": "M2 Para6", "min": 0, "max": 127},
-    {"cc": 46, "name": "M2 Para7", "min": 0, "max": 127},
-    {"cc": 47, "name": "M2 Para8", "min": 0, "max": 127},
-    {"cc": 48, "name": "M2 AM Depth", "min": 0, "max": 127},
-    {"cc": 49, "name": "M2 AM Rate", "min": 0, "max": 127},
-    {"cc": 50, "name": "M2 EQ Freq", "min": 0, "max": 127},
-    {"cc": 51, "name": "M2 EQ Gain", "min": 0, "max": 127},
-    {"cc": 52, "name": "M2 Freq", "min": 0, "max": 127},
-    {"cc": 53, "name": "M2 Width", "min": 0, "max": 127},
-    {"cc": 54, "name": "M2 Q", "min": 0, "max": 127},
-    {"cc": 55, "name": "M2 SR", "min": 0, "max": 127},
-    {"cc": 56, "name": "M2 Dist", "min": 0, "max": 127},
-    {"cc": 57, "name": "M2 Volume", "min": 0, "max": 127},
-    {"cc": 58, "name": "M2 Pan", "min": 0, "max": 127},
-    {"cc": 59, "name": "M2 DelSend", "min": 0, "max": 127},
-    {"cc": 60, "name": "M2 RevSend", "min": 0, "max": 127},
-    {"cc": 61, "name": "M2 Speed", "min": 0, "max": 127},
-    {"cc": 62, "name": "M2 Amount", "min": 0, "max": 127},
-    {"cc": 63, "name": "M2 Shape", "min": 0, "max": 127},
-
-    {"cc": 64, "name": "M3 Para1", "min": 0, "max": 127},
-    {"cc": 65, "name": "M3 Para2", "min": 0, "max": 127},
-    {"cc": 66, "name": "M3 Para3", "min": 0, "max": 127},
-    {"cc": 67, "name": "M3 Para4", "min": 0, "max": 127},
-    {"cc": 68, "name": "M3 Para5", "min": 0, "max": 127},
-    {"cc": 69, "name": "M3 Para6", "min": 0, "max": 127},
-    {"cc": 70, "name": "M3 Para7", "min": 0, "max": 127},
-    {"cc": 71, "name": "M3 Para8", "min": 0, "max": 127},
-    {"cc": 72, "name": "M3 AM Depth", "min": 0, "max": 127},
-    {"cc": 73, "name": "M3 AM Rate", "min": 0, "max": 127},
-    {"cc": 74, "name": "M3 EQ Freq", "min": 0, "max": 127},
-    {"cc": 75, "name": "M3 EQ Gain", "min": 0, "max": 127},
-    {"cc": 76, "name": "M3 Freq", "min": 0, "max": 127},
-    {"cc": 77, "name": "M3 Width", "min": 0, "max": 127},
-    {"cc": 78, "name": "M3 Q", "min": 0, "max": 127},
-    {"cc": 79, "name": "M3 SR", "min": 0, "max": 127},
-    {"cc": 80, "name": "M3 Dist", "min": 0, "max": 127},
-    {"cc": 81, "name": "M3 Volume", "min": 0, "max": 127},
-    {"cc": 82, "name": "M3 Pan", "min": 0, "max": 127},
-    {"cc": 83, "name": "M3 DelSend", "min": 0, "max": 127},
-    {"cc": 84, "name": "M3 RevSend", "min": 0, "max": 127},
-    {"cc": 85, "name": "M3 Speed", "min": 0, "max": 127},
-    {"cc": 86, "name": "M3 Amount", "min": 0, "max": 127},
-    {"cc": 87, "name": "M3 Shape", "min": 0, "max": 127},
-
-    {"cc": 88, "name": "M4 Para1", "min": 0, "max": 127},
-    {"cc": 89, "name": "M4 Para2", "min": 0, "max": 127},
-    {"cc": 90, "name": "M4 Para3", "min": 0, "max": 127},
-    {"cc": 91, "name": "M4 Para4", "min": 0, "max": 127},
-    {"cc": 92, "name": "M4 Para5", "min": 0, "max": 127},
-    {"cc": 93, "name": "M4 Para6", "min": 0, "max": 127},
-    {"cc": 94, "name": "M4 Para7", "min": 0, "max": 127},
-    {"cc": 95, "name": "M4 Para8", "min": 0, "max": 127},
-    {"cc": 96, "name": "M4 AM Depth", "min": 0, "max": 127},
-    {"cc": 97, "name": "M4 AM Rate", "min": 0, "max": 127},
-    {"cc": 98, "name": "M4 EQ Freq", "min": 0, "max": 127},
-    {"cc": 99, "name": "M4 EQ Gain", "min": 0, "max": 127},
-    {"cc": 100, "name": "M4 Freq", "min": 0, "max": 127},
-    {"cc": 101, "name": "M4 Width", "min": 0, "max": 127},
-    {"cc": 102, "name": "M4 Q", "min": 0, "max": 127},
-    {"cc": 103, "name": "M4 SR", "min": 0, "max": 127},
-    {"cc": 104, "name": "M4 Dist", "min": 0, "max": 127},
-    {"cc": 105, "name": "M4 Volume", "min": 0, "max": 127},
-    {"cc": 106, "name": "M4 Pan", "min": 0, "max": 127},
-    {"cc": 107, "name": "M4 DelSend", "min": 0, "max": 127},
-    {"cc": 108, "name": "M4 RevSend", "min": 0, "max": 127},
-    {"cc": 109, "name": "M4 Speed", "min": 0, "max": 127},
-    {"cc": 110, "name": "M4 Amount", "min": 0, "max": 127},
-    {"cc": 111, "name": "M4 Shape", "min": 0, "max": 127}
-  ],
-
-  "row_defs": [
-    ["C 1", "M1", false],
-    ["C#1", "M2", false],
-    ["D 1", "M3", false],
-    ["D#1", "M4", false]
-  ]
+    "instrument_data": {
+        "MD-CC-CH4": {
+            "midi_port": 1,
+            "midi_chan": 4,
+            "default_note": "C 1",
+            "default_patt": "P3",
+            "poly_spread": "off",
+            "multi": true,
+            "cc_defs": {
+                "CC16": {
+                    "name": "M1 Para1",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC17": {
+                    "name": "M1 Para2",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC18": {
+                    "name": "M1 Para3",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC19": {
+                    "name": "M1 Para4",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC20": {
+                    "name": "M1 Para5",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC21": {
+                    "name": "M1 Para6",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC22": {
+                    "name": "M1 Para7",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC23": {
+                    "name": "M1 Para8",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC24": {
+                    "name": "M1 AM Depth",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC25": {
+                    "name": "M1 AM Rate",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC26": {
+                    "name": "M1 EQ Freq",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC27": {
+                    "name": "M1 EQ Gain",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC28": {
+                    "name": "M1 Freq",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC29": {
+                    "name": "M1 Width",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC30": {
+                    "name": "M1 Q",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC31": {
+                    "name": "M1 SR",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC32": {
+                    "name": "M1 Dist",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC33": {
+                    "name": "M1 Volume",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC34": {
+                    "name": "M1 Pan",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC35": {
+                    "name": "M1 DelSend",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC36": {
+                    "name": "M1 RevSend",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC37": {
+                    "name": "M1 Speed",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC38": {
+                    "name": "M1 Amount",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC39": {
+                    "name": "M1 Shape",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC40": {
+                    "name": "M2 Para1",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC41": {
+                    "name": "M2 Para2",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC42": {
+                    "name": "M2 Para3",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC43": {
+                    "name": "M2 Para4",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC44": {
+                    "name": "M2 Para5",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC45": {
+                    "name": "M2 Para6",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC46": {
+                    "name": "M2 Para7",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC47": {
+                    "name": "M2 Para8",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC48": {
+                    "name": "M2 AM Depth",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC49": {
+                    "name": "M2 AM Rate",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC50": {
+                    "name": "M2 EQ Freq",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC51": {
+                    "name": "M2 EQ Gain",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC52": {
+                    "name": "M2 Freq",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC53": {
+                    "name": "M2 Width",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC54": {
+                    "name": "M2 Q",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC55": {
+                    "name": "M2 SR",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC56": {
+                    "name": "M2 Dist",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC57": {
+                    "name": "M2 Volume",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC58": {
+                    "name": "M2 Pan",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC59": {
+                    "name": "M2 DelSend",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC60": {
+                    "name": "M2 RevSend",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC61": {
+                    "name": "M2 Speed",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC62": {
+                    "name": "M2 Amount",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC63": {
+                    "name": "M2 Shape",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC64": {
+                    "name": "M3 Para1",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC65": {
+                    "name": "M3 Para2",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC66": {
+                    "name": "M3 Para3",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC67": {
+                    "name": "M3 Para4",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC68": {
+                    "name": "M3 Para5",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC69": {
+                    "name": "M3 Para6",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC70": {
+                    "name": "M3 Para7",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC71": {
+                    "name": "M3 Para8",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC72": {
+                    "name": "M3 AM Depth",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC73": {
+                    "name": "M3 AM Rate",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC74": {
+                    "name": "M3 EQ Freq",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC75": {
+                    "name": "M3 EQ Gain",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC76": {
+                    "name": "M3 Freq",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC77": {
+                    "name": "M3 Width",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC78": {
+                    "name": "M3 Q",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC79": {
+                    "name": "M3 SR",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC80": {
+                    "name": "M3 Dist",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC81": {
+                    "name": "M3 Volume",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC82": {
+                    "name": "M3 Pan",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC83": {
+                    "name": "M3 DelSend",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC84": {
+                    "name": "M3 RevSend",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC85": {
+                    "name": "M3 Speed",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC86": {
+                    "name": "M3 Amount",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC87": {
+                    "name": "M3 Shape",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC88": {
+                    "name": "M4 Para1",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC89": {
+                    "name": "M4 Para2",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC90": {
+                    "name": "M4 Para3",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC91": {
+                    "name": "M4 Para4",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC92": {
+                    "name": "M4 Para5",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC93": {
+                    "name": "M4 Para6",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC94": {
+                    "name": "M4 Para7",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC95": {
+                    "name": "M4 Para8",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC96": {
+                    "name": "M4 AM Depth",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC97": {
+                    "name": "M4 AM Rate",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC98": {
+                    "name": "M4 EQ Freq",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC99": {
+                    "name": "M4 EQ Gain",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC100": {
+                    "name": "M4 Freq",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC101": {
+                    "name": "M4 Width",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC102": {
+                    "name": "M4 Q",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC103": {
+                    "name": "M4 SR",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC104": {
+                    "name": "M4 Dist",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC105": {
+                    "name": "M4 Volume",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC106": {
+                    "name": "M4 Pan",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC107": {
+                    "name": "M4 DelSend",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC108": {
+                    "name": "M4 RevSend",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC109": {
+                    "name": "M4 Speed",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC110": {
+                    "name": "M4 Amount",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC111": {
+                    "name": "M4 Shape",
+                    "min": 0,
+                    "max": 127
+                }
+            },
+            "row_defs": {
+                "C 1": {
+                    "label": "M1 ",
+                    "always_show": false
+                },
+                "C#1": {
+                    "label": "M2 ",
+                    "always_show": false
+                },
+                "D 1": {
+                    "label": "M3 ",
+                    "always_show": false
+                },
+                "D#1": {
+                    "label": "M4 ",
+                    "always_show": false
+                }
+            }
+        }
+    }
 }

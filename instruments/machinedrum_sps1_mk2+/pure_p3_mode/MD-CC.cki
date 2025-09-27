@@ -1,46 +1,139 @@
 {
-  "InstrName": "MD-CC",
-  "midi_port": 1,
-  "midi_chan": 3,
-  "multi": false,
-  "default_note": "G 2",
-  "default_patt": "P3",
-  "no_xpose": false,
-  "no_fts": false,
-  "poly_spread": "off",
-  "no_thru": false,
-  "no_bankM": false,
-  "no_bankL": false,
-
-  "CC_defs": [
-    {"cc": 96, "name": "CC Para1", "min": 0, "max": 127},
-    {"cc": 97, "name": "CC Para2", "min": 0, "max": 127},
-    {"cc": 98, "name": "CC Para3", "min": 0, "max": 127},
-    {"cc": 99, "name": "CC Para4", "min": 0, "max": 127},
-    {"cc": 100, "name": "CC Para5", "min": 0, "max": 127},
-    {"cc": 101, "name": "CC Para6", "min": 0, "max": 127},
-    {"cc": 102, "name": "CC Para7", "min": 0, "max": 127},
-    {"cc": 103, "name": "CC Para8", "min": 0, "max": 127},
-
-    {"cc": 104, "name": "CC AM Depth", "min": 0, "max": 127},
-    {"cc": 105, "name": "CC AM Rate", "min": 0, "max": 127},
-    {"cc": 106, "name": "CC EQ Freq", "min": 0, "max": 127},
-    {"cc": 107, "name": "CC EQ Gain", "min": 0, "max": 127},
-    {"cc": 108, "name": "CC Freq", "min": 0, "max": 127},
-    {"cc": 109, "name": "CC Width", "min": 0, "max": 127},
-    {"cc": 110, "name": "CC Q", "min": 0, "max": 127},
-    {"cc": 111, "name": "CC SR", "min": 0, "max": 127},
-    {"cc": 112, "name": "CC Dist", "min": 0, "max": 127},
-    {"cc": 113, "name": "CC Volume", "min": 0, "max": 127},
-    {"cc": 114, "name": "CC Pan", "min": 0, "max": 127},
-    {"cc": 115, "name": "CC DelSend", "min": 0, "max": 127},
-    {"cc": 116, "name": "CC RevSend", "min": 0, "max": 127},
-    {"cc": 117, "name": "CC Speed", "min": 0, "max": 127},
-    {"cc": 118, "name": "CC Amount", "min": 0, "max": 127},
-    {"cc": 119, "name": "CC Shape", "min": 0, "max": 127}
-  ],
-
-  "row_defs": [
-    ["G 2", "CC", true]
-  ]
+    "instrument_data": {
+        "MD-CC": {
+            "midi_port": 1,
+            "midi_chan": 3,
+            "default_note": "G 2",
+            "default_patt": "P3",
+            "poly_spread": "off",
+            "cc_defs": {
+                "CC96": {
+                    "name": "CC Para1",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC97": {
+                    "name": "CC Para2",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC98": {
+                    "name": "CC Para3",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC99": {
+                    "name": "CC Para4",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC100": {
+                    "name": "CC Para5",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC101": {
+                    "name": "CC Para6",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC102": {
+                    "name": "CC Para7",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC103": {
+                    "name": "CC Para8",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC104": {
+                    "name": "CC AM Depth",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC105": {
+                    "name": "CC AM Rate",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC106": {
+                    "name": "CC EQ Freq",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC107": {
+                    "name": "CC EQ Gain",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC108": {
+                    "name": "CC Freq",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC109": {
+                    "name": "CC Width",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC110": {
+                    "name": "CC Q",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC111": {
+                    "name": "CC SR",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC112": {
+                    "name": "CC Dist",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC113": {
+                    "name": "CC Volume",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC114": {
+                    "name": "CC Pan",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC115": {
+                    "name": "CC DelSend",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC116": {
+                    "name": "CC RevSend",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC117": {
+                    "name": "CC Speed",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC118": {
+                    "name": "CC Amount",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC119": {
+                    "name": "CC Shape",
+                    "min": 0,
+                    "max": 127
+                }
+            },
+            "row_defs": {
+                "G 2": {
+                    "label": "CC ",
+                    "always_show": true
+                }
+            }
+        }
+    }
 }

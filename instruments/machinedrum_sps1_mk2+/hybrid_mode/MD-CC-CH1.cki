@@ -1,123 +1,512 @@
 {
-  "InstrName": "MD-CC-CH1",
-  "midi_port": 1,
-  "midi_chan": 1,
-  "multi": true,
-  "default_note": "C 1",
-  "default_patt": "P3",
-  "no_xpose": false,
-  "no_fts": false,
-  "poly_spread": "off",
-  "no_thru": false,
-  "no_bankM": false,
-  "no_bankL": false,
-
-  "CC_defs": [
-    {"cc": 16, "name": "BD Para1", "min": 0, "max": 127},
-    {"cc": 17, "name": "BD Para2", "min": 0, "max": 127},
-    {"cc": 18, "name": "BD Para3", "min": 0, "max": 127},
-    {"cc": 19, "name": "BD Para4", "min": 0, "max": 127},
-    {"cc": 20, "name": "BD Para5", "min": 0, "max": 127},
-    {"cc": 21, "name": "BD Para6", "min": 0, "max": 127},
-    {"cc": 22, "name": "BD Para7", "min": 0, "max": 127},
-    {"cc": 23, "name": "BD Para8", "min": 0, "max": 127},
-    {"cc": 24, "name": "BD AM Depth", "min": 0, "max": 127},
-    {"cc": 25, "name": "BD AM Rate", "min": 0, "max": 127},
-    {"cc": 26, "name": "BD EQ Freq", "min": 0, "max": 127},
-    {"cc": 27, "name": "BD EQ Gain", "min": 0, "max": 127},
-    {"cc": 28, "name": "BD Freq", "min": 0, "max": 127},
-    {"cc": 29, "name": "BD Width", "min": 0, "max": 127},
-    {"cc": 30, "name": "BD Q", "min": 0, "max": 127},
-    {"cc": 31, "name": "BD SR", "min": 0, "max": 127},
-    {"cc": 32, "name": "BD Dist", "min": 0, "max": 127},
-    {"cc": 33, "name": "BD Volume", "min": 0, "max": 127},
-    {"cc": 34, "name": "BD Pan", "min": 0, "max": 127},
-    {"cc": 35, "name": "BD DelSend", "min": 0, "max": 127},
-    {"cc": 36, "name": "BD RevSend", "min": 0, "max": 127},
-    {"cc": 37, "name": "BD Speed", "min": 0, "max": 127},
-    {"cc": 38, "name": "BD Amount", "min": 0, "max": 127},
-    {"cc": 39, "name": "BD Shape", "min": 0, "max": 127},
-
-    {"cc": 40, "name": "SD Para1", "min": 0, "max": 127},
-    {"cc": 41, "name": "SD Para2", "min": 0, "max": 127},
-    {"cc": 42, "name": "SD Para3", "min": 0, "max": 127},
-    {"cc": 43, "name": "SD Para4", "min": 0, "max": 127},
-    {"cc": 44, "name": "SD Para5", "min": 0, "max": 127},
-    {"cc": 45, "name": "SD Para6", "min": 0, "max": 127},
-    {"cc": 46, "name": "SD Para7", "min": 0, "max": 127},
-    {"cc": 47, "name": "SD Para8", "min": 0, "max": 127},
-    {"cc": 48, "name": "SD AM Depth", "min": 0, "max": 127},
-    {"cc": 49, "name": "SD AM Rate", "min": 0, "max": 127},
-    {"cc": 50, "name": "SD EQ Freq", "min": 0, "max": 127},
-    {"cc": 51, "name": "SD EQ Gain", "min": 0, "max": 127},
-    {"cc": 52, "name": "SD Freq", "min": 0, "max": 127},
-    {"cc": 53, "name": "SD Width", "min": 0, "max": 127},
-    {"cc": 54, "name": "SD Q", "min": 0, "max": 127},
-    {"cc": 55, "name": "SD SR", "min": 0, "max": 127},
-    {"cc": 56, "name": "SD Dist", "min": 0, "max": 127},
-    {"cc": 57, "name": "SD Volume", "min": 0, "max": 127},
-    {"cc": 58, "name": "SD Pan", "min": 0, "max": 127},
-    {"cc": 59, "name": "SD DelSend", "min": 0, "max": 127},
-    {"cc": 60, "name": "SD RevSend", "min": 0, "max": 127},
-    {"cc": 61, "name": "SD Speed", "min": 0, "max": 127},
-    {"cc": 62, "name": "SD Amount", "min": 0, "max": 127},
-    {"cc": 63, "name": "SD Shape", "min": 0, "max": 127},
-
-    {"cc": 64, "name": "HT Para1", "min": 0, "max": 127},
-    {"cc": 65, "name": "HT Para2", "min": 0, "max": 127},
-    {"cc": 66, "name": "HT Para3", "min": 0, "max": 127},
-    {"cc": 67, "name": "HT Para4", "min": 0, "max": 127},
-    {"cc": 68, "name": "HT Para5", "min": 0, "max": 127},
-    {"cc": 69, "name": "HT Para6", "min": 0, "max": 127},
-    {"cc": 70, "name": "HT Para7", "min": 0, "max": 127},
-    {"cc": 71, "name": "HT Para8", "min": 0, "max": 127},
-    {"cc": 72, "name": "HT AM Depth", "min": 0, "max": 127},
-    {"cc": 73, "name": "HT AM Rate", "min": 0, "max": 127},
-    {"cc": 74, "name": "HT EQ Freq", "min": 0, "max": 127},
-    {"cc": 75, "name": "HT EQ Gain", "min": 0, "max": 127},
-    {"cc": 76, "name": "HT Freq", "min": 0, "max": 127},
-    {"cc": 77, "name": "HT Width", "min": 0, "max": 127},
-    {"cc": 78, "name": "HT Q", "min": 0, "max": 127},
-    {"cc": 79, "name": "HT SR", "min": 0, "max": 127},
-    {"cc": 80, "name": "HT Dist", "min": 0, "max": 127},
-    {"cc": 81, "name": "HT Volume", "min": 0, "max": 127},
-    {"cc": 82, "name": "HT Pan", "min": 0, "max": 127},
-    {"cc": 83, "name": "HT DelSend", "min": 0, "max": 127},
-    {"cc": 84, "name": "HT RevSend", "min": 0, "max": 127},
-    {"cc": 85, "name": "HT Speed", "min": 0, "max": 127},
-    {"cc": 86, "name": "HT Amount", "min": 0, "max": 127},
-    {"cc": 87, "name": "HT Shape", "min": 0, "max": 127},
-
-    {"cc": 88, "name": "MT Para1", "min": 0, "max": 127},
-    {"cc": 89, "name": "MT Para2", "min": 0, "max": 127},
-    {"cc": 90, "name": "MT Para3", "min": 0, "max": 127},
-    {"cc": 91, "name": "MT Para4", "min": 0, "max": 127},
-    {"cc": 92, "name": "MT Para5", "min": 0, "max": 127},
-    {"cc": 93, "name": "MT Para6", "min": 0, "max": 127},
-    {"cc": 94, "name": "MT Para7", "min": 0, "max": 127},
-    {"cc": 95, "name": "MT Para8", "min": 0, "max": 127},
-    {"cc": 96, "name": "MT AM Depth", "min": 0, "max": 127},
-    {"cc": 97, "name": "MT AM Rate", "min": 0, "max": 127},
-    {"cc": 98, "name": "MT EQ Freq", "min": 0, "max": 127},
-    {"cc": 99, "name": "MT EQ Gain", "min": 0, "max": 127},
-    {"cc": 100, "name": "MT Freq", "min": 0, "max": 127},
-    {"cc": 101, "name": "MT Width", "min": 0, "max": 127},
-    {"cc": 102, "name": "MT Q", "min": 0, "max": 127},
-    {"cc": 103, "name": "MT SR", "min": 0, "max": 127},
-    {"cc": 104, "name": "MT Dist", "min": 0, "max": 127},
-    {"cc": 105, "name": "MT Volume", "min": 0, "max": 127},
-    {"cc": 106, "name": "MT Pan", "min": 0, "max": 127},
-    {"cc": 107, "name": "MT DelSend", "min": 0, "max": 127},
-    {"cc": 108, "name": "MT RevSend", "min": 0, "max": 127},
-    {"cc": 109, "name": "MT Speed", "min": 0, "max": 127},
-    {"cc": 110, "name": "MT Amount", "min": 0, "max": 127},
-    {"cc": 111, "name": "MT Shape", "min": 0, "max": 127}
-  ],
-
-  "row_defs": [
-    ["C 1", "BD", false],
-    ["C#1", "SD", false],
-    ["D 1", "HT", false],
-    ["D#1", "MT", false]
-  ]
+    "instrument_data": {
+        "MD-CC-CH1": {
+            "midi_port": 1,
+            "midi_chan": 1,
+            "default_note": "C 1",
+            "default_patt": "P3",
+            "poly_spread": "off",
+            "multi": true,
+            "cc_defs": {
+                "CC16": {
+                    "name": "BD Para1",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC17": {
+                    "name": "BD Para2",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC18": {
+                    "name": "BD Para3",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC19": {
+                    "name": "BD Para4",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC20": {
+                    "name": "BD Para5",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC21": {
+                    "name": "BD Para6",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC22": {
+                    "name": "BD Para7",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC23": {
+                    "name": "BD Para8",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC24": {
+                    "name": "BD AM Depth",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC25": {
+                    "name": "BD AM Rate",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC26": {
+                    "name": "BD EQ Freq",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC27": {
+                    "name": "BD EQ Gain",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC28": {
+                    "name": "BD Freq",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC29": {
+                    "name": "BD Width",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC30": {
+                    "name": "BD Q",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC31": {
+                    "name": "BD SR",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC32": {
+                    "name": "BD Dist",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC33": {
+                    "name": "BD Volume",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC34": {
+                    "name": "BD Pan",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC35": {
+                    "name": "BD DelSend",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC36": {
+                    "name": "BD RevSend",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC37": {
+                    "name": "BD Speed",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC38": {
+                    "name": "BD Amount",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC39": {
+                    "name": "BD Shape",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC40": {
+                    "name": "SD Para1",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC41": {
+                    "name": "SD Para2",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC42": {
+                    "name": "SD Para3",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC43": {
+                    "name": "SD Para4",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC44": {
+                    "name": "SD Para5",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC45": {
+                    "name": "SD Para6",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC46": {
+                    "name": "SD Para7",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC47": {
+                    "name": "SD Para8",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC48": {
+                    "name": "SD AM Depth",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC49": {
+                    "name": "SD AM Rate",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC50": {
+                    "name": "SD EQ Freq",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC51": {
+                    "name": "SD EQ Gain",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC52": {
+                    "name": "SD Freq",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC53": {
+                    "name": "SD Width",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC54": {
+                    "name": "SD Q",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC55": {
+                    "name": "SD SR",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC56": {
+                    "name": "SD Dist",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC57": {
+                    "name": "SD Volume",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC58": {
+                    "name": "SD Pan",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC59": {
+                    "name": "SD DelSend",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC60": {
+                    "name": "SD RevSend",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC61": {
+                    "name": "SD Speed",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC62": {
+                    "name": "SD Amount",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC63": {
+                    "name": "SD Shape",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC64": {
+                    "name": "HT Para1",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC65": {
+                    "name": "HT Para2",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC66": {
+                    "name": "HT Para3",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC67": {
+                    "name": "HT Para4",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC68": {
+                    "name": "HT Para5",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC69": {
+                    "name": "HT Para6",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC70": {
+                    "name": "HT Para7",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC71": {
+                    "name": "HT Para8",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC72": {
+                    "name": "HT AM Depth",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC73": {
+                    "name": "HT AM Rate",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC74": {
+                    "name": "HT EQ Freq",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC75": {
+                    "name": "HT EQ Gain",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC76": {
+                    "name": "HT Freq",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC77": {
+                    "name": "HT Width",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC78": {
+                    "name": "HT Q",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC79": {
+                    "name": "HT SR",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC80": {
+                    "name": "HT Dist",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC81": {
+                    "name": "HT Volume",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC82": {
+                    "name": "HT Pan",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC83": {
+                    "name": "HT DelSend",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC84": {
+                    "name": "HT RevSend",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC85": {
+                    "name": "HT Speed",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC86": {
+                    "name": "HT Amount",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC87": {
+                    "name": "HT Shape",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC88": {
+                    "name": "MT Para1",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC89": {
+                    "name": "MT Para2",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC90": {
+                    "name": "MT Para3",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC91": {
+                    "name": "MT Para4",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC92": {
+                    "name": "MT Para5",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC93": {
+                    "name": "MT Para6",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC94": {
+                    "name": "MT Para7",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC95": {
+                    "name": "MT Para8",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC96": {
+                    "name": "MT AM Depth",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC97": {
+                    "name": "MT AM Rate",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC98": {
+                    "name": "MT EQ Freq",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC99": {
+                    "name": "MT EQ Gain",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC100": {
+                    "name": "MT Freq",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC101": {
+                    "name": "MT Width",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC102": {
+                    "name": "MT Q",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC103": {
+                    "name": "MT SR",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC104": {
+                    "name": "MT Dist",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC105": {
+                    "name": "MT Volume",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC106": {
+                    "name": "MT Pan",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC107": {
+                    "name": "MT DelSend",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC108": {
+                    "name": "MT RevSend",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC109": {
+                    "name": "MT Speed",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC110": {
+                    "name": "MT Amount",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC111": {
+                    "name": "MT Shape",
+                    "min": 0,
+                    "max": 127
+                }
+            },
+            "row_defs": {
+                "C 1": {
+                    "label": "BD ",
+                    "always_show": false
+                },
+                "C#1": {
+                    "label": "SD ",
+                    "always_show": false
+                },
+                "D 1": {
+                    "label": "HT ",
+                    "always_show": false
+                },
+                "D#1": {
+                    "label": "MT ",
+                    "always_show": false
+                }
+            }
+        }
+    }
 }

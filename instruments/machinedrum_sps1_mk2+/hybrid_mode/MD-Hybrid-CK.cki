@@ -1,40 +1,100 @@
 {
-  "InstrName": "MD-Hybrid-CK",
-  "midi_port": 1,
-  "midi_chan": 1,
-  "multi": true,
-  "default_note": "C 3",
-  "default_patt": "CK",
-  "no_xpose": false,
-  "no_fts": false,
-  "poly_spread": "off",
-  "no_thru": false,
-  "no_bankM": false,
-  "no_bankL": false,
-
-  "CC_defs": [
-    {"cc": 33, "name": "Volume", "min": 0, "max": 127},
-    {"cc": 34, "name": "Pan", "min": 0, "max": 127},
-    {"cc": 35, "name": "DelSend", "min": 0, "max": 127},
-    {"cc": 36, "name": "RevSend", "min": 0, "max": 127}
-  ],
-
-  "row_defs": [
-    ["C 3", "BD", true],
-    ["C#3", "SD", true],
-    ["D 3", "HT", true],
-    ["D#3", "MT", true],
-    ["E 3", "LT", true],
-    ["F 3", "CP", true],
-    ["F#3", "RS", true],
-    ["G 3", "CB", true],
-    ["G#3", "CH", true],
-    ["A 3", "OH", true],
-    ["A#3", "RC", true],
-    ["B 3", "CC", true],
-    ["C 4", "M1", true],
-    ["C#4", "M2", true],
-    ["D 4", "M3", true],
-    ["D#4", "M4", true]
-  ]
+    "instrument_data": {
+        "MD-Hybrid-CK": {
+            "midi_port": 1,
+            "midi_chan": 1,
+            "default_note": "C 3",
+            "default_patt": "CK",
+            "poly_spread": "off",
+            "multi": true,
+            "cc_defs": {
+                "CC33": {
+                    "name": "Volume",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC34": {
+                    "name": "Pan",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC35": {
+                    "name": "DelSend",
+                    "min": 0,
+                    "max": 127
+                },
+                "CC36": {
+                    "name": "RevSend",
+                    "min": 0,
+                    "max": 127
+                }
+            },
+            "row_defs": {
+                "C 3": {
+                    "label": "BD ",
+                    "always_show": true
+                },
+                "C#3": {
+                    "label": "SD ",
+                    "always_show": true
+                },
+                "D 3": {
+                    "label": "HT ",
+                    "always_show": true
+                },
+                "D#3": {
+                    "label": "MT ",
+                    "always_show": true
+                },
+                "E 3": {
+                    "label": "LT ",
+                    "always_show": true
+                },
+                "F 3": {
+                    "label": "CP ",
+                    "always_show": true
+                },
+                "F#3": {
+                    "label": "RS ",
+                    "always_show": true
+                },
+                "G 3": {
+                    "label": "CB ",
+                    "always_show": true
+                },
+                "G#3": {
+                    "label": "CH ",
+                    "always_show": true
+                },
+                "A 3": {
+                    "label": "OH ",
+                    "always_show": true
+                },
+                "A#3": {
+                    "label": "RC ",
+                    "always_show": true
+                },
+                "B 3": {
+                    "label": "CC ",
+                    "always_show": true
+                },
+                "C 4": {
+                    "label": "M1 ",
+                    "always_show": true
+                },
+                "C#4": {
+                    "label": "M2 ",
+                    "always_show": true
+                },
+                "D 4": {
+                    "label": "M3 ",
+                    "always_show": true
+                },
+                "D#4": {
+                    "label": "M4 ",
+                    "always_show": true
+                }
+            }
+        }
+    }
 }
