@@ -29,10 +29,8 @@ We encourage community contributions to improve and expand this documentation!
 3. Submit a pull request with your improvements
 4. Include explanation of your changes
 
-#### Option 3: Discussions (For general topics)
-1. Use [GitHub Discussions](https://github.com/FredHasselot/cirklon_instruments/discussions)
-2. Start conversations about workflows, tips, and tricks
-3. Share your Cirklon experiences
+#### Option 3: Wiki (Coming soon)
+Consider enabling GitHub Wiki or Discussions for broader documentation contributions
 
 ### What We Need Help With
 

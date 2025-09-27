@@ -1,6 +1,6 @@
 ```
 ╔════════════════════════════════════════════════════════════════════════════════════════╗
-║  (c) Fred Hasselot                                                            v0.1.17  ║
+║  (c) Fred Hasselot                                                            v0.1.18  ║
 ║  cirklon instruments definitions                                                       ║
 ║                                                                                        ║
 ║   ██████ ██ ██████  ██   ██ ██       ██████  ███    ██                                 ║
@@ -38,13 +38,13 @@ Three different approaches for controlling the Machinedrum from Cirklon:
 ### 1. Hybrid Mode (Recommended for versatility)
 **Location:** `instruments/machinedrum_sps1_mk2+/hybrid_mode/`
 
-- **MD-Hybrid-CK.cki** - Main CK pattern for real-time performance (all 16 tracks via notes)
+- **MD-Hybrid-CK.cki** - Main CK pattern (sends on single MIDI channel, MD routes notes to all 16 tracks)
 - **MD-CC-CH1.cki** - P3 pattern for Channel 1 CC automation (BD, SD, HT, MT)
 - **MD-CC-CH2.cki** - P3 pattern for Channel 2 CC automation (LT, CP, RS, CB)
 - **MD-CC-CH3.cki** - P3 pattern for Channel 3 CC automation (CH, OH, RC, CC)
 - **MD-CC-CH4.cki** - P3 pattern for Channel 4 CC automation (M1, M2, M3, M4)
 
-**Usage:** Load MD-Hybrid-CK on a CK track for playing/recording all 16 tracks in real-time. Use the 4 P3 patterns for precise CC automation per channel group.
+**Usage:** Load MD-Hybrid-CK on a CK track for playing/recording all 16 tracks (the MD internally routes notes to correct drums). Use the 4 P3 patterns for precise CC automation per channel group (CK patterns cannot send CC on multiple channels).
 
 ### 2. Pure P3 Mode (Maximum flexibility)
 **Location:** `instruments/machinedrum_sps1_mk2+/pure_p3_mode/`
@@ -70,6 +70,8 @@ The Machinedrum uses a unique MIDI implementation:
 - 16 tracks are distributed across 4 MIDI channels
 - Each channel controls 4 tracks
 - CC numbers are reused across channels
+- The MD internally routes incoming notes to the correct drum tracks
+- CK patterns send on a single MIDI channel (cannot send CC on multiple channels)
 - Channel 1: Tracks 1-4 (BD, SD, HT, MT)
 - Channel 2: Tracks 5-8 (LT, CP, RS, CB)
 - Channel 3: Tracks 9-12 (CH, OH, RC, CC)
