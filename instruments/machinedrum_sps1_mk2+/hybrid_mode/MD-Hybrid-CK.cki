@@ -6,91 +6,68 @@
             "default_note": "C 3",
             "default_patt": "CK",
             "poly_spread": "off",
-            "multi": true,
-            "cc_defs": {
-                "CC33": {
-                    "name": "Volume",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC34": {
-                    "name": "Pan",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC35": {
-                    "name": "DelSend",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC36": {
-                    "name": "RevSend",
-                    "min": 0,
-                    "max": 127
-                }
-            },
             "row_defs": {
                 "C 3": {
                     "label": "BD ",
                     "always_show": true
                 },
-                "C#3": {
+                "D 3": {
                     "label": "SD ",
                     "always_show": true
                 },
-                "D 3": {
+                "E 3": {
                     "label": "HT ",
                     "always_show": true
                 },
-                "D#3": {
+                "F 3": {
                     "label": "MT ",
                     "always_show": true
                 },
-                "E 3": {
+                "G 3": {
                     "label": "LT ",
                     "always_show": true
                 },
-                "F 3": {
+                "A 3": {
                     "label": "CP ",
                     "always_show": true
                 },
-                "F#3": {
+                "B 3": {
                     "label": "RS ",
                     "always_show": true
                 },
-                "G 3": {
+                "C 4": {
                     "label": "CB ",
                     "always_show": true
                 },
-                "G#3": {
+                "D 4": {
                     "label": "CH ",
                     "always_show": true
                 },
-                "A 3": {
+                "E 4": {
                     "label": "OH ",
                     "always_show": true
                 },
-                "A#3": {
+                "F 4": {
                     "label": "RC ",
                     "always_show": true
                 },
-                "B 3": {
+                "G 4": {
                     "label": "CC ",
                     "always_show": true
                 },
-                "C 4": {
+                "A 4": {
                     "label": "M1 ",
                     "always_show": true
                 },
-                "C#4": {
+                "B 4": {
                     "label": "M2 ",
                     "always_show": true
                 },
-                "D 4": {
+                "C 5": {
                     "label": "M3 ",
                     "always_show": true
                 },
-                "D#4": {
+                "D 5": {
                     "label": "M4 ",
                     "always_show": true
                 }

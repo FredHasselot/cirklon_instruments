@@ -78,8 +78,9 @@ The Machinedrum uses a unique MIDI implementation:
 ## Installation
 
 1. Copy the desired .cki files to your Cirklon's SD card
-2. Load them via the Cirklon's instrument definition menu
+2. Load them via the Cirklon's instrument definition menu (DISK → LOAD → INSTR)
 3. Assign to tracks as needed
+4. **Configure your Machinedrum MIDI settings** - See [Machinedrum MIDI Setup Guide](doc/machinedrum_midi_setup.md)
 
 ## Contributing
 

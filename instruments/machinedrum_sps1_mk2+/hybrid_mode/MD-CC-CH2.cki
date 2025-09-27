@@ -6,487 +6,330 @@
             "default_note": "C 1",
             "default_patt": "P3",
             "poly_spread": "off",
-            "multi": true,
-            "cc_defs": {
-                "CC16": {
-                    "name": "LT Para1",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC17": {
-                    "name": "LT Para2",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC18": {
-                    "name": "LT Para3",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC19": {
-                    "name": "LT Para4",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC20": {
-                    "name": "LT Para5",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC21": {
-                    "name": "LT Para6",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC22": {
-                    "name": "LT Para7",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC23": {
-                    "name": "LT Para8",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC24": {
-                    "name": "LT AM Depth",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC25": {
-                    "name": "LT AM Rate",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC26": {
-                    "name": "LT EQ Freq",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC27": {
-                    "name": "LT EQ Gain",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC28": {
-                    "name": "LT Freq",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC29": {
-                    "name": "LT Width",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC30": {
-                    "name": "LT Q",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC31": {
-                    "name": "LT SR",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC32": {
-                    "name": "LT Dist",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC33": {
-                    "name": "LT Volume",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC34": {
-                    "name": "LT Pan",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC35": {
-                    "name": "LT DelSend",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC36": {
-                    "name": "LT RevSend",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC37": {
-                    "name": "LT Speed",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC38": {
-                    "name": "LT Amount",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC39": {
-                    "name": "LT Shape",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC40": {
-                    "name": "CP Para1",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC41": {
-                    "name": "CP Para2",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC42": {
-                    "name": "CP Para3",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC43": {
-                    "name": "CP Para4",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC44": {
-                    "name": "CP Para5",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC45": {
-                    "name": "CP Para6",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC46": {
-                    "name": "CP Para7",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC47": {
-                    "name": "CP Para8",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC48": {
-                    "name": "CP AM Depth",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC49": {
-                    "name": "CP AM Rate",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC50": {
-                    "name": "CP EQ Freq",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC51": {
-                    "name": "CP EQ Gain",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC52": {
-                    "name": "CP Freq",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC53": {
-                    "name": "CP Width",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC54": {
-                    "name": "CP Q",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC55": {
-                    "name": "CP SR",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC56": {
-                    "name": "CP Dist",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC57": {
-                    "name": "CP Volume",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC58": {
-                    "name": "CP Pan",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC59": {
-                    "name": "CP DelSend",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC60": {
-                    "name": "CP RevSend",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC61": {
-                    "name": "CP Speed",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC62": {
-                    "name": "CP Amount",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC63": {
-                    "name": "CP Shape",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC64": {
-                    "name": "RS Para1",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC65": {
-                    "name": "RS Para2",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC66": {
-                    "name": "RS Para3",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC67": {
-                    "name": "RS Para4",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC68": {
-                    "name": "RS Para5",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC69": {
-                    "name": "RS Para6",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC70": {
-                    "name": "RS Para7",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC71": {
-                    "name": "RS Para8",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC72": {
-                    "name": "RS AM Depth",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC73": {
-                    "name": "RS AM Rate",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC74": {
-                    "name": "RS EQ Freq",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC75": {
-                    "name": "RS EQ Gain",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC76": {
-                    "name": "RS Freq",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC77": {
-                    "name": "RS Width",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC78": {
-                    "name": "RS Q",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC79": {
-                    "name": "RS SR",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC80": {
-                    "name": "RS Dist",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC81": {
-                    "name": "RS Volume",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC82": {
-                    "name": "RS Pan",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC83": {
-                    "name": "RS DelSend",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC84": {
-                    "name": "RS RevSend",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC85": {
-                    "name": "RS Speed",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC86": {
-                    "name": "RS Amount",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC87": {
-                    "name": "RS Shape",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC88": {
-                    "name": "CB Para1",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC89": {
-                    "name": "CB Para2",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC90": {
-                    "name": "CB Para3",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC91": {
-                    "name": "CB Para4",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC92": {
-                    "name": "CB Para5",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC93": {
-                    "name": "CB Para6",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC94": {
-                    "name": "CB Para7",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC95": {
-                    "name": "CB Para8",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC96": {
-                    "name": "CB AM Depth",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC97": {
-                    "name": "CB AM Rate",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC98": {
-                    "name": "CB EQ Freq",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC99": {
-                    "name": "CB EQ Gain",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC100": {
-                    "name": "CB Freq",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC101": {
-                    "name": "CB Width",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC102": {
-                    "name": "CB Q",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC103": {
-                    "name": "CB SR",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC104": {
-                    "name": "CB Dist",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC105": {
-                    "name": "CB Volume",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC106": {
-                    "name": "CB Pan",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC107": {
-                    "name": "CB DelSend",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC108": {
-                    "name": "CB RevSend",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC109": {
-                    "name": "CB Speed",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC110": {
-                    "name": "CB Amount",
-                    "min": 0,
-                    "max": 127
-                },
-                "CC111": {
-                    "name": "CB Shape",
-                    "min": 0,
-                    "max": 127
+            "no_xpose": true,
+            "no_fts": true,
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                },
+                "slot_3": {
+                    "MIDI_CC": 16,
+                    "label": "LT P1"
+                },
+                "slot_4": {
+                    "MIDI_CC": 17,
+                    "label": "LT P2"
+                },
+                "slot_5": {
+                    "MIDI_CC": 18,
+                    "label": "LT P3"
+                },
+                "slot_6": {
+                    "MIDI_CC": 19,
+                    "label": "LT P4"
+                },
+                "slot_7": {
+                    "MIDI_CC": 20,
+                    "label": "LT P5"
+                },
+                "slot_8": {
+                    "MIDI_CC": 21,
+                    "label": "LT P6"
+                },
+                "slot_9": {
+                    "MIDI_CC": 22,
+                    "label": "LT P7"
+                },
+                "slot_10": {
+                    "MIDI_CC": 23,
+                    "label": "LT P8"
+                },
+                "slot_11": {
+                    "MIDI_CC": 24,
+                    "label": "LT AM"
+                },
+                "slot_12": {
+                    "MIDI_CC": 25,
+                    "label": "LT AM"
+                },
+                "slot_13": {
+                    "MIDI_CC": 26,
+                    "label": "LT EQ"
+                },
+                "slot_14": {
+                    "MIDI_CC": 27,
+                    "label": "LT EQ"
+                },
+                "slot_15": {
+                    "MIDI_CC": 28,
+                    "label": "LT Fr"
+                },
+                "slot_16": {
+                    "MIDI_CC": 29,
+                    "label": "LT Wi"
+                },
+                "slot_17": {
+                    "MIDI_CC": 30,
+                    "label": "LT Q"
+                },
+                "slot_18": {
+                    "MIDI_CC": 31,
+                    "label": "LT SR"
+                },
+                "slot_19": {
+                    "MIDI_CC": 32,
+                    "label": "LT Di"
+                },
+                "slot_20": {
+                    "MIDI_CC": 33,
+                    "label": "LT VO"
+                },
+                "slot_21": {
+                    "MIDI_CC": 34,
+                    "label": "LT Pa"
+                },
+                "slot_22": {
+                    "MIDI_CC": 35,
+                    "label": "LT DE"
+                },
+                "slot_23": {
+                    "MIDI_CC": 36,
+                    "label": "LT RE"
+                },
+                "slot_24": {
+                    "MIDI_CC": 37,
+                    "label": "LT Sp"
+                },
+                "slot_25": {
+                    "MIDI_CC": 38,
+                    "label": "LT Am"
+                },
+                "slot_26": {
+                    "MIDI_CC": 39,
+                    "label": "LT Sh"
+                },
+                "slot_27": {
+                    "MIDI_CC": 40,
+                    "label": "CP P1"
+                },
+                "slot_28": {
+                    "MIDI_CC": 41,
+                    "label": "CP P2"
+                },
+                "slot_29": {
+                    "MIDI_CC": 42,
+                    "label": "CP P3"
+                },
+                "slot_30": {
+                    "MIDI_CC": 43,
+                    "label": "CP P4"
+                },
+                "slot_31": {
+                    "MIDI_CC": 44,
+                    "label": "CP P5"
+                },
+                "slot_32": {
+                    "MIDI_CC": 45,
+                    "label": "CP P6"
+                },
+                "slot_33": {
+                    "MIDI_CC": 46,
+                    "label": "CP P7"
+                },
+                "slot_34": {
+                    "MIDI_CC": 47,
+                    "label": "CP P8"
+                },
+                "slot_35": {
+                    "MIDI_CC": 48,
+                    "label": "CP AM"
+                },
+                "slot_36": {
+                    "MIDI_CC": 49,
+                    "label": "CP AM"
+                },
+                "slot_37": {
+                    "MIDI_CC": 50,
+                    "label": "CP EQ"
+                },
+                "slot_38": {
+                    "MIDI_CC": 51,
+                    "label": "CP EQ"
+                },
+                "slot_39": {
+                    "MIDI_CC": 52,
+                    "label": "CP Fr"
+                },
+                "slot_40": {
+                    "MIDI_CC": 53,
+                    "label": "CP Wi"
+                },
+                "slot_41": {
+                    "MIDI_CC": 54,
+                    "label": "CP Q"
+                },
+                "slot_42": {
+                    "MIDI_CC": 55,
+                    "label": "CP SR"
+                },
+                "slot_43": {
+                    "MIDI_CC": 56,
+                    "label": "CP Di"
+                },
+                "slot_44": {
+                    "MIDI_CC": 57,
+                    "label": "CP VO"
+                },
+                "slot_45": {
+                    "MIDI_CC": 58,
+                    "label": "CP Pa"
+                },
+                "slot_46": {
+                    "MIDI_CC": 59,
+                    "label": "CP DE"
+                },
+                "slot_47": {
+                    "MIDI_CC": 60,
+                    "label": "CP RE"
+                },
+                "slot_48": {
+                    "MIDI_CC": 61,
+                    "label": "CP Sp"
+                },
+                "slot_49": {
+                    "MIDI_CC": 62,
+                    "label": "CP Am"
+                },
+                "slot_50": {
+                    "MIDI_CC": 63,
+                    "label": "CP Sh"
+                },
+                "slot_51": {
+                    "MIDI_CC": 64,
+                    "label": "RS P1"
+                },
+                "slot_52": {
+                    "MIDI_CC": 65,
+                    "label": "RS P2"
+                },
+                "slot_53": {
+                    "MIDI_CC": 66,
+                    "label": "RS P3"
+                },
+                "slot_54": {
+                    "MIDI_CC": 67,
+                    "label": "RS P4"
+                },
+                "slot_55": {
+                    "MIDI_CC": 68,
+                    "label": "RS P5"
+                },
+                "slot_56": {
+                    "MIDI_CC": 69,
+                    "label": "RS P6"
+                },
+                "slot_57": {
+                    "MIDI_CC": 70,
+                    "label": "RS P7"
+                },
+                "slot_58": {
+                    "MIDI_CC": 71,
+                    "label": "RS P8"
+                },
+                "slot_59": {
+                    "MIDI_CC": 72,
+                    "label": "RS AM"
+                },
+                "slot_60": {
+                    "MIDI_CC": 73,
+                    "label": "RS AM"
+                },
+                "slot_61": {
+                    "MIDI_CC": 74,
+                    "label": "RS EQ"
+                },
+                "slot_62": {
+                    "MIDI_CC": 75,
+                    "label": "RS EQ"
+                },
+                "slot_63": {
+                    "MIDI_CC": 76,
+                    "label": "RS Fr"
+                },
+                "slot_64": {
+                    "MIDI_CC": 77,
+                    "label": "RS Wi"
+                },
+                "slot_65": {
+                    "MIDI_CC": 78,
+                    "label": "RS Q"
+                },
+                "slot_66": {
+                    "MIDI_CC": 79,
+                    "label": "RS SR"
+                },
+                "slot_67": {
+                    "MIDI_CC": 80,
+                    "label": "RS Di"
+                },
+                "slot_68": {
+                    "MIDI_CC": 81,
+                    "label": "RS VO"
+                },
+                "slot_69": {
+                    "MIDI_CC": 82,
+                    "label": "RS Pa"
+                },
+                "slot_70": {
+                    "MIDI_CC": 83,
+                    "label": "RS DE"
+                },
+                "slot_71": {
+                    "MIDI_CC": 84,
+                    "label": "RS RE"
+                },
+                "slot_72": {
+                    "MIDI_CC": 85,
+                    "label": "RS Sp"
+                },
+                "slot_73": {
+                    "MIDI_CC": 86,
+                    "label": "RS Am"
+                },
+                "slot_74": {
+                    "MIDI_CC": 87,
+                    "label": "RS Sh"
+                },
+                "slot_75": {
+                    "MIDI_CC": 88,
+                    "label": "CB P1"
+                },
+                "slot_76": {
+                    "MIDI_CC": 89,
+                    "label": "CB P2"
+                },
+                "slot_77": {
+                    "MIDI_CC": 90,
+                    "label": "CB P3"
+                },
+                "slot_78": {
+                    "MIDI_CC": 91,
+                    "label": "CB P4"
+                },
+                "slot_79": {
+                    "MIDI_CC": 92,
+                    "label": "CB P5"
+                },
+                "slot_80": {
+                    "MIDI_CC": 93,
+                    "label": "CB P6"
+                },
+                "slot_81": {
+                    "MIDI_CC": 94,
+                    "label": "CB P7"
                 }
             },
             "row_defs": {
