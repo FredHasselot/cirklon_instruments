@@ -35,11 +35,22 @@ Guide to finding, downloading, and sharing Machinedrum presets, patterns, and sa
 - Released by Autechre in 2018 (from 2008 tour)
 
 #### Official Elektron Resources
+
+##### Factory Content
 - **[Factory Patch Pack OS 1.50](https://www.elektron.se/support-downloads/machinedrum)** - Original factory patterns/kits
 
-### Sample Packs (UW Models Only)
+##### Official Sound Packs (FREE) ✅
+All 7 original Elektron Sound Packs are still available for free download! These use ROM machines and work on ALL Machinedrum models:
 
-⚠️ **Note**: WAV samples only work on UW models with sampling capabilities, not regular MD.
+1. **[Mo' Town](https://www.elektron.se/product/mo-town)** - Soul/R&B oriented production
+2. **[Indie Twist](https://www.elektron.se/product/indie-twist)** - Fusing drum machines and guitars
+3. **[Teachers & Preachers](https://www.elektron.se/product/teachers-preachers)** - Jazz and funk community
+4. **[New Glitz](https://www.elektron.se/product/new-glitz)** - Disco sounds for modern dance floors
+5. **[Gritty Beats](https://www.elektron.se/product/gritty-beats)** - Raw samples for hip-hop producers
+6. **[UK Waves](https://www.elektron.se/product/uk-waves)** - Fast-paced British club scene
+7. **[Deep Rhythms](https://www.elektron.se/product/deep-rhythms)** - Dubby and bass-heavy sounds
+
+⚠️ **Note**: These packs contain patterns and kits using ROM machines. The "UW MKII" mention refers to sample content that only UW models can load.
 
 ## 📤 Sharing Your Presets
 
