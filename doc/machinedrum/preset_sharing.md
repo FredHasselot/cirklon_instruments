@@ -6,15 +6,15 @@ Guide to finding, downloading, and sharing Machinedrum presets, patterns, and sa
 
 ### Community Collections
 
-#### GitHub Repositories
-1. **[antonelse MD Kits](https://github.com/antonelse/MD-SPSI-MKII-ae)** ✅
-   - Contains "distorted.syx" kit
-   - GPL-3.0 licensed
-   - Created by Antonio Giganti (2021)
+#### Actually Available Downloads
 
-2. **[Machinedrum Topics on GitHub](https://github.com/topics/machinedrum)**
-   - Browse all MD-related projects
-   - Tools and utilities
+1. **[antonelse MD Kit](https://github.com/antonelse/MD-SPSI-MKII-ae)** ✅
+   - One sysex kit: "distorted.syx"
+   - The ONLY free MD sysex on GitHub
+
+2. **[Autechre 2008 Live Set](https://archive.org/details/Ae2008LivePatches)** ✅
+   - Complete patterns and kits from tour
+   - The most substantial free resource
 
 #### Forum Resources
 1. **[Elektronauts MD Sysex Thread](https://www.elektronauts.com/t/md-sysex/13299)**
@@ -34,23 +34,12 @@ Guide to finding, downloading, and sharing Machinedrum presets, patterns, and sa
 - Includes MD, MnM, Nord Modular G2, MPC1000 files
 - Released by Autechre in 2018 (from 2008 tour)
 
-#### Official Elektron Sound Packs
-- 7 Sound Packs total
-- 23 Snapshots with linked samples
-- 500 royalty-free samples (UW only)
-- Available at [Elektron Support](https://www.elektron.se/support-downloads/machinedrum)
+#### Official Elektron Resources
+- **[Factory Patch Pack OS 1.50](https://www.elektron.se/support-downloads/machinedrum)** - Original factory patterns/kits
 
 ### Sample Packs (UW Models Only)
 
-⚠️ **Note**: Many old sample pack links are dead. Check these active sources:
-
-1. **Official Elektron Sound Packs** ✅
-   - Available at [Elektron Support](https://www.elektron.se/support-downloads/machinedrum)
-   - 500 royalty-free samples
-
-2. **Elektronauts Community**
-   - Search the forum for current sample packs
-   - Users regularly share new content
+⚠️ **Note**: WAV samples only work on UW models with sampling capabilities, not regular MD.
 
 ## 📤 Sharing Your Presets
 

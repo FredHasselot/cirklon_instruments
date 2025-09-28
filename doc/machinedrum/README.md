@@ -34,8 +34,7 @@ Complete resource hub for Elektron Machinedrum users, especially those using it 
 
 ### Forums & Communities
 - **[Elektronauts Machinedrum Section](https://www.elektronauts.com/c/instruments/machinedrum/)** - Main community hub
-- **[Elektron-Users Downloads](http://www.elektron-users.com/index.php?task=cat_view&Itemid=30&gid=36)** - Legacy resource site
-- **[ModWiggler MD Forum](https://www.modwiggler.com/forum/)** - Active discussions
+- **[Reddit r/Elektron](https://reddit.com/r/elektron)** - Active discussions
 
 ### GitHub Projects
 - **[MCL - MegaCommand Live](https://github.com/jmamma/MCL)** - X.11 firmware source
@@ -56,14 +55,9 @@ Complete resource hub for Elektron Machinedrum users, especially those using it 
 ## 🎵 Notable Resources
 
 ### Sound Packs & Presets
-- **Official Sound Packs** - 7 packs, 23 snapshots, 500 samples (UW only)
-- **[Autechre 2008 Live Set](https://archive.org/details/Ae2008LivePatches)** - Quaristice tour sysex files
-- **Community Collections** - Check Elektronauts forum for current shares
+- **[Factory Patch Pack OS 1.50](https://www.elektron.se/support-downloads/machinedrum)** - Original factory presets
+- **[Autechre 2008 Live Set](https://archive.org/details/Ae2008LivePatches)** - Complete tour files ([How to use](autechre_guide.md))
 
-### Sample Libraries (UW Models)
-- Official Elektron Sound Packs (500 samples)
-- Community exchanges on Elektronauts forum
-- Note: Many old sample pack links are now dead (Boss DR-660, LØSTLVLS, etc.)
 
 ## ⚙️ Technical Specifications
 
