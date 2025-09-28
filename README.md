@@ -1,6 +1,6 @@
 ```
 ╔════════════════════════════════════════════════════════════════════════════════════════╗
-║  (c) Fred Hasselot                                                            v0.1.19  ║
+║  (c) Fred Hasselot                                                            v0.1.20  ║
 ║  cirklon instruments definitions                                                       ║
 ║                                                                                        ║
 ║   ██████ ██ ██████  ██   ██ ██       ██████  ███    ██                                 ║
@@ -31,68 +31,30 @@ cirklon_instruments/
 │       └── quad_ck_mode/         # 4 CK patterns approach
 ```
 
-## Elektron Machinedrum SPS-1 MK2+
+## Instrument Definitions
 
-Three different approaches for controlling the Machinedrum from Cirklon:
+### 🥁 Elektron Machinedrum
+**Location:** `instruments/machinedrum_sps1_mk2+/`
 
-### 1. Hybrid Mode (Recommended for versatility)
-**Location:** `instruments/machinedrum_sps1_mk2+/hybrid_mode/`
+Three approaches for controlling the Machinedrum:
 
-- **MD-Hybrid-CK.cki** - Main CK pattern (sends on single MIDI channel, MD routes notes to all 16 tracks)
-- **MD-CC-CH1.cki** - P3 pattern for Channel 1 CC automation (BD, SD, HT, MT)
-- **MD-CC-CH2.cki** - P3 pattern for Channel 2 CC automation (LT, CP, RS, CB)
-- **MD-CC-CH3.cki** - P3 pattern for Channel 3 CC automation (CH, OH, RC, CC)
-- **MD-CC-CH4.cki** - P3 pattern for Channel 4 CC automation (M1, M2, M3, M4)
+1. **Hybrid Mode** - 1 CK + 4 P3 patterns (recommended)
+2. **Pure P3 Mode** - 16 individual P3 tracks (maximum control)
+3. **Quad CK Mode** - 4 CK patterns (live performance)
 
-**Usage:** Load MD-Hybrid-CK on a CK track for playing/recording all 16 tracks (the MD internally routes notes to correct drums). Use the 4 P3 patterns for precise CC automation per channel group (CK patterns cannot send CC on multiple channels).
+📚 **[Full Machinedrum Documentation](doc/machinedrum/)**
+- Firmware guides, MIDI setup, preset sharing, and more
 
-### 2. Pure P3 Mode (Maximum flexibility)
-**Location:** `instruments/machinedrum_sps1_mk2+/pure_p3_mode/`
-
-16 individual instrument definitions, one per Machinedrum track:
-- MD-BD.cki through MD-M4.cki
-
-**Usage:** Assign each .cki file to a separate Cirklon P3 track for complete individual control over each Machinedrum track.
-
-### 3. Quad CK Mode (Best for live performance)
-**Location:** `instruments/machinedrum_sps1_mk2+/quad_ck_mode/`
-
-- **MD-CK-CH1.cki** - CK pattern for Channel 1 (BD, SD, HT, MT)
-- **MD-CK-CH2.cki** - CK pattern for Channel 2 (LT, CP, RS, CB)
-- **MD-CK-CH3.cki** - CK pattern for Channel 3 (CH, OH, RC, CC)
-- **MD-CK-CH4.cki** - CK pattern for Channel 4 (M1, M2, M3, M4)
-
-**Usage:** Use 4 Cirklon CK tracks, each controlling 4 Machinedrum tracks with full CC automation capability.
-
-## Machinedrum MIDI Implementation Notes
-
-The Machinedrum uses a unique MIDI implementation:
-- 16 tracks are distributed across 4 MIDI channels
-- Each channel controls 4 tracks
-- CC numbers are reused across channels
-- The MD internally routes incoming notes to the correct drum tracks
-- CK patterns send on a single MIDI channel (cannot send CC on multiple channels)
-- Channel 1: Tracks 1-4 (BD, SD, HT, MT)
-- Channel 2: Tracks 5-8 (LT, CP, RS, CB)
-- Channel 3: Tracks 9-12 (CH, OH, RC, CC)
-- Channel 4: Tracks 13-16 (M1, M2, M3, M4)
+### 🎹 Additional Instruments
+*More instrument definitions coming soon...*
 
 ## Installation
 
 1. Copy the desired .cki files to your Cirklon's SD card
 2. Load them via the Cirklon's instrument definition menu (DISK → LOAD → INSTR)
 3. Assign to tracks as needed
-4. **Configure your Machinedrum MIDI settings** - See [Documentation](doc/)
+4. Configure your hardware MIDI settings as needed
 
-## Machinedrum Firmware X.11
-
-🚀 **[Complete X.11 Firmware Installation Guide](doc/machinedrum_x11_firmware_guide.md)**
-
-Upgrade your Machinedrum to the unofficial X.11 firmware for:
-- New synthesis machines (GND-SN-PRO, GND-SW, GND-PU)
-- Neighbor FX machines (NFX-EV, NFX-CO, NFX-UC)
-- Improved MIDI timing (no more latency/jitter)
-- Solo mode, new LFO shapes, and many bug fixes
 
 ## Documentation & Community
 
