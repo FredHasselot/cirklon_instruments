@@ -33,7 +33,7 @@ Complete resource hub for Elektron Machinedrum users, especially those using it 
 ## 🔗 Community Links
 
 ### Forums & Communities
-- **[Elektronauts Machinedrum Section](https://www.elektronauts.com/c/instruments/machinedrum/9)** - Main community hub
+- **[Elektronauts Machinedrum Section](https://www.elektronauts.com/c/instruments/machinedrum/)** - Main community hub
 - **[Elektron-Users Downloads](http://www.elektron-users.com/index.php?task=cat_view&Itemid=30&gid=36)** - Legacy resource site
 - **[ModWiggler MD Forum](https://www.modwiggler.com/forum/)** - Active discussions
 
@@ -45,7 +45,7 @@ Complete resource hub for Elektron Machinedrum users, especially those using it 
 ## 📖 Manuals & References
 
 ### Official Documentation
-- **[Machinedrum User Manual](https://www.elektron.se/wp-content/uploads/2021/05/Machinedrum-User-Manual_ENG.pdf)** - Complete official manual
+- **[Machinedrum User Manual](https://www.elektron.se/wp-content/uploads/2024/09/machinedrum_manual_OS1.63_1.pdf)** - Complete official manual (OS 1.63)
 - **[Elektron Support](https://www.elektron.se/support/)** - Official support resources
 
 ### Tools & Software
@@ -57,13 +57,13 @@ Complete resource hub for Elektron Machinedrum users, especially those using it 
 
 ### Sound Packs & Presets
 - **Official Sound Packs** - 7 packs, 23 snapshots, 500 samples (UW only)
-- **Autechre 2008 Live Set** - Legendary sysex dumps from their tour
-- **Community Collections** - Various user-created kits and patterns
+- **[Autechre 2008 Live Set](https://archive.org/details/Ae2008LivePatches)** - Quaristice tour sysex files
+- **Community Collections** - Check Elektronauts forum for current shares
 
 ### Sample Libraries (UW Models)
-- Boss DR-660 Sample Pack
-- LØSTLVLS Machinedrum Sample Pack (1200+ samples)
-- Community sample exchanges on Elektronauts
+- Official Elektron Sound Packs (500 samples)
+- Community exchanges on Elektronauts forum
+- Note: Many old sample pack links are now dead (Boss DR-660, LØSTLVLS, etc.)
 
 ## ⚙️ Technical Specifications
 

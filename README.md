@@ -81,7 +81,7 @@ Created for [Patrick Pattern](https://soundcloud.com/patrick-packard) production
 
 ### Manuals
 - [Cirklon Operation Manual v1.20 (PDF)](http://files.sequentix.com/cirklon-manual-1.20.pdf)
-- [Machinedrum User Manual (PDF)](https://www.elektron.se/wp-content/uploads/2021/05/Machinedrum-User-Manual_ENG.pdf)
+- [Machinedrum User Manual (PDF)](https://www.elektron.se/wp-content/uploads/2024/09/machinedrum_manual_OS1.63_1.pdf)
 
 ### Resources
 - [Sequentix Official Website](https://www.sequentix.com)

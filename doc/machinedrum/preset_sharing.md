@@ -28,10 +28,11 @@ Guide to finding, downloading, and sharing Machinedrum presets, patterns, and sa
 
 ### Notable Collections
 
-#### Autechre Live Set 2008
-- Legendary sysex dumps from their tour
-- Includes both MD and MnM patterns
-- Search "Autechre 2008 sysex" on Elektronauts
+#### Autechre Quaristice Live Set 2008
+- **[Internet Archive Download](https://archive.org/details/Ae2008LivePatches)** ✅
+- **[Elektronauts Discussion](https://www.elektronauts.com/t/autechre-md-mnm-sysex-files-mpc-nord/67208)**
+- Includes MD, MnM, Nord Modular G2, MPC1000 files
+- Released by Autechre in 2018 (from 2008 tour)
 
 #### Official Elektron Sound Packs
 - 7 Sound Packs total
@@ -175,7 +176,7 @@ YourPresetPack.zip
 ## 🔗 Additional Resources
 
 ### Active Communities
-- [Elektronauts MD Section](https://www.elektronauts.com/c/instruments/machinedrum/9) ✅
+- [Elektronauts MD Section](https://www.elektronauts.com/c/instruments/machinedrum/) ✅
 - [Reddit r/Elektron](https://reddit.com/r/elektron) ✅
 - Facebook Groups (search "Elektron Machinedrum")
 
