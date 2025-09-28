@@ -40,8 +40,9 @@ Guide to finding, downloading, and sharing Machinedrum presets, patterns, and sa
 - **[Factory Patch Pack OS 1.50](https://www.elektron.se/support-downloads/machinedrum)** - Original factory patterns/kits
 
 ##### Official Sound Packs (FREE) ✅
-All 7 original Elektron Sound Packs are still available for free download (as of September 2025)! These use ROM machines and work on ALL Machinedrum models:
+All 10 Elektron Sound Packs are still available for free download (as of September 2025)! These use ROM machines and work on ALL Machinedrum models:
 
+**Original Collection (1-7):**
 1. **[Mo' Town](https://www.elektron.se/product/mo-town)** - Soul/R&B oriented production
 2. **[Indie Twist](https://www.elektron.se/product/indie-twist)** - Fusing drum machines and guitars
 3. **[Teachers & Preachers](https://www.elektron.se/product/teachers-preachers)** - Jazz and funk community
@@ -49,6 +50,11 @@ All 7 original Elektron Sound Packs are still available for free download (as of
 5. **[Gritty Beats](https://www.elektron.se/product/gritty-beats)** - Raw samples for hip-hop producers
 6. **[UK Waves](https://www.elektron.se/product/uk-waves)** - Fast-paced British club scene
 7. **[Deep Rhythms](https://www.elektron.se/product/deep-rhythms)** - Dubby and bass-heavy sounds
+
+**Extended Collection (8-10):**
+8. **[Mondo Gizmo](https://www.elektron.se/product/mondo-gizmo)** - Not for the faint-hearted, weird circuits
+9. **[Arcadix](https://www.elektron.se/product/arcadix)** - Gaming consoles of yesteryear
+10. **[Patch Beats](https://www.elektron.se/product/patch-beats)** - Modular tribute to old beat boxes
 
 ⚠️ **Note**: These packs contain patterns and kits using ROM machines. The "UW MKII" mention refers to sample content that only UW models can load.
 
