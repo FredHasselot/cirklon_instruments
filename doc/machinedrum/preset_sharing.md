@@ -136,17 +136,6 @@ YourPresetPack.zip
    - Performance notes
    - Video/audio demos if possible
 
-## 🌟 Featured Artists & Packs
-
-### Community Favorites
-- **Dataline** - Techno/electro kits
-- **Cenk** - Experimental soundscapes
-- **void** - Ambient and IDM patterns
-
-### Classic Collections
-- Factory presets from OS 1.0
-- MD User Bank collections
-- Genre-specific packs (techno, breaks, ambient)
 
 ## 💡 Tips
 

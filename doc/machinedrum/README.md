@@ -8,6 +8,10 @@ Complete resource hub for Elektron Machinedrum users, especially those using it 
 - **[X.11 Firmware Installation Guide](x11_firmware_guide.md)** - Complete guide for installing the unofficial X.11 firmware
 - **[Official Firmware](https://www.elektron.se/support-downloads/machinedrum)** - Version 1.63 and official resources
 
+### Backup & Management
+- **[Backup & Export Guide](backup_export_guide.md)** - How to backup/export your patterns, kits, and songs
+- **[Autechre Files Guide](autechre_guide.md)** - Understanding and using the Autechre live set files
+
 ### MIDI Implementation
 - **[MIDI CC Reference](midi_cc_reference.md)** - Complete CC mapping for all machines
 - **[MIDI Setup Guide](midi_setup.md)** - Configuring MD for use with Cirklon
