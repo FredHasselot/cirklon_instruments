@@ -40,7 +40,7 @@ Guide to finding, downloading, and sharing Machinedrum presets, patterns, and sa
 - **[Factory Patch Pack OS 1.50](https://www.elektron.se/support-downloads/machinedrum)** - Original factory patterns/kits
 
 ##### Official Sound Packs (FREE) ✅
-All 7 original Elektron Sound Packs are still available for free download! These use ROM machines and work on ALL Machinedrum models:
+All 7 original Elektron Sound Packs are still available for free download (as of September 2025)! These use ROM machines and work on ALL Machinedrum models:
 
 1. **[Mo' Town](https://www.elektron.se/product/mo-town)** - Soul/R&B oriented production
 2. **[Indie Twist](https://www.elektron.se/product/indie-twist)** - Fusing drum machines and guitars
