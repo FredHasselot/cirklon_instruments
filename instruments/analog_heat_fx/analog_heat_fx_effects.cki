@@ -1,0 +1,219 @@
+{
+    "instrument_data": {
+        "AH-EFX": {
+            "midi_port": 1,
+            "midi_chan": 2,
+            "default_note": "C 1",
+            "default_patt": "P3",
+            "poly_spread": "off",
+            "no_xpose": true,
+            "no_fts": true,
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                },
+                "slot_3": {
+                    "MIDI_CC": 88,
+                    "label": "Bit SRR"
+                },
+                "slot_4": {
+                    "MIDI_CC": 89,
+                    "label": "Bit BT"
+                },
+                "slot_5": {
+                    "MIDI_CC": 90,
+                    "label": "Bit Filt"
+                },
+                "slot_6": {
+                    "MIDI_CC": 91,
+                    "label": "Bit Mix"
+                },
+                "slot_7": {
+                    "MIDI_CC": 102,
+                    "label": "Chr DepM"
+                },
+                "slot_8": {
+                    "MIDI_CC": 36,
+                    "label": "Chr DepL"
+                },
+                "slot_9": {
+                    "MIDI_CC": 103,
+                    "label": "Chr SpdM"
+                },
+                "slot_10": {
+                    "MIDI_CC": 37,
+                    "label": "Chr SpdL"
+                },
+                "slot_11": {
+                    "MIDI_CC": 105,
+                    "label": "Chr Widt"
+                },
+                "slot_12": {
+                    "MIDI_CC": 106,
+                    "label": "Chr Mix"
+                },
+                "slot_13": {
+                    "MIDI_CC": 107,
+                    "label": "Dly TimM"
+                },
+                "slot_14": {
+                    "MIDI_CC": 39,
+                    "label": "Dly TimL"
+                },
+                "slot_15": {
+                    "MIDI_CC": 108,
+                    "label": "Dly Ping"
+                },
+                "slot_16": {
+                    "MIDI_CC": 109,
+                    "label": "Dly Widt"
+                },
+                "slot_17": {
+                    "MIDI_CC": 110,
+                    "label": "Dly Fbck"
+                },
+                "slot_18": {
+                    "MIDI_CC": 111,
+                    "label": "Dly HPFM"
+                },
+                "slot_19": {
+                    "MIDI_CC": 40,
+                    "label": "Dly HPFL"
+                },
+                "slot_20": {
+                    "MIDI_CC": 112,
+                    "label": "Dly LPFM"
+                },
+                "slot_21": {
+                    "MIDI_CC": 41,
+                    "label": "Dly LPFL"
+                },
+                "slot_22": {
+                    "MIDI_CC": 113,
+                    "label": "Dly Amnt"
+                },
+                "slot_23": {
+                    "MIDI_CC": 114,
+                    "label": "Dly Mode"
+                },
+                "slot_24": {
+                    "MIDI_CC": 12,
+                    "label": "Rvb PreD"
+                },
+                "slot_25": {
+                    "MIDI_CC": 13,
+                    "label": "Rvb Dcay"
+                },
+                "slot_26": {
+                    "MIDI_CC": 14,
+                    "label": "Rvb Freq"
+                },
+                "slot_27": {
+                    "MIDI_CC": 15,
+                    "label": "Rvb Gain"
+                },
+                "slot_28": {
+                    "MIDI_CC": 16,
+                    "label": "Rvb HPF"
+                },
+                "slot_29": {
+                    "MIDI_CC": 17,
+                    "label": "Rvb LPF"
+                },
+                "slot_30": {
+                    "MIDI_CC": 18,
+                    "label": "Rvb Amnt"
+                },
+                "slot_31": {
+                    "MIDI_CC": 19,
+                    "label": "Rvb Mode"
+                },
+                "slot_32": {
+                    "MIDI_CC": 20,
+                    "label": "Cmp Thrs"
+                },
+                "slot_33": {
+                    "MIDI_CC": 21,
+                    "label": "Cmp Att"
+                },
+                "slot_34": {
+                    "MIDI_CC": 22,
+                    "label": "Cmp Rel"
+                },
+                "slot_35": {
+                    "MIDI_CC": 23,
+                    "label": "Cmp Gain"
+                },
+                "slot_36": {
+                    "MIDI_CC": 24,
+                    "label": "Cmp Rati"
+                },
+                "slot_37": {
+                    "MIDI_CC": 26,
+                    "label": "Cmp SCFi"
+                },
+                "slot_38": {
+                    "MIDI_CC": 27,
+                    "label": "Cmp Mix"
+                },
+                "slot_39": {
+                    "MIDI_CC": 28,
+                    "label": "Wrb Mix"
+                },
+                "slot_40": {
+                    "MIDI_CC": 29,
+                    "label": "Wrb Dept"
+                },
+                "slot_41": {
+                    "MIDI_CC": 30,
+                    "label": "Wrb Spd"
+                },
+                "slot_42": {
+                    "MIDI_CC": 31,
+                    "label": "Wrb Base"
+                },
+                "slot_43": {
+                    "MIDI_CC": 32,
+                    "label": "Wrb Widt"
+                },
+                "slot_44": {
+                    "MIDI_CC": 33,
+                    "label": "Wrb Ster"
+                },
+                "slot_45": {
+                    "MIDI_CC": 34,
+                    "label": "Wrb NsLv"
+                },
+                "slot_46": {
+                    "MIDI_CC": 35,
+                    "label": "Wrb NsHP"
+                },
+                "slot_47": {
+                    "MIDI_CC": 115,
+                    "label": "Bas XFrq"
+                },
+                "slot_48": {
+                    "MIDI_CC": 116,
+                    "label": "Bas HPLv"
+                },
+                "slot_49": {
+                    "MIDI_CC": 117,
+                    "label": "Bas LPLv"
+                },
+                "slot_50": {
+                    "MIDI_CC": 118,
+                    "label": "Bas Bass"
+                }
+            },
+            "row_defs": {
+                "C 1": {
+                    "label": "AH-EFX",
+                    "always_show": true
+                }
+            }
+        }
+    }
+}

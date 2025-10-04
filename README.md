@@ -1,6 +1,6 @@
 ```
 ╔════════════════════════════════════════════════════════════════════════════════════════╗
-║  (c) Fred Hasselot                                                            v0.1.21  ║
+║  (c) Fred Hasselot                                                            v0.1.22  ║
 ║  cirklon instruments definitions                                                       ║
 ║                                                                                        ║
 ║   ██████ ██ ██████  ██   ██ ██       ██████  ███    ██                                 ║
@@ -25,6 +25,7 @@ Collection of instrument definition files (.cki) for the Sequentix Cirklon hardw
 cirklon_instruments/
 ├── doc/                           # Documentation
 ├── instruments/                   # Instrument definitions
+│   ├── analog_heat_fx/           # Elektron Analog Heat +FX
 │   └── machinedrum_sps1_mk2+/    # Elektron Machinedrum definitions
 │       ├── hybrid_mode/          # Hybrid approach (1 CK + 4 P3)
 │       ├── pure_p3_mode/         # 16 individual P3 patterns
@@ -44,6 +45,20 @@ Three approaches for controlling the Machinedrum:
 
 📚 **[Full Machinedrum Documentation](doc/machinedrum/)**
 - Firmware guides, MIDI setup, preset sharing, and more
+
+### 🔥 Elektron Analog Heat +FX
+**Location:** `instruments/analog_heat_fx/`
+
+Two P3 patterns for complete control:
+
+1. **analog_heat_fx.cki** - Main controls (Canal 1) - 77 parameters
+   - Heat Character, EQ, Filter, Envelope, LFO 1/2/3, CV/Expression, Gate, Volume
+
+2. **analog_heat_fx_effects.cki** - Effects (Canal 2) - 50 parameters
+   - Bits, Chorus, Delay, Reverb, Compressor, Warble, Bass Focus
+
+📚 **[Full Analog Heat +FX Documentation](doc/analog_heat_fx/)**
+- MIDI implementation, 14-bit controls, modulation routing, and more
 
 ### 🎹 Additional Instruments
 *More instrument definitions coming soon...*
@@ -82,6 +97,7 @@ Created for [Patrick Pattern](https://soundcloud.com/patrick-packard) production
 ### Manuals
 - [Cirklon Operation Manual v1.20 (PDF)](http://files.sequentix.com/cirklon-manual-1.20.pdf)
 - [Machinedrum User Manual (PDF)](https://www.elektron.se/wp-content/uploads/2024/09/machinedrum_manual_OS1.63_1.pdf)
+- [Analog Heat +FX User Manual (PDF)](https://www.elektron.se/wp-content/uploads/2024/09/Analog_Heat_FX_User_Manual_ENG_OS1.01_240325.pdf)
 
 ### Resources
 - [Sequentix Official Website](https://www.sequentix.com)
