@@ -16,356 +16,388 @@
                     "track_control": "leng%"
                 },
                 "slot_3": {
-                    "MIDI_CC": 8,
-                    "label": "LT Lvl"
-                },
-                "slot_4": {
-                    "MIDI_CC": 12,
-                    "label": "LT Mut"
-                },
-                "slot_5": {
                     "MIDI_CC": 16,
                     "label": "LT P1"
                 },
-                "slot_6": {
+                "slot_4": {
                     "MIDI_CC": 17,
                     "label": "LT P2"
                 },
-                "slot_7": {
+                "slot_5": {
                     "MIDI_CC": 18,
                     "label": "LT P3"
                 },
-                "slot_8": {
+                "slot_6": {
                     "MIDI_CC": 19,
                     "label": "LT P4"
                 },
-                "slot_9": {
+                "slot_7": {
                     "MIDI_CC": 20,
                     "label": "LT P5"
                 },
-                "slot_10": {
+                "slot_8": {
                     "MIDI_CC": 21,
                     "label": "LT P6"
                 },
-                "slot_11": {
+                "slot_9": {
                     "MIDI_CC": 22,
                     "label": "LT P7"
                 },
-                "slot_12": {
+                "slot_10": {
                     "MIDI_CC": 23,
                     "label": "LT P8"
                 },
-                "slot_13": {
+                "slot_11": {
                     "MIDI_CC": 24,
-                    "label": "LT AM"
+                    "label": "LT AMd"
+                },
+                "slot_12": {
+                    "MIDI_CC": 25,
+                    "label": "LT AMr"
+                },
+                "slot_13": {
+                    "MIDI_CC": 26,
+                    "label": "LT EQf"
                 },
                 "slot_14": {
-                    "MIDI_CC": 25,
-                    "label": "LT AM"
+                    "MIDI_CC": 27,
+                    "label": "LT EQg"
                 },
                 "slot_15": {
-                    "MIDI_CC": 26,
-                    "label": "LT EQ"
+                    "MIDI_CC": 28,
+                    "label": "LT Fba"
                 },
                 "slot_16": {
-                    "MIDI_CC": 27,
-                    "label": "LT EQ"
+                    "MIDI_CC": 29,
+                    "label": "LT Fwi"
                 },
                 "slot_17": {
-                    "MIDI_CC": 28,
-                    "label": "LT Fr"
+                    "MIDI_CC": 30,
+                    "label": "LT FQ"
                 },
                 "slot_18": {
-                    "MIDI_CC": 29,
-                    "label": "LT Wi"
+                    "MIDI_CC": 31,
+                    "label": "LT !%"
                 },
                 "slot_19": {
-                    "MIDI_CC": 30,
-                    "label": "LT Q"
+                    "MIDI_CC": 32,
+                    "label": "LT Dis"
                 },
                 "slot_20": {
-                    "MIDI_CC": 31,
-                    "label": "LT SR"
+                    "MIDI_CC": 33,
+                    "label": "LT Vol"
                 },
                 "slot_21": {
-                    "MIDI_CC": 32,
-                    "label": "LT Di"
+                    "MIDI_CC": 34,
+                    "label": "LT Pan"
                 },
                 "slot_22": {
-                    "MIDI_CC": 33,
-                    "label": "LT VO"
+                    "MIDI_CC": 35,
+                    "label": "LT Del"
                 },
                 "slot_23": {
-                    "MIDI_CC": 34,
-                    "label": "LT Pa"
+                    "MIDI_CC": 36,
+                    "label": "LT Rev"
                 },
                 "slot_24": {
-                    "MIDI_CC": 35,
-                    "label": "LT DE"
+                    "MIDI_CC": 37,
+                    "label": "LT LFsp"
                 },
                 "slot_25": {
-                    "MIDI_CC": 36,
-                    "label": "LT RE"
+                    "MIDI_CC": 38,
+                    "label": "LT LFam"
                 },
                 "slot_26": {
-                    "MIDI_CC": 37,
-                    "label": "LT Sp"
+                    "MIDI_CC": 39,
+                    "label": "LT LFsh"
                 },
                 "slot_27": {
-                    "MIDI_CC": 38,
-                    "label": "LT Am"
-                },
-                "slot_28": {
-                    "MIDI_CC": 39,
-                    "label": "LT Sh"
-                },
-                "slot_29": {
-                    "MIDI_CC": 9,
-                    "label": "CP Lvl"
-                },
-                "slot_30": {
-                    "MIDI_CC": 13,
-                    "label": "CP Mut"
-                },
-                "slot_31": {
                     "MIDI_CC": 40,
                     "label": "CP P1"
                 },
-                "slot_32": {
+                "slot_28": {
                     "MIDI_CC": 41,
                     "label": "CP P2"
                 },
-                "slot_33": {
+                "slot_29": {
                     "MIDI_CC": 42,
                     "label": "CP P3"
                 },
-                "slot_34": {
+                "slot_30": {
                     "MIDI_CC": 43,
                     "label": "CP P4"
                 },
-                "slot_35": {
+                "slot_31": {
                     "MIDI_CC": 44,
                     "label": "CP P5"
                 },
-                "slot_36": {
+                "slot_32": {
                     "MIDI_CC": 45,
                     "label": "CP P6"
                 },
-                "slot_37": {
+                "slot_33": {
                     "MIDI_CC": 46,
                     "label": "CP P7"
                 },
-                "slot_38": {
+                "slot_34": {
                     "MIDI_CC": 47,
                     "label": "CP P8"
                 },
-                "slot_39": {
+                "slot_35": {
                     "MIDI_CC": 48,
-                    "label": "CP AM"
+                    "label": "CP AMd"
+                },
+                "slot_36": {
+                    "MIDI_CC": 49,
+                    "label": "CP AMr"
+                },
+                "slot_37": {
+                    "MIDI_CC": 50,
+                    "label": "CP EQf"
+                },
+                "slot_38": {
+                    "MIDI_CC": 51,
+                    "label": "CP EQg"
+                },
+                "slot_39": {
+                    "MIDI_CC": 52,
+                    "label": "CP Fba"
                 },
                 "slot_40": {
-                    "MIDI_CC": 49,
-                    "label": "CP AM"
+                    "MIDI_CC": 53,
+                    "label": "CP Fwi"
                 },
                 "slot_41": {
-                    "MIDI_CC": 50,
-                    "label": "CP EQ"
+                    "MIDI_CC": 54,
+                    "label": "CP FQ"
                 },
                 "slot_42": {
-                    "MIDI_CC": 51,
-                    "label": "CP EQ"
+                    "MIDI_CC": 55,
+                    "label": "CP !%"
                 },
                 "slot_43": {
-                    "MIDI_CC": 52,
-                    "label": "CP Fr"
+                    "MIDI_CC": 56,
+                    "label": "CP Dis"
                 },
                 "slot_44": {
-                    "MIDI_CC": 53,
-                    "label": "CP Wi"
+                    "MIDI_CC": 57,
+                    "label": "CP Vol"
                 },
                 "slot_45": {
-                    "MIDI_CC": 54,
-                    "label": "CP Q"
+                    "MIDI_CC": 58,
+                    "label": "CP Pan"
                 },
                 "slot_46": {
-                    "MIDI_CC": 55,
-                    "label": "CP SR"
+                    "MIDI_CC": 59,
+                    "label": "CP Del"
                 },
                 "slot_47": {
-                    "MIDI_CC": 56,
-                    "label": "CP Di"
+                    "MIDI_CC": 60,
+                    "label": "CP Rev"
                 },
                 "slot_48": {
-                    "MIDI_CC": 57,
-                    "label": "CP VO"
+                    "MIDI_CC": 61,
+                    "label": "CP LFsp"
                 },
                 "slot_49": {
-                    "MIDI_CC": 58,
-                    "label": "CP Pa"
+                    "MIDI_CC": 62,
+                    "label": "CP LFam"
                 },
                 "slot_50": {
-                    "MIDI_CC": 59,
-                    "label": "CP DE"
+                    "MIDI_CC": 63,
+                    "label": "CP LFsh"
                 },
                 "slot_51": {
-                    "MIDI_CC": 60,
-                    "label": "CP RE"
-                },
-                "slot_52": {
-                    "MIDI_CC": 61,
-                    "label": "CP Sp"
-                },
-                "slot_53": {
-                    "MIDI_CC": 62,
-                    "label": "CP Am"
-                },
-                "slot_54": {
-                    "MIDI_CC": 63,
-                    "label": "CP Sh"
-                },
-                "slot_55": {
-                    "MIDI_CC": 10,
-                    "label": "RS Lvl"
-                },
-                "slot_56": {
-                    "MIDI_CC": 14,
-                    "label": "RS Mut"
-                },
-                "slot_57": {
-                    "MIDI_CC": 64,
+                    "MIDI_CC": 72,
                     "label": "RS P1"
                 },
-                "slot_58": {
-                    "MIDI_CC": 65,
+                "slot_52": {
+                    "MIDI_CC": 73,
                     "label": "RS P2"
                 },
-                "slot_59": {
-                    "MIDI_CC": 66,
+                "slot_53": {
+                    "MIDI_CC": 74,
                     "label": "RS P3"
                 },
-                "slot_60": {
-                    "MIDI_CC": 67,
+                "slot_54": {
+                    "MIDI_CC": 75,
                     "label": "RS P4"
                 },
-                "slot_61": {
-                    "MIDI_CC": 68,
+                "slot_55": {
+                    "MIDI_CC": 76,
                     "label": "RS P5"
                 },
-                "slot_62": {
-                    "MIDI_CC": 69,
+                "slot_56": {
+                    "MIDI_CC": 77,
                     "label": "RS P6"
                 },
-                "slot_63": {
-                    "MIDI_CC": 70,
+                "slot_57": {
+                    "MIDI_CC": 78,
                     "label": "RS P7"
                 },
-                "slot_64": {
-                    "MIDI_CC": 71,
+                "slot_58": {
+                    "MIDI_CC": 79,
                     "label": "RS P8"
                 },
+                "slot_59": {
+                    "MIDI_CC": 80,
+                    "label": "RS AMd"
+                },
+                "slot_60": {
+                    "MIDI_CC": 81,
+                    "label": "RS AMr"
+                },
+                "slot_61": {
+                    "MIDI_CC": 82,
+                    "label": "RS EQf"
+                },
+                "slot_62": {
+                    "MIDI_CC": 83,
+                    "label": "RS EQg"
+                },
+                "slot_63": {
+                    "MIDI_CC": 84,
+                    "label": "RS Fba"
+                },
+                "slot_64": {
+                    "MIDI_CC": 85,
+                    "label": "RS Fwi"
+                },
                 "slot_65": {
-                    "MIDI_CC": 72,
-                    "label": "RS AM"
+                    "MIDI_CC": 86,
+                    "label": "RS FQ"
                 },
                 "slot_66": {
-                    "MIDI_CC": 73,
-                    "label": "RS AM"
+                    "MIDI_CC": 87,
+                    "label": "RS !%"
                 },
                 "slot_67": {
-                    "MIDI_CC": 74,
-                    "label": "RS EQ"
+                    "MIDI_CC": 88,
+                    "label": "RS Dis"
                 },
                 "slot_68": {
-                    "MIDI_CC": 75,
-                    "label": "RS EQ"
+                    "MIDI_CC": 89,
+                    "label": "RS Vol"
                 },
                 "slot_69": {
-                    "MIDI_CC": 76,
-                    "label": "RS Fr"
+                    "MIDI_CC": 90,
+                    "label": "RS Pan"
                 },
                 "slot_70": {
-                    "MIDI_CC": 77,
-                    "label": "RS Wi"
+                    "MIDI_CC": 91,
+                    "label": "RS Del"
                 },
                 "slot_71": {
-                    "MIDI_CC": 78,
-                    "label": "RS Q"
+                    "MIDI_CC": 92,
+                    "label": "RS Rev"
                 },
                 "slot_72": {
-                    "MIDI_CC": 79,
-                    "label": "RS SR"
+                    "MIDI_CC": 93,
+                    "label": "RS LFsp"
                 },
                 "slot_73": {
-                    "MIDI_CC": 80,
-                    "label": "RS Di"
+                    "MIDI_CC": 94,
+                    "label": "RS LFam"
                 },
                 "slot_74": {
-                    "MIDI_CC": 81,
-                    "label": "RS VO"
+                    "MIDI_CC": 95,
+                    "label": "RS LFsh"
                 },
                 "slot_75": {
-                    "MIDI_CC": 82,
-                    "label": "RS Pa"
-                },
-                "slot_76": {
-                    "MIDI_CC": 83,
-                    "label": "RS DE"
-                },
-                "slot_77": {
-                    "MIDI_CC": 84,
-                    "label": "RS RE"
-                },
-                "slot_78": {
-                    "MIDI_CC": 85,
-                    "label": "RS Sp"
-                },
-                "slot_79": {
-                    "MIDI_CC": 86,
-                    "label": "RS Am"
-                },
-                "slot_80": {
-                    "MIDI_CC": 87,
-                    "label": "RS Sh"
-                },
-                "slot_81": {
-                    "MIDI_CC": 11,
-                    "label": "CB Lvl"
-                },
-                "slot_82": {
-                    "MIDI_CC": 15,
-                    "label": "CB Mut"
-                },
-                "slot_83": {
-                    "MIDI_CC": 88,
+                    "MIDI_CC": 96,
                     "label": "CB P1"
                 },
-                "slot_84": {
-                    "MIDI_CC": 89,
+                "slot_76": {
+                    "MIDI_CC": 97,
                     "label": "CB P2"
                 },
-                "slot_85": {
-                    "MIDI_CC": 90,
+                "slot_77": {
+                    "MIDI_CC": 98,
                     "label": "CB P3"
                 },
-                "slot_86": {
-                    "MIDI_CC": 91,
+                "slot_78": {
+                    "MIDI_CC": 99,
                     "label": "CB P4"
                 },
-                "slot_87": {
-                    "MIDI_CC": 92,
+                "slot_79": {
+                    "MIDI_CC": 100,
                     "label": "CB P5"
                 },
-                "slot_88": {
-                    "MIDI_CC": 93,
+                "slot_80": {
+                    "MIDI_CC": 101,
                     "label": "CB P6"
                 },
-                "slot_89": {
-                    "MIDI_CC": 94,
+                "slot_81": {
+                    "MIDI_CC": 102,
                     "label": "CB P7"
                 },
-                "slot_90": {
-                    "MIDI_CC": 95,
+                "slot_82": {
+                    "MIDI_CC": 103,
                     "label": "CB P8"
+                },
+                "slot_83": {
+                    "MIDI_CC": 104,
+                    "label": "CB AMd"
+                },
+                "slot_84": {
+                    "MIDI_CC": 105,
+                    "label": "CB AMr"
+                },
+                "slot_85": {
+                    "MIDI_CC": 106,
+                    "label": "CB EQf"
+                },
+                "slot_86": {
+                    "MIDI_CC": 107,
+                    "label": "CB EQg"
+                },
+                "slot_87": {
+                    "MIDI_CC": 108,
+                    "label": "CB Fba"
+                },
+                "slot_88": {
+                    "MIDI_CC": 109,
+                    "label": "CB Fwi"
+                },
+                "slot_89": {
+                    "MIDI_CC": 110,
+                    "label": "CB FQ"
+                },
+                "slot_90": {
+                    "MIDI_CC": 111,
+                    "label": "CB !%"
+                },
+                "slot_91": {
+                    "MIDI_CC": 112,
+                    "label": "CB Dis"
+                },
+                "slot_92": {
+                    "MIDI_CC": 113,
+                    "label": "CB Vol"
+                },
+                "slot_93": {
+                    "MIDI_CC": 114,
+                    "label": "CB Pan"
+                },
+                "slot_94": {
+                    "MIDI_CC": 115,
+                    "label": "CB Del"
+                },
+                "slot_95": {
+                    "MIDI_CC": 116,
+                    "label": "CB Rev"
+                },
+                "slot_96": {
+                    "MIDI_CC": 117,
+                    "label": "CB LFsp"
+                },
+                "slot_97": {
+                    "MIDI_CC": 118,
+                    "label": "CB LFam"
+                },
+                "slot_98": {
+                    "MIDI_CC": 119,
+                    "label": "CB LFsh"
                 }
             },
             "row_defs": {
