@@ -1,6 +1,6 @@
 ```
 ╔════════════════════════════════════════════════════════════════════════════════════════╗
-║  (c) Fred Hasselot                                                            v0.1.22  ║
+║  (c) Fred Hasselot                                                            v0.1.23  ║
 ║  cirklon instruments definitions                                                       ║
 ║                                                                                        ║
 ║   ██████ ██ ██████  ██   ██ ██       ██████  ███    ██                                 ║
@@ -26,6 +26,7 @@ cirklon_instruments/
 ├── doc/                           # Documentation
 ├── instruments/                   # Instrument definitions
 │   ├── analog_heat_fx/           # Elektron Analog Heat +FX
+│   ├── analog_rytm_mk2/          # Elektron Analog Rytm MKII
 │   └── machinedrum_sps1_mk2+/    # Elektron Machinedrum definitions
 │       ├── hybrid_mode/          # Hybrid approach (1 CK + 4 P3)
 │       ├── pure_p3_mode/         # 16 individual P3 patterns
@@ -59,6 +60,24 @@ Two P3 patterns for complete control:
 
 📚 **[Full Analog Heat +FX Documentation](doc/analog_heat_fx/)**
 - MIDI implementation, 14-bit controls, modulation routing, and more
+
+### 🥁 Elektron Analog Rytm MKII
+**Location:** `instruments/analog_rytm_mk2/`
+
+Two modes to adapt to your workflow:
+
+1. **CK Pattern Mode** - Single Channel (recommended for live)
+   - Global AR control via single MIDI channel
+   - Sequence 12 tracks via notes C0-B0
+   - ~67 parameters: Sample, Filter, Amp, LFO, FX, Performance
+
+2. **P3 Multi-Timbral Mode** - 12 Channels (recommended for studio)
+   - Independent control of each track
+   - 12 P3 instances for total control
+   - ~55 parameters per track
+
+📚 **[Full Analog Rytm MKII Documentation](doc/analog_rytm_mk2/)**
+- MIDI implementation, machine types, workflow examples, and more
 
 ### 🎹 Additional Instruments
 *More instrument definitions coming soon...*
@@ -98,6 +117,7 @@ Created for [Patrick Pattern](https://soundcloud.com/patrick-packard) production
 - [Cirklon Operation Manual v1.20 (PDF)](http://files.sequentix.com/cirklon-manual-1.20.pdf)
 - [Machinedrum User Manual (PDF)](https://www.elektron.se/wp-content/uploads/2024/09/machinedrum_manual_OS1.63_1.pdf)
 - [Analog Heat +FX User Manual (PDF)](https://www.elektron.se/wp-content/uploads/2024/09/Analog_Heat_FX_User_Manual_ENG_OS1.01_240325.pdf)
+- [Analog Rytm MKII User Manual (PDF)](https://elektron-software.s3.eu-west-1.amazonaws.com/firmware/Analog+Rytm+MKII+User+Manual_ENG_OS1.70_231122.pdf)
 
 ### Resources
 - [Sequentix Official Website](https://www.sequentix.com)
