@@ -1,6 +1,6 @@
 ```
 ╔════════════════════════════════════════════════════════════════════════════════════════╗
-║  (c) Fred Hasselot                                                            v0.1.24  ║
+║  (c) Fred Hasselot                                                            v0.1.25  ║
 ║  cirklon instruments definitions                                                       ║
 ║                                                                                        ║
 ║   ██████ ██ ██████  ██   ██ ██       ██████  ███    ██                                 ║
@@ -27,6 +27,7 @@ cirklon_instruments/
 ├── instruments/                   # Instrument definitions
 │   ├── analog_heat_fx/           # Elektron Analog Heat +FX
 │   ├── analog_rytm_mk2/          # Elektron Analog Rytm MKII
+│   ├── gr_mega/                  # Tasty Chips GR-Mega
 │   └── machinedrum_sps1_mk2+/    # Elektron Machinedrum definitions
 │       ├── hybrid_mode/          # Hybrid approach (1 CK + 4 P3)
 │       ├── pure_p3_mode/         # 16 individual P3 patterns
@@ -79,6 +80,26 @@ Two modes to adapt to your workflow:
 📚 **[Full Analog Rytm MKII Documentation](doc/analog_rytm_mk2/)**
 - MIDI implementation, machine types, workflow examples, and more
 
+### 🌊 Tasty Chips GR-Mega
+**Location:** `instruments/gr_mega/`
+
+P3 polyphonic pattern for granular synthesis:
+
+- **gr_mega.cki** - Complete granular synthesis control (P3 Pattern)
+  - 117 CC parameter slots
+  - Granular engine: Position, Grain Size, Rate, Spray, Scan, Direction
+  - 5 granular modes (Free, DensitySize, DensityRate, ScanRate, ScanOverlap)
+  - Dual filters (LPF/HPF), 4 ADSR envelopes (Pitch, Filter, Amp, Aux)
+  - 4 independent LFOs with sync
+  - 50-slot modulation matrix
+  - Effects chain (Compressor, Delay, Distortion, Reverb, Reducer)
+  - 14-bit NRPN high-precision control
+  - Multi-layer support (4 layers)
+  - Up to 20 voices polyphony
+
+📚 **[Full GR-Mega Documentation](doc/gr_mega/)**
+- MIDI CC reference, NRPN implementation, granular workflows, and more
+
 ### 🎹 Additional Instruments
 *More instrument definitions coming soon...*
 
@@ -118,6 +139,7 @@ Created for [Patrick Pattern](https://soundcloud.com/patrick-packard) production
 - [Machinedrum User Manual (PDF)](https://www.elektron.se/wp-content/uploads/2024/09/machinedrum_manual_OS1.63_1.pdf)
 - [Analog Heat +FX User Manual (PDF)](https://www.elektron.se/wp-content/uploads/2024/09/Analog_Heat_FX_User_Manual_ENG_OS1.01_240325.pdf)
 - [Analog Rytm MKII User Manual (PDF)](https://elektron-software.s3.eu-west-1.amazonaws.com/firmware/Analog+Rytm+MKII+User+Manual_ENG_OS1.70_231122.pdf)
+- [GR-Mega Product Page](https://tastychips.nl/product/gr-mega/) - Tasty Chips Electronics
 
 ### Resources
 - [Sequentix Official Website](https://www.sequentix.com)
