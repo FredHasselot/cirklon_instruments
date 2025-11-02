@@ -1,11 +1,11 @@
 {
     "instrument_data": {
-        "GR-MEGA": {
+        "GRMEGA": {
             "midi_port": 1,
             "midi_chan": 1,
             "default_note": "C 3",
-            "default_patt": "p3",
-            "poly_spread": "on",
+            "default_patt": "P3",
+            "poly_spread": "off",
             "no_xpose": false,
             "no_fts": false,
             "track_values": {
@@ -795,102 +795,6 @@
                 },
                 "G 6": {
                     "label": "G 6",
-                    "always_show": false
-                },
-                "G#6": {
-                    "label": "G#6",
-                    "always_show": false
-                },
-                "A 6": {
-                    "label": "A 6",
-                    "always_show": false
-                },
-                "A#6": {
-                    "label": "A#6",
-                    "always_show": false
-                },
-                "B 6": {
-                    "label": "B 6",
-                    "always_show": false
-                },
-                "C 7": {
-                    "label": "C 7",
-                    "always_show": false
-                },
-                "C#7": {
-                    "label": "C#7",
-                    "always_show": false
-                },
-                "D 7": {
-                    "label": "D 7",
-                    "always_show": false
-                },
-                "D#7": {
-                    "label": "D#7",
-                    "always_show": false
-                },
-                "E 7": {
-                    "label": "E 7",
-                    "always_show": false
-                },
-                "F 7": {
-                    "label": "F 7",
-                    "always_show": false
-                },
-                "F#7": {
-                    "label": "F#7",
-                    "always_show": false
-                },
-                "G 7": {
-                    "label": "G 7",
-                    "always_show": false
-                },
-                "G#7": {
-                    "label": "G#7",
-                    "always_show": false
-                },
-                "A 7": {
-                    "label": "A 7",
-                    "always_show": false
-                },
-                "A#7": {
-                    "label": "A#7",
-                    "always_show": false
-                },
-                "B 7": {
-                    "label": "B 7",
-                    "always_show": false
-                },
-                "C 8": {
-                    "label": "C 8",
-                    "always_show": false
-                },
-                "C#8": {
-                    "label": "C#8",
-                    "always_show": false
-                },
-                "D 8": {
-                    "label": "D 8",
-                    "always_show": false
-                },
-                "D#8": {
-                    "label": "D#8",
-                    "always_show": false
-                },
-                "E 8": {
-                    "label": "E 8",
-                    "always_show": false
-                },
-                "F 8": {
-                    "label": "F 8",
-                    "always_show": false
-                },
-                "F#8": {
-                    "label": "F#8",
-                    "always_show": false
-                },
-                "G 8": {
-                    "label": "G 8",
                     "always_show": false
                 }
             }
