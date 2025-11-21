@@ -15,7 +15,7 @@ The Digitone II is an 8-voice FM synthesizer with 4 synth tracks (or 8 drum trac
 
 ### Limitation
 
-**Le Digitone II ne supporte PAS le mode drum sur un seul canal MIDI** (contrairement au Machinedrum ou Analog Rytm). Chaque track nécessite son propre canal MIDI. Pour 8 drums, il faut 8 tracks Cirklon.
+**The Digitone II does NOT support drum mode on a single MIDI channel** (unlike Machinedrum or Analog Rytm). Each track requires its own MIDI channel. For 8 drums, you need 8 Cirklon tracks.
 
 ## Cirklon Instrument Files
 
@@ -148,7 +148,7 @@ SETTINGS → MIDI CONFIG → CHANNELS
 
 ### Live Performance
 - **Tracks 1-4**: Synth sequences
-- **Tracks 5-8**: Key drum sounds (4 drums max pour économiser des tracks)
+- **Tracks 5-8**: Key drum sounds (4 drums max to save tracks)
 - **Track 9**: FX automation
 
 ---

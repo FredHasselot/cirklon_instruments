@@ -103,7 +103,7 @@ Three modes for different workflows:
    - Chorus, Delay, Reverb, Compressor
    - 32 effect parameters
 
-⚠️ **Limitation**: Le Digitone II ne supporte pas le mode drum sur un seul canal MIDI (contrairement au Machinedrum ou Rytm). Chaque track nécessite son propre canal.
+⚠️ **Limitation**: The Digitone II does not support drum mode on a single MIDI channel (unlike Machinedrum or Rytm). Each track requires its own channel.
 
 📚 **[Full Digitone II Documentation](doc/digitone_ii/)**
 - MIDI implementation, FM synthesis workflows, and more
