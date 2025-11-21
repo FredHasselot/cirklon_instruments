@@ -29,7 +29,6 @@ cirklon_instruments/
 │   ├── analog_rytm_mk2/          # Elektron Analog Rytm MKII
 │   ├── digitone_ii/              # Elektron Digitone II
 │   │   ├── multi_p3_mode/        # Synth tracks P3 (melodic)
-│   │   ├── drum_p3_mode/         # FM Drum P3 (percussion)
 │   │   └── fx_p3_mode/           # Global FX P3
 │   ├── gr_mega/                  # Tasty Chips GR-Mega
 │   └── machinedrum_sps1_mk2+/    # Elektron Machinedrum definitions
@@ -87,20 +86,15 @@ Two modes to adapt to your workflow:
 ### 🎹 Elektron Digitone II
 **Location:** `instruments/digitone_ii/`
 
-Three modes for different workflows:
+Two modes for different workflows:
 
-1. **Multi P3 Mode** - 4 synth tracks (sound design)
+1. **Synth P3 Mode** - 16 synth tracks (sound design)
    - All CC parameters including LFOs
-   - 85+ parameters per track
-   - Ideal for pads, leads, bass
+   - 82 parameters per track
+   - One instrument (DN2-SYN), select channel 1-16
 
-2. **Drum P3 Mode** - 8 FM drum tracks
-   - Complete FM drum synthesis control
-   - One instrument, 8 channels (1-8)
-   - 55 parameters per track
-
-3. **FX P3 Mode** - Global effects automation
-   - Chorus, Delay, Reverb, Compressor
+2. **FX P3 Mode** - Global effects automation
+   - Chorus, Delay, Reverb
    - 32 effect parameters
 
 ⚠️ **Limitation**: The Digitone II does not support drum mode on a single MIDI channel (unlike Machinedrum or Rytm). Each track requires its own channel.
