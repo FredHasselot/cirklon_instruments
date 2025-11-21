@@ -27,6 +27,11 @@ cirklon_instruments/
 ├── instruments/                   # Instrument definitions
 │   ├── analog_heat_fx/           # Elektron Analog Heat +FX
 │   ├── analog_rytm_mk2/          # Elektron Analog Rytm MKII
+│   ├── digitone_ii/              # Elektron Digitone II
+│   │   ├── quad_ck_mode/         # 4 CK patterns (melodic)
+│   │   ├── drum_ck_mode/         # Drum kit CK pattern
+│   │   ├── multi_p3_mode/        # Full P3 control
+│   │   └── fx_p3_mode/           # Global FX P3
 │   ├── gr_mega/                  # Tasty Chips GR-Mega
 │   └── machinedrum_sps1_mk2+/    # Elektron Machinedrum definitions
 │       ├── hybrid_mode/          # Hybrid approach (1 CK + 4 P3)
@@ -79,6 +84,30 @@ Two modes to adapt to your workflow:
 
 📚 **[Full Analog Rytm MKII Documentation](doc/analog_rytm_mk2/)**
 - MIDI implementation, machine types, workflow examples, and more
+
+### 🎹 Elektron Digitone II
+**Location:** `instruments/digitone_ii/`
+
+Four modes for different workflows:
+
+1. **Quad CK Mode** - 4 synth tracks (melodic sequencing)
+   - 64 parameters per track: Synth pages 1-4, Filter, Amp
+   - Perfect for polyphonic FM synthesis
+
+2. **Drum CK Mode** - Pseudo drum kit (16 sounds)
+   - Single CK pattern with 16 aux notes
+   - FM percussion on one track
+
+3. **Multi P3 Mode** - Full parameter control (sound design)
+   - All CC parameters including LFOs
+   - 85+ parameters per track
+
+4. **FX P3 Mode** - Global effects automation
+   - Chorus, Delay, Reverb, Compressor
+   - 32 effect parameters
+
+📚 **[Full Digitone II Documentation](doc/digitone_ii/)**
+- MIDI implementation, Multi Map setup, FM synthesis workflows, and more
 
 ### 🌊 Tasty Chips GR-Mega
 **Location:** `instruments/gr_mega/`
@@ -139,6 +168,7 @@ Created for [Patrick Pattern](https://soundcloud.com/patrick-packard) production
 - [Machinedrum User Manual (PDF)](https://www.elektron.se/wp-content/uploads/2024/09/machinedrum_manual_OS1.63_1.pdf)
 - [Analog Heat +FX User Manual (PDF)](https://www.elektron.se/wp-content/uploads/2024/09/Analog_Heat_FX_User_Manual_ENG_OS1.01_240325.pdf)
 - [Analog Rytm MKII User Manual (PDF)](https://elektron-software.s3.eu-west-1.amazonaws.com/firmware/Analog+Rytm+MKII+User+Manual_ENG_OS1.70_231122.pdf)
+- [Digitone II User Manual](https://www.elektron.se/support-downloads/) - Elektron Support
 - [GR-Mega Product Page](https://tastychips.nl/product/gr-mega/) - Tasty Chips Electronics
 
 ### Resources

@@ -1,0 +1,287 @@
+{
+    "instrument_data": {
+        "DN2-DRM": {
+            "midi_port": 1,
+            "midi_chan": 1,
+            "default_note": "C 3",
+            "default_patt": "CK",
+            "poly_spread": "off",
+            "no_xpose": true,
+            "no_fts": false,
+            "aux_notes": [
+                {"note": "C 2", "label": "Kick1"},
+                {"note": "C#2", "label": "Kick2"},
+                {"note": "D 2", "label": "Snr1"},
+                {"note": "D#2", "label": "Snr2"},
+                {"note": "E 2", "label": "Clap"},
+                {"note": "F 2", "label": "Rim"},
+                {"note": "F#2", "label": "Tom1"},
+                {"note": "G 2", "label": "Tom2"},
+                {"note": "G#2", "label": "CHH"},
+                {"note": "A 2", "label": "OHH"},
+                {"note": "A#2", "label": "Cym1"},
+                {"note": "B 2", "label": "Cym2"},
+                {"note": "C 3", "label": "Perc1"},
+                {"note": "C#3", "label": "Perc2"},
+                {"note": "D 3", "label": "Perc3"},
+                {"note": "D#3", "label": "Perc4"}
+            ],
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                },
+                "slot_3": {
+                    "MIDI_CC": 95,
+                    "label": "Trk Lvl"
+                },
+                "slot_4": {
+                    "MIDI_CC": 94,
+                    "label": "Trk Mut"
+                },
+                "slot_5": {
+                    "MIDI_CC": 3,
+                    "label": "Note"
+                },
+                "slot_6": {
+                    "MIDI_CC": 4,
+                    "label": "Velocty"
+                },
+                "slot_7": {
+                    "MIDI_CC": 5,
+                    "label": "TrigLen"
+                },
+                "slot_8": {
+                    "MIDI_CC": 13,
+                    "label": "FltTrig"
+                },
+                "slot_9": {
+                    "MIDI_CC": 14,
+                    "label": "LFOTrig"
+                },
+                "slot_10": {
+                    "MIDI_CC": 9,
+                    "label": "Porta T"
+                },
+                "slot_11": {
+                    "MIDI_CC": 65,
+                    "label": "Porta"
+                },
+                "slot_12": {
+                    "MIDI_CC": 40,
+                    "label": "Syn1 A"
+                },
+                "slot_13": {
+                    "MIDI_CC": 41,
+                    "label": "Syn1 B"
+                },
+                "slot_14": {
+                    "MIDI_CC": 42,
+                    "label": "Syn1 C"
+                },
+                "slot_15": {
+                    "MIDI_CC": 43,
+                    "label": "Syn1 D"
+                },
+                "slot_16": {
+                    "MIDI_CC": 44,
+                    "label": "Syn1 E"
+                },
+                "slot_17": {
+                    "MIDI_CC": 45,
+                    "label": "Syn1 F"
+                },
+                "slot_18": {
+                    "MIDI_CC": 46,
+                    "label": "Syn1 G"
+                },
+                "slot_19": {
+                    "MIDI_CC": 47,
+                    "label": "Syn1 H"
+                },
+                "slot_20": {
+                    "MIDI_CC": 48,
+                    "label": "Syn2 A"
+                },
+                "slot_21": {
+                    "MIDI_CC": 49,
+                    "label": "Syn2 B"
+                },
+                "slot_22": {
+                    "MIDI_CC": 50,
+                    "label": "Syn2 C"
+                },
+                "slot_23": {
+                    "MIDI_CC": 51,
+                    "label": "Syn2 D"
+                },
+                "slot_24": {
+                    "MIDI_CC": 52,
+                    "label": "Syn2 E"
+                },
+                "slot_25": {
+                    "MIDI_CC": 53,
+                    "label": "Syn2 F"
+                },
+                "slot_26": {
+                    "MIDI_CC": 54,
+                    "label": "Syn2 G"
+                },
+                "slot_27": {
+                    "MIDI_CC": 55,
+                    "label": "Syn2 H"
+                },
+                "slot_28": {
+                    "MIDI_CC": 56,
+                    "label": "Syn3 A"
+                },
+                "slot_29": {
+                    "MIDI_CC": 57,
+                    "label": "Syn3 B"
+                },
+                "slot_30": {
+                    "MIDI_CC": 58,
+                    "label": "Syn3 C"
+                },
+                "slot_31": {
+                    "MIDI_CC": 59,
+                    "label": "Syn3 D"
+                },
+                "slot_32": {
+                    "MIDI_CC": 60,
+                    "label": "Syn3 E"
+                },
+                "slot_33": {
+                    "MIDI_CC": 61,
+                    "label": "Syn3 F"
+                },
+                "slot_34": {
+                    "MIDI_CC": 62,
+                    "label": "Syn3 G"
+                },
+                "slot_35": {
+                    "MIDI_CC": 63,
+                    "label": "Syn3 H"
+                },
+                "slot_36": {
+                    "MIDI_CC": 70,
+                    "label": "Syn4 A"
+                },
+                "slot_37": {
+                    "MIDI_CC": 71,
+                    "label": "Syn4 B"
+                },
+                "slot_38": {
+                    "MIDI_CC": 72,
+                    "label": "Syn4 C"
+                },
+                "slot_39": {
+                    "MIDI_CC": 73,
+                    "label": "Syn4 D"
+                },
+                "slot_40": {
+                    "MIDI_CC": 74,
+                    "label": "Syn4 E"
+                },
+                "slot_41": {
+                    "MIDI_CC": 75,
+                    "label": "Syn4 F"
+                },
+                "slot_42": {
+                    "MIDI_CC": 76,
+                    "label": "Syn4 G"
+                },
+                "slot_43": {
+                    "MIDI_CC": 77,
+                    "label": "Syn4 H"
+                },
+                "slot_44": {
+                    "MIDI_CC": 16,
+                    "label": "Flt Frq"
+                },
+                "slot_45": {
+                    "MIDI_CC": 17,
+                    "label": "Flt Res"
+                },
+                "slot_46": {
+                    "MIDI_CC": 18,
+                    "label": "Flt Typ"
+                },
+                "slot_47": {
+                    "MIDI_CC": 19,
+                    "label": "Flt Dly"
+                },
+                "slot_48": {
+                    "MIDI_CC": 20,
+                    "label": "Flt Att"
+                },
+                "slot_49": {
+                    "MIDI_CC": 21,
+                    "label": "Flt Dec"
+                },
+                "slot_50": {
+                    "MIDI_CC": 22,
+                    "label": "Flt Sus"
+                },
+                "slot_51": {
+                    "MIDI_CC": 23,
+                    "label": "Flt Rel"
+                },
+                "slot_52": {
+                    "MIDI_CC": 24,
+                    "label": "Flt Dpt"
+                },
+                "slot_53": {
+                    "MIDI_CC": 25,
+                    "label": "FltERst"
+                },
+                "slot_54": {
+                    "MIDI_CC": 26,
+                    "label": "Flt Key"
+                },
+                "slot_55": {
+                    "MIDI_CC": 27,
+                    "label": "FltBase"
+                },
+                "slot_56": {
+                    "MIDI_CC": 28,
+                    "label": "FltWdth"
+                },
+                "slot_57": {
+                    "MIDI_CC": 84,
+                    "label": "Amp Att"
+                },
+                "slot_58": {
+                    "MIDI_CC": 85,
+                    "label": "Amp Hld"
+                },
+                "slot_59": {
+                    "MIDI_CC": 86,
+                    "label": "Amp Dec"
+                },
+                "slot_60": {
+                    "MIDI_CC": 87,
+                    "label": "Amp Sus"
+                },
+                "slot_61": {
+                    "MIDI_CC": 88,
+                    "label": "Amp Rel"
+                },
+                "slot_62": {
+                    "MIDI_CC": 89,
+                    "label": "Amp Pan"
+                },
+                "slot_63": {
+                    "MIDI_CC": 90,
+                    "label": "Amp Vol"
+                },
+                "slot_64": {
+                    "MIDI_CC": 91,
+                    "label": "Amp Mod"
+                }
+            }
+        }
+    }
+}
