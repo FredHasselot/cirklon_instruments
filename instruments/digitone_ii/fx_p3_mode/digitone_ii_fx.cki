@@ -6,42 +6,142 @@
             "default_note": "C 3",
             "default_patt": "P3",
             "poly_spread": "off",
-            "no_xpose": false,
+            "no_xpose": true,
             "no_fts": true,
-            "p3_aux_ins": [
-                {"name": "Cho Spd", "MIDI_CC": 9},
-                {"name": "Cho Dpt", "MIDI_CC": 12},
-                {"name": "Cho HPF", "MIDI_CC": 13},
-                {"name": "Cho Fbk", "MIDI_CC": 14},
-                {"name": "Cho Wdt", "MIDI_CC": 16},
-                {"name": "Dly Tim", "MIDI_CC": 21},
-                {"name": "Dly Png", "MIDI_CC": 22},
-                {"name": "Dly Wdt", "MIDI_CC": 23},
-                {"name": "Dly Fbk", "MIDI_CC": 24},
-                {"name": "Dly HPF", "MIDI_CC": 25},
-                {"name": "Dly LPF", "MIDI_CC": 26},
-                {"name": "Dly>Rev", "MIDI_CC": 27},
-                {"name": "Dly Mix", "MIDI_CC": 28},
-                {"name": "Rev Pre", "MIDI_CC": 29},
-                {"name": "Rev Dec", "MIDI_CC": 30},
-                {"name": "Rev Frq", "MIDI_CC": 31},
-                {"name": "Cho>Dly", "MIDI_CC": 70},
-                {"name": "Cho>Rev", "MIDI_CC": 71},
-                {"name": "Cho Mix", "MIDI_CC": 72},
-                {"name": "Rev Gn", "MIDI_CC": 89},
-                {"name": "Rev HPF", "MIDI_CC": 90},
-                {"name": "Rev LPF", "MIDI_CC": 91},
-                {"name": "Rev Mix", "MIDI_CC": 92},
-                {"name": "Cmp Thr", "MIDI_CC": 111},
-                {"name": "Cmp Att", "MIDI_CC": 112},
-                {"name": "Cmp Rel", "MIDI_CC": 113},
-                {"name": "Cmp Mkp", "MIDI_CC": 114},
-                {"name": "Cmp Rat", "MIDI_CC": 115},
-                {"name": "Cmp Src", "MIDI_CC": 116},
-                {"name": "Cmp Flt", "MIDI_CC": 117},
-                {"name": "Cmp Mix", "MIDI_CC": 118},
-                {"name": "Pat Vol", "MIDI_CC": 119}
-            ]
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                },
+                "slot_3": {
+                    "MIDI_CC": 9,
+                    "label": "Cho Spd"
+                },
+                "slot_4": {
+                    "MIDI_CC": 16,
+                    "label": "Cho Dpt"
+                },
+                "slot_5": {
+                    "MIDI_CC": 70,
+                    "label": "Cho HPF"
+                },
+                "slot_6": {
+                    "MIDI_CC": 71,
+                    "label": "Cho Wdt"
+                },
+                "slot_7": {
+                    "MIDI_CC": 12,
+                    "label": "Cho>Dly"
+                },
+                "slot_8": {
+                    "MIDI_CC": 13,
+                    "label": "Cho>Rev"
+                },
+                "slot_9": {
+                    "MIDI_CC": 14,
+                    "label": "Cho Mix"
+                },
+                "slot_10": {
+                    "MIDI_CC": 21,
+                    "label": "Dly Tim"
+                },
+                "slot_11": {
+                    "MIDI_CC": 22,
+                    "label": "Dly Png"
+                },
+                "slot_12": {
+                    "MIDI_CC": 23,
+                    "label": "Dly Wdt"
+                },
+                "slot_13": {
+                    "MIDI_CC": 24,
+                    "label": "Dly Fbk"
+                },
+                "slot_14": {
+                    "MIDI_CC": 25,
+                    "label": "Dly HPF"
+                },
+                "slot_15": {
+                    "MIDI_CC": 26,
+                    "label": "Dly LPF"
+                },
+                "slot_16": {
+                    "MIDI_CC": 27,
+                    "label": "Dly>Rev"
+                },
+                "slot_17": {
+                    "MIDI_CC": 28,
+                    "label": "Dly Mix"
+                },
+                "slot_18": {
+                    "MIDI_CC": 29,
+                    "label": "Rev Pre"
+                },
+                "slot_19": {
+                    "MIDI_CC": 30,
+                    "label": "Rev Dec"
+                },
+                "slot_20": {
+                    "MIDI_CC": 31,
+                    "label": "Rev Frq"
+                },
+                "slot_21": {
+                    "MIDI_CC": 89,
+                    "label": "Rev Gn"
+                },
+                "slot_22": {
+                    "MIDI_CC": 90,
+                    "label": "Rev HPF"
+                },
+                "slot_23": {
+                    "MIDI_CC": 91,
+                    "label": "Rev LPF"
+                },
+                "slot_24": {
+                    "MIDI_CC": 92,
+                    "label": "Rev Mix"
+                },
+                "slot_25": {
+                    "MIDI_CC": 78,
+                    "label": "BitRdux"
+                },
+                "slot_26": {
+                    "MIDI_CC": 79,
+                    "label": "SRR"
+                },
+                "slot_27": {
+                    "MIDI_CC": 80,
+                    "label": "SRR Rte"
+                },
+                "slot_28": {
+                    "MIDI_CC": 81,
+                    "label": "OvrDrv"
+                },
+                "slot_29": {
+                    "MIDI_CC": 82,
+                    "label": "OD Rte"
+                },
+                "slot_30": {
+                    "MIDI_CC": 29,
+                    "label": "Cho Snd"
+                },
+                "slot_31": {
+                    "MIDI_CC": 30,
+                    "label": "Dly Snd"
+                },
+                "slot_32": {
+                    "MIDI_CC": 31,
+                    "label": "Rev Snd"
+                }
+            },
+            "row_defs": {
+                "C 3": {
+                    "label": "DN2-FX",
+                    "always_show": true
+                }
+            }
         }
     }
 }

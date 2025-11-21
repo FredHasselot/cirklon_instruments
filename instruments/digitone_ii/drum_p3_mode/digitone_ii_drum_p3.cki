@@ -1,0 +1,239 @@
+{
+    "instrument_data": {
+        "DN2-DRM": {
+            "midi_port": 1,
+            "midi_chan": 1,
+            "default_note": "C 3",
+            "default_patt": "P3",
+            "poly_spread": "off",
+            "no_xpose": true,
+            "no_fts": true,
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                },
+                "slot_3": {
+                    "MIDI_CC": 3,
+                    "label": "Note"
+                },
+                "slot_4": {
+                    "MIDI_CC": 4,
+                    "label": "Velocty"
+                },
+                "slot_5": {
+                    "MIDI_CC": 5,
+                    "label": "TrigLen"
+                },
+                "slot_6": {
+                    "MIDI_CC": 40,
+                    "label": "Tune"
+                },
+                "slot_7": {
+                    "MIDI_CC": 41,
+                    "label": "SwpTime"
+                },
+                "slot_8": {
+                    "MIDI_CC": 42,
+                    "label": "SwpDpth"
+                },
+                "slot_9": {
+                    "MIDI_CC": 43,
+                    "label": "Algo"
+                },
+                "slot_10": {
+                    "MIDI_CC": 44,
+                    "label": "OpC Wav"
+                },
+                "slot_11": {
+                    "MIDI_CC": 45,
+                    "label": "OpABWav"
+                },
+                "slot_12": {
+                    "MIDI_CC": 46,
+                    "label": "Feedbck"
+                },
+                "slot_13": {
+                    "MIDI_CC": 47,
+                    "label": "WavFold"
+                },
+                "slot_14": {
+                    "MIDI_CC": 48,
+                    "label": "RatioA"
+                },
+                "slot_15": {
+                    "MIDI_CC": 49,
+                    "label": "DecayA"
+                },
+                "slot_16": {
+                    "MIDI_CC": 50,
+                    "label": "EndA"
+                },
+                "slot_17": {
+                    "MIDI_CC": 51,
+                    "label": "ModA"
+                },
+                "slot_18": {
+                    "MIDI_CC": 52,
+                    "label": "RatioB"
+                },
+                "slot_19": {
+                    "MIDI_CC": 53,
+                    "label": "DecayB"
+                },
+                "slot_20": {
+                    "MIDI_CC": 54,
+                    "label": "EndB"
+                },
+                "slot_21": {
+                    "MIDI_CC": 55,
+                    "label": "ModB"
+                },
+                "slot_22": {
+                    "MIDI_CC": 56,
+                    "label": "BdyHold"
+                },
+                "slot_23": {
+                    "MIDI_CC": 57,
+                    "label": "BdyDecy"
+                },
+                "slot_24": {
+                    "MIDI_CC": 58,
+                    "label": "OpCPhas"
+                },
+                "slot_25": {
+                    "MIDI_CC": 59,
+                    "label": "BdyLvl"
+                },
+                "slot_26": {
+                    "MIDI_CC": 62,
+                    "label": "NseRset"
+                },
+                "slot_27": {
+                    "MIDI_CC": 63,
+                    "label": "NseRing"
+                },
+                "slot_28": {
+                    "MIDI_CC": 70,
+                    "label": "NseHold"
+                },
+                "slot_29": {
+                    "MIDI_CC": 71,
+                    "label": "NseDecy"
+                },
+                "slot_30": {
+                    "MIDI_CC": 72,
+                    "label": "Transnt"
+                },
+                "slot_31": {
+                    "MIDI_CC": 73,
+                    "label": "TrnsLvl"
+                },
+                "slot_32": {
+                    "MIDI_CC": 74,
+                    "label": "NseBase"
+                },
+                "slot_33": {
+                    "MIDI_CC": 75,
+                    "label": "NseWdth"
+                },
+                "slot_34": {
+                    "MIDI_CC": 76,
+                    "label": "NseGrn"
+                },
+                "slot_35": {
+                    "MIDI_CC": 77,
+                    "label": "NseLvl"
+                },
+                "slot_36": {
+                    "MIDI_CC": 16,
+                    "label": "Flt Frq"
+                },
+                "slot_37": {
+                    "MIDI_CC": 17,
+                    "label": "Flt Res"
+                },
+                "slot_38": {
+                    "MIDI_CC": 18,
+                    "label": "Flt Typ"
+                },
+                "slot_39": {
+                    "MIDI_CC": 20,
+                    "label": "Flt Att"
+                },
+                "slot_40": {
+                    "MIDI_CC": 21,
+                    "label": "Flt Dec"
+                },
+                "slot_41": {
+                    "MIDI_CC": 22,
+                    "label": "Flt Sus"
+                },
+                "slot_42": {
+                    "MIDI_CC": 23,
+                    "label": "Flt Rel"
+                },
+                "slot_43": {
+                    "MIDI_CC": 24,
+                    "label": "Flt Dpt"
+                },
+                "slot_44": {
+                    "MIDI_CC": 84,
+                    "label": "Amp Att"
+                },
+                "slot_45": {
+                    "MIDI_CC": 85,
+                    "label": "Amp Hld"
+                },
+                "slot_46": {
+                    "MIDI_CC": 86,
+                    "label": "Amp Dec"
+                },
+                "slot_47": {
+                    "MIDI_CC": 87,
+                    "label": "Amp Sus"
+                },
+                "slot_48": {
+                    "MIDI_CC": 88,
+                    "label": "Amp Rel"
+                },
+                "slot_49": {
+                    "MIDI_CC": 89,
+                    "label": "Amp Pan"
+                },
+                "slot_50": {
+                    "MIDI_CC": 90,
+                    "label": "Amp Vol"
+                },
+                "slot_51": {
+                    "MIDI_CC": 29,
+                    "label": "Cho Snd"
+                },
+                "slot_52": {
+                    "MIDI_CC": 30,
+                    "label": "Dly Snd"
+                },
+                "slot_53": {
+                    "MIDI_CC": 31,
+                    "label": "Rev Snd"
+                },
+                "slot_54": {
+                    "MIDI_CC": 94,
+                    "label": "Trk Mut"
+                },
+                "slot_55": {
+                    "MIDI_CC": 95,
+                    "label": "Trk Lvl"
+                }
+            },
+            "row_defs": {
+                "C 3": {
+                    "label": "DN2DRM",
+                    "always_show": true
+                }
+            }
+        }
+    }
+}
