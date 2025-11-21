@@ -28,9 +28,8 @@ cirklon_instruments/
 │   ├── analog_heat_fx/           # Elektron Analog Heat +FX
 │   ├── analog_rytm_mk2/          # Elektron Analog Rytm MKII
 │   ├── digitone_ii/              # Elektron Digitone II
-│   │   ├── quad_ck_mode/         # 4 CK patterns (melodic)
-│   │   ├── drum_ck_mode/         # Drum kit CK pattern
-│   │   ├── multi_p3_mode/        # Full P3 control
+│   │   ├── multi_p3_mode/        # Synth tracks P3 (melodic)
+│   │   ├── drum_p3_mode/         # FM Drum P3 (percussion)
 │   │   └── fx_p3_mode/           # Global FX P3
 │   ├── gr_mega/                  # Tasty Chips GR-Mega
 │   └── machinedrum_sps1_mk2+/    # Elektron Machinedrum definitions
@@ -88,26 +87,26 @@ Two modes to adapt to your workflow:
 ### 🎹 Elektron Digitone II
 **Location:** `instruments/digitone_ii/`
 
-Four modes for different workflows:
+Three modes for different workflows:
 
-1. **Quad CK Mode** - 4 synth tracks (melodic sequencing)
-   - 64 parameters per track: Synth pages 1-4, Filter, Amp
-   - Perfect for polyphonic FM synthesis
-
-2. **Drum CK Mode** - Pseudo drum kit (16 sounds)
-   - Single CK pattern with 16 aux notes
-   - FM percussion on one track
-
-3. **Multi P3 Mode** - Full parameter control (sound design)
+1. **Multi P3 Mode** - 4 synth tracks (sound design)
    - All CC parameters including LFOs
    - 85+ parameters per track
+   - Ideal for pads, leads, bass
 
-4. **FX P3 Mode** - Global effects automation
+2. **Drum P3 Mode** - 8 FM drum tracks
+   - Complete FM drum synthesis control
+   - One instrument, 8 channels (1-8)
+   - 55 parameters per track
+
+3. **FX P3 Mode** - Global effects automation
    - Chorus, Delay, Reverb, Compressor
    - 32 effect parameters
 
+⚠️ **Limitation**: Le Digitone II ne supporte pas le mode drum sur un seul canal MIDI (contrairement au Machinedrum ou Rytm). Chaque track nécessite son propre canal.
+
 📚 **[Full Digitone II Documentation](doc/digitone_ii/)**
-- MIDI implementation, Multi Map setup, FM synthesis workflows, and more
+- MIDI implementation, FM synthesis workflows, and more
 
 ### 🌊 Tasty Chips GR-Mega
 **Location:** `instruments/gr_mega/`
