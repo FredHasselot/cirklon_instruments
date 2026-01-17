@@ -3,7 +3,7 @@
         "2BOXDRM": {
             "midi_port": 4,
             "midi_chan": 10,
-            "default_note": "C 3",
+            "default_note": "C 2",
             "default_patt": "CK",
             "poly_spread": "off",
             "no_xpose": true,
@@ -33,104 +33,108 @@
                 }
             },
             "row_defs": {
-                "B 2": {
-                    "label": "BD2",
-                    "always_show": false
-                },
-                "C 3": {
-                    "label": "BD1",
+                "C 2": {
+                    "label": "Kick",
                     "always_show": true
                 },
-                "C#3": {
-                    "label": "Stk",
+                "F 2": {
+                    "label": "Snr",
+                    "always_show": true
+                },
+                "F#2": {
+                    "label": "SRim",
+                    "always_show": false
+                },
+                "A 2": {
+                    "label": "HHBw",
+                    "always_show": true
+                },
+                "A#2": {
+                    "label": "HHEd",
+                    "always_show": false
+                },
+                "B 2": {
+                    "label": "HHFt",
                     "always_show": false
                 },
                 "D 3": {
-                    "label": "SD1",
+                    "label": "Tom1",
                     "always_show": true
                 },
                 "D#3": {
-                    "label": "Clp",
-                    "always_show": false
-                },
-                "E 3": {
-                    "label": "SD2",
+                    "label": "T1Rm",
                     "always_show": false
                 },
                 "F 3": {
-                    "label": "LT2",
-                    "always_show": false
-                },
-                "F#3": {
-                    "label": "CHH",
+                    "label": "Tom2",
                     "always_show": true
                 },
-                "G 3": {
-                    "label": "LT1",
-                    "always_show": false
-                },
-                "G#3": {
-                    "label": "PHH",
+                "F#3": {
+                    "label": "T2Rm",
                     "always_show": false
                 },
                 "A 3": {
-                    "label": "MT2",
-                    "always_show": false
-                },
-                "A#3": {
-                    "label": "OHH",
+                    "label": "Tom3",
                     "always_show": true
                 },
-                "B 3": {
-                    "label": "MT1",
+                "A#3": {
+                    "label": "T3Rm",
                     "always_show": false
                 },
                 "C 4": {
-                    "label": "HT2",
-                    "always_show": false
+                    "label": "Tom4",
+                    "always_show": true
                 },
                 "C#4": {
-                    "label": "CR1",
-                    "always_show": true
-                },
-                "D 4": {
-                    "label": "HT1",
+                    "label": "T4Rm",
                     "always_show": false
-                },
-                "D#4": {
-                    "label": "RD1",
-                    "always_show": true
                 },
                 "E 4": {
-                    "label": "Chi",
-                    "always_show": false
+                    "label": "C1Bl",
+                    "always_show": true
                 },
                 "F 4": {
-                    "label": "RBl",
+                    "label": "C1Bw",
                     "always_show": false
                 },
                 "F#4": {
-                    "label": "Tmb",
+                    "label": "C1Ed",
                     "always_show": false
                 },
                 "G 4": {
-                    "label": "Spl",
-                    "always_show": false
-                },
-                "G#4": {
-                    "label": "Cwb",
-                    "always_show": false
-                },
-                "A 4": {
-                    "label": "CR2",
-                    "always_show": false
-                },
-                "A#4": {
-                    "label": "VbS",
+                    "label": "C1Ch",
                     "always_show": false
                 },
                 "B 4": {
-                    "label": "RD2",
+                    "label": "C2Bl",
+                    "always_show": true
+                },
+                "C 5": {
+                    "label": "C2Bw",
+                    "always_show": false
+                },
+                "C#5": {
+                    "label": "C2Ed",
+                    "always_show": false
+                },
+                "D 5": {
+                    "label": "C2Ch",
+                    "always_show": false
+                },
+                "E 5": {
+                    "label": "C3Bl",
+                    "always_show": true
+                },
+                "F 5": {
+                    "label": "C3Bw",
+                    "always_show": false
+                },
+                "F#5": {
+                    "label": "C3Ed",
+                    "always_show": false
+                },
+                "G 5": {
+                    "label": "C3Ch",
                     "always_show": false
                 }
             }
