@@ -3,7 +3,7 @@
         "2BOXDRM": {
             "midi_port": 4,
             "midi_chan": 10,
-            "default_note": "C 2",
+            "default_note": "C 3",
             "default_patt": "CK",
             "poly_spread": "off",
             "no_xpose": true,
@@ -33,107 +33,107 @@
                 }
             },
             "row_defs": {
-                "C 2": {
+                "C 3": {
                     "label": "Kick",
                     "always_show": true
                 },
-                "F 2": {
+                "F 3": {
                     "label": "Snr",
                     "always_show": true
                 },
-                "F#2": {
+                "F#3": {
                     "label": "SRim",
                     "always_show": false
                 },
-                "A 2": {
+                "A 3": {
                     "label": "HHBw",
                     "always_show": true
                 },
-                "A#2": {
+                "A#3": {
                     "label": "HHEd",
                     "always_show": false
                 },
-                "B 2": {
+                "B 3": {
                     "label": "HHFt",
                     "always_show": false
                 },
-                "D 3": {
+                "D 4": {
                     "label": "Tom1",
                     "always_show": true
                 },
-                "D#3": {
+                "D#4": {
                     "label": "T1Rm",
                     "always_show": false
                 },
-                "F 3": {
+                "F 4": {
                     "label": "Tom2",
                     "always_show": true
                 },
-                "F#3": {
+                "F#4": {
                     "label": "T2Rm",
                     "always_show": false
                 },
-                "A 3": {
+                "A 4": {
                     "label": "Tom3",
                     "always_show": true
                 },
-                "A#3": {
+                "A#4": {
                     "label": "T3Rm",
                     "always_show": false
                 },
-                "C 4": {
+                "C 5": {
                     "label": "Tom4",
                     "always_show": true
                 },
-                "C#4": {
+                "C#5": {
                     "label": "T4Rm",
                     "always_show": false
                 },
-                "E 4": {
+                "E 5": {
                     "label": "C1Bl",
                     "always_show": true
                 },
-                "F 4": {
+                "F 5": {
                     "label": "C1Bw",
                     "always_show": false
                 },
-                "F#4": {
+                "F#5": {
                     "label": "C1Ed",
                     "always_show": false
                 },
-                "G 4": {
+                "G 5": {
                     "label": "C1Ch",
                     "always_show": false
                 },
-                "B 4": {
+                "B 5": {
                     "label": "C2Bl",
                     "always_show": true
                 },
-                "C 5": {
+                "C 6": {
                     "label": "C2Bw",
                     "always_show": false
                 },
-                "C#5": {
+                "C#6": {
                     "label": "C2Ed",
                     "always_show": false
                 },
-                "D 5": {
+                "D 6": {
                     "label": "C2Ch",
                     "always_show": false
                 },
-                "E 5": {
+                "E 6": {
                     "label": "C3Bl",
                     "always_show": true
                 },
-                "F 5": {
+                "F 6": {
                     "label": "C3Bw",
                     "always_show": false
                 },
-                "F#5": {
+                "F#6": {
                     "label": "C3Ed",
                     "always_show": false
                 },
-                "G 5": {
+                "G 6": {
                     "label": "C3Ch",
                     "always_show": false
                 }
