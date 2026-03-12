@@ -25,6 +25,7 @@ Collection of instrument definition files (.cki) for the Sequentix Cirklon hardw
 cirklon_instruments/
 ├── doc/                           # Documentation
 ├── instruments/                   # Instrument definitions
+│   ├── 2box_drumit/              # 2Box DrumIt
 │   ├── analog_heat_fx/           # Elektron Analog Heat +FX
 │   ├── analog_rytm_mk2/          # Elektron Analog Rytm MKII
 │   ├── digitone_ii/              # Elektron Digitone II
@@ -32,6 +33,9 @@ cirklon_instruments/
 │   │   └── fx_p3_mode/           # Global FX P3
 │   ├── gr_mega/                  # Tasty Chips GR-Mega
 │   ├── jomox_alpha_base_mk2/     # Jomox Alpha Base MK2
+│   │   ├── alpha_base_mk2.cki   # CK pattern (all instruments)
+│   │   ├── AB-KD/MB/CHH/...     # 11 P3 instruments
+│   │   └── AB-FX.cki            # FX global P3
 │   └── machinedrum_sps1_mk2+/    # Elektron Machinedrum definitions
 │       ├── hybrid_mode/          # Hybrid approach (1 CK + 4 P3)
 │       ├── pure_p3_mode/         # 16 individual P3 patterns
@@ -152,8 +156,22 @@ Two modes for different workflows:
 3. **FX Global P3** - Effects Channel (CH16)
    - **AB-FX**: Reverb (15 CCs) + Delay (15 CCs) + Pan (10 CCs) = 40 parameters
 
-### 🎹 Additional Instruments
-*More instrument definitions coming soon...*
+📚 **[Full Jomox Alpha Base MK2 Documentation](doc/jomox_alpha_base_mk2/)**
+- MIDI implementation, FM matrix, instrument details, and more
+
+### 🥁 2Box DrumIt
+**Location:** `instruments/2box_drumit/`
+
+CK pattern for electronic drum module:
+
+- **2box_drumit.cki** - Complete drum kit (Channel 10, GM standard)
+  - 24 row definitions across 10 instruments
+  - Multiple articulations: Bow, Edge, Bell, Rim, Choke
+  - Hi-Hat pedal control (CC 1)
+  - 4 track values: HH Pedal, Volume, Pan, Expression
+
+📚 **[Full 2Box DrumIt Documentation](doc/2box_drumit/)**
+- Key mapping, articulations, and setup guide
 
 ## Installation
 
@@ -193,6 +211,8 @@ Created for [Patrick Pattern](https://soundcloud.com/patrick-packard) production
 - [Analog Rytm MKII User Manual (PDF)](https://elektron-software.s3.eu-west-1.amazonaws.com/firmware/Analog+Rytm+MKII+User+Manual_ENG_OS1.70_231122.pdf)
 - [Digitone II User Manual](https://www.elektron.se/support-downloads/) - Elektron Support
 - [GR-Mega Product Page](https://tastychips.nl/product/gr-mega/) - Tasty Chips Electronics
+- [Jomox Alpha Base MK2](https://www.jomox.de/alpha-base/) - Jomox Official
+- [2Box Drums](https://www.2box-drums.com/) - 2Box Official
 
 ### Resources
 - [Sequentix Official Website](https://www.sequentix.com)

@@ -1,11 +1,19 @@
 # Documentation Index
 
-## Available Documentation
+## Instrument Documentation
 
-### Setup Guides
+- [Machinedrum SPS-1 MK2+](machinedrum/) - Firmware guides, MIDI setup, preset sharing
+- [Analog Heat +FX](analog_heat_fx/) - MIDI implementation, 14-bit controls, modulation routing
+- [Analog Rytm MKII](analog_rytm_mk2/) - CK/P3 modes, MIDI CC reference, workflow examples
+- [Digitone II](digitone_ii/) - FM synthesis, synth/FX P3 modes
+- [GR-Mega](gr_mega/) - Granular synthesis, MIDI CC/NRPN reference, multi-layer
+- [Jomox Alpha Base MK2](jomox_alpha_base_mk2/) - 11 instruments, FM matrix, FX routing
+- [2Box DrumIt](2box_drumit/) - Key mapping, articulations, setup guide
+
+## Technical Documentation
+
 - [Machinedrum MIDI Setup](machinedrum_midi_setup.md) - Complete guide for configuring Machinedrum with Cirklon
-
-### Technical Documentation
+- [Machinedrum MIDI Mapping](machinedrum_midi_mapping.md) - MIDI CC mapping reference
 - [Track Values Limitations](track_values_limitations.md) - Understanding P3 pattern automation limits and capabilities
 
 ## Contributing to Documentation
@@ -17,9 +25,7 @@ We encourage community contributions to improve and expand this documentation!
 #### Option 1: GitHub Issues (Recommended for discussions)
 1. Go to our [GitHub Issues](https://github.com/FredHasselot/cirklon_instruments/issues)
 2. Open a new issue with label "documentation"
-3. **Reference specific documentation** by linking to files:
-   - Example: `[Track Values doc](../doc/track_values_limitations.md)`
-   - Or reference specific sections with line numbers
+3. **Reference specific documentation** by linking to files
 4. Share your knowledge, corrections, or questions
 5. Discuss with other Cirklon users
 
@@ -29,13 +35,10 @@ We encourage community contributions to improve and expand this documentation!
 3. Submit a pull request with your improvements
 4. Include explanation of your changes
 
-#### Option 3: Wiki (Coming soon)
-Consider enabling GitHub Wiki or Discussions for broader documentation contributions
-
 ### What We Need Help With
 
 - **Track Values Behavior**: Confirm automation limitations and real-time recording capabilities
-- **Workflow Examples**: Share your production techniques with Cirklon + Machinedrum
+- **Workflow Examples**: Share your production techniques with Cirklon + drum machines/synths
 - **Additional Instruments**: Document setup for other synthesizers/drum machines
 - **Troubleshooting**: Common issues and solutions
 - **Performance Tips**: Live performance setups and strategies
