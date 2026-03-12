@@ -1,0 +1,127 @@
+{
+    "instrument_data": {
+        "AB-MB": {
+            "midi_port": 1,
+            "midi_chan": 2,
+            "default_note": "C 1",
+            "default_patt": "P3",
+            "poly_spread": "off",
+            "no_xpose": true,
+            "no_fts": true,
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                },
+                "slot_3": {
+                    "MIDI_CC": 7,
+                    "label": "Volume"
+                },
+                "slot_4": {
+                    "MIDI_CC": 90,
+                    "label": "E1 Att"
+                },
+                "slot_5": {
+                    "MIDI_CC": 91,
+                    "label": "E1 Dec"
+                },
+                "slot_6": {
+                    "MIDI_CC": 92,
+                    "label": "E1 Amt"
+                },
+                "slot_7": {
+                    "MIDI_CC": 93,
+                    "label": "Damp 1"
+                },
+                "slot_8": {
+                    "MIDI_CC": 94,
+                    "label": "E2 Att"
+                },
+                "slot_9": {
+                    "MIDI_CC": 95,
+                    "label": "E2 Dec"
+                },
+                "slot_10": {
+                    "MIDI_CC": 96,
+                    "label": "E2 Amt"
+                },
+                "slot_11": {
+                    "MIDI_CC": 97,
+                    "label": "Damp 2"
+                },
+                "slot_12": {
+                    "MIDI_CC": 101,
+                    "label": "Cpl1>2"
+                },
+                "slot_13": {
+                    "MIDI_CC": 103,
+                    "label": "Cpl2>1"
+                },
+                "slot_14": {
+                    "MIDI_CC": 108,
+                    "label": "Pitch1"
+                },
+                "slot_15": {
+                    "MIDI_CC": 111,
+                    "label": "Pitch2"
+                },
+                "slot_16": {
+                    "MIDI_CC": 107,
+                    "label": "MetNs1"
+                },
+                "slot_17": {
+                    "MIDI_CC": 116,
+                    "label": "MetNs2"
+                },
+                "slot_18": {
+                    "MIDI_CC": 109,
+                    "label": "NoisLv"
+                },
+                "slot_19": {
+                    "MIDI_CC": 110,
+                    "label": "Decay"
+                },
+                "slot_20": {
+                    "MIDI_CC": 114,
+                    "label": "Gate"
+                },
+                "slot_21": {
+                    "MIDI_CC": 119,
+                    "label": "LF1Wav"
+                },
+                "slot_22": {
+                    "MIDI_CC": 121,
+                    "label": "LF1Int"
+                },
+                "slot_23": {
+                    "MIDI_CC": 122,
+                    "label": "LF1Rat"
+                },
+                "slot_24": {
+                    "MIDI_CC": 123,
+                    "label": "LF2Wav"
+                },
+                "slot_25": {
+                    "MIDI_CC": 124,
+                    "label": "LF2Int"
+                },
+                "slot_26": {
+                    "MIDI_CC": 125,
+                    "label": "LF2Rat"
+                },
+                "slot_27": {
+                    "MIDI_CC": 64,
+                    "label": "SelInst"
+                }
+            },
+            "row_defs": {
+                "C 1": {
+                    "label": "MB ",
+                    "always_show": true
+                }
+            }
+        }
+    }
+}

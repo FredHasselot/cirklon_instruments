@@ -1,0 +1,165 @@
+{
+    "instrument_data": {
+        "AB-FM": {
+            "midi_port": 1,
+            "midi_chan": 11,
+            "default_note": "C 3",
+            "default_patt": "P3",
+            "poly_spread": "off",
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                },
+                "slot_3": {
+                    "MIDI_CC": 7,
+                    "label": "Volume"
+                },
+                "slot_4": {
+                    "MIDI_CC": 100,
+                    "label": "OP1Tun"
+                },
+                "slot_5": {
+                    "MIDI_CC": 101,
+                    "label": "OP2Tun"
+                },
+                "slot_6": {
+                    "MIDI_CC": 102,
+                    "label": "OP3Tun"
+                },
+                "slot_7": {
+                    "MIDI_CC": 103,
+                    "label": "OP4Tun"
+                },
+                "slot_8": {
+                    "MIDI_CC": 14,
+                    "label": "OP1EAt"
+                },
+                "slot_9": {
+                    "MIDI_CC": 15,
+                    "label": "OP2EAt"
+                },
+                "slot_10": {
+                    "MIDI_CC": 16,
+                    "label": "OP3EAt"
+                },
+                "slot_11": {
+                    "MIDI_CC": 17,
+                    "label": "OP4EAt"
+                },
+                "slot_12": {
+                    "MIDI_CC": 18,
+                    "label": "OP1EDc"
+                },
+                "slot_13": {
+                    "MIDI_CC": 19,
+                    "label": "OP2EDc"
+                },
+                "slot_14": {
+                    "MIDI_CC": 20,
+                    "label": "OP3EDc"
+                },
+                "slot_15": {
+                    "MIDI_CC": 21,
+                    "label": "OP4EDc"
+                },
+                "slot_16": {
+                    "MIDI_CC": 22,
+                    "label": "OP1VCA"
+                },
+                "slot_17": {
+                    "MIDI_CC": 23,
+                    "label": "OP2VCA"
+                },
+                "slot_18": {
+                    "MIDI_CC": 24,
+                    "label": "OP3VCA"
+                },
+                "slot_19": {
+                    "MIDI_CC": 25,
+                    "label": "OP4VCA"
+                },
+                "slot_20": {
+                    "MIDI_CC": 26,
+                    "label": "OP1EFM"
+                },
+                "slot_21": {
+                    "MIDI_CC": 27,
+                    "label": "OP2EFM"
+                },
+                "slot_22": {
+                    "MIDI_CC": 28,
+                    "label": "OP3EFM"
+                },
+                "slot_23": {
+                    "MIDI_CC": 29,
+                    "label": "OP4EFM"
+                },
+                "slot_24": {
+                    "MIDI_CC": 104,
+                    "label": "FM 1>2"
+                },
+                "slot_25": {
+                    "MIDI_CC": 105,
+                    "label": "FM 1>3"
+                },
+                "slot_26": {
+                    "MIDI_CC": 106,
+                    "label": "FM 1>4"
+                },
+                "slot_27": {
+                    "MIDI_CC": 107,
+                    "label": "FM 2>1"
+                },
+                "slot_28": {
+                    "MIDI_CC": 108,
+                    "label": "FM 2>3"
+                },
+                "slot_29": {
+                    "MIDI_CC": 109,
+                    "label": "FM 2>4"
+                },
+                "slot_30": {
+                    "MIDI_CC": 110,
+                    "label": "FM 3>1"
+                },
+                "slot_31": {
+                    "MIDI_CC": 111,
+                    "label": "FM 3>2"
+                },
+                "slot_32": {
+                    "MIDI_CC": 112,
+                    "label": "FM 3>4"
+                },
+                "slot_33": {
+                    "MIDI_CC": 113,
+                    "label": "FM 4>1"
+                },
+                "slot_34": {
+                    "MIDI_CC": 114,
+                    "label": "FM 4>2"
+                },
+                "slot_35": {
+                    "MIDI_CC": 115,
+                    "label": "FM 4>3"
+                },
+                "slot_36": {
+                    "MIDI_CC": 30,
+                    "label": "Voices"
+                },
+                "slot_37": {
+                    "MIDI_CC": 64,
+                    "label": "SelInst"
+                }
+            },
+            "row_defs": {
+                "C 3": {
+                    "label": "FM ",
+                    "always_show": true
+                }
+            }
+        }
+    }
+}

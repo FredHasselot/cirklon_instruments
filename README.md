@@ -31,6 +31,7 @@ cirklon_instruments/
 │   │   ├── multi_p3_mode/        # Synth tracks P3 (melodic)
 │   │   └── fx_p3_mode/           # Global FX P3
 │   ├── gr_mega/                  # Tasty Chips GR-Mega
+│   ├── jomox_alpha_base_mk2/     # Jomox Alpha Base MK2
 │   └── machinedrum_sps1_mk2+/    # Elektron Machinedrum definitions
 │       ├── hybrid_mode/          # Hybrid approach (1 CK + 4 P3)
 │       ├── pure_p3_mode/         # 16 individual P3 patterns
@@ -121,6 +122,35 @@ P3 polyphonic pattern for granular synthesis:
 
 📚 **[Full GR-Mega Documentation](doc/gr_mega/)**
 - MIDI CC reference, NRPN implementation, granular workflows, and more
+
+### 🥁 Jomox Alpha Base MK2
+**Location:** `instruments/jomox_alpha_base_mk2/`
+
+Two modes for different workflows:
+
+1. **CK Pattern Mode** - Global Channel (CH16)
+   - All 11 instruments on single channel via key mapping
+   - 4 pitch variants per instrument (+0, +6, +12, +18 semitones)
+   - 44 row definitions total
+   - Ideal for live drumming
+
+2. **P3 Multi-Channel Mode** - Individual Channels (CH1-CH11)
+   - 11 independent P3 instruments, one per MIDI channel
+   - Full CC automation per instrument:
+     - **AB-KD** (CH1): Kick Drum - 19 CCs (Tune, Pitch, Decay, Harmonics, Pulse, Noise, EQ, Compression, LFO)
+     - **AB-MB** (CH2): MBrane/Snare - 25 CCs (Dual membrane, Coupling, 2 LFOs)
+     - **AB-CHH** (CH3): Closed HH - 28 CCs (Sample engine, Filter, VCA ADSR, LFO)
+     - **AB-OHH** (CH4): Open HH - 28 CCs
+     - **AB-CLP** (CH5): Clap - 27 CCs
+     - **AB-RIM** (CH6): Rim Shot - 27 CCs
+     - **AB-CRH** (CH7): Crash - 27 CCs
+     - **AB-RID** (CH8): Ride - 27 CCs
+     - **AB-X1** (CH9): X1 Sample - 27 CCs
+     - **AB-X2** (CH10): X2 Sample - 27 CCs
+     - **AB-FM** (CH11): FM Synth - 35 CCs (4 operators, full FM matrix, polyphonic)
+
+3. **FX Global P3** - Effects Channel (CH16)
+   - **AB-FX**: Reverb (15 CCs) + Delay (15 CCs) + Pan (10 CCs) = 40 parameters
 
 ### 🎹 Additional Instruments
 *More instrument definitions coming soon...*

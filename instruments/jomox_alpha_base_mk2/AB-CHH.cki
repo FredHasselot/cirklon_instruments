@@ -1,0 +1,139 @@
+{
+    "instrument_data": {
+        "AB-CHH": {
+            "midi_port": 1,
+            "midi_chan": 3,
+            "default_note": "C 1",
+            "default_patt": "P3",
+            "poly_spread": "off",
+            "no_xpose": true,
+            "no_fts": true,
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                },
+                "slot_3": {
+                    "MIDI_CC": 7,
+                    "label": "Volume"
+                },
+                "slot_4": {
+                    "MIDI_CC": 100,
+                    "label": "SmpTun"
+                },
+                "slot_5": {
+                    "MIDI_CC": 99,
+                    "label": "SmpCnt"
+                },
+                "slot_6": {
+                    "MIDI_CC": 101,
+                    "label": "SmpStr"
+                },
+                "slot_7": {
+                    "MIDI_CC": 102,
+                    "label": "SmpStp"
+                },
+                "slot_8": {
+                    "MIDI_CC": 103,
+                    "label": "SmpSel"
+                },
+                "slot_9": {
+                    "MIDI_CC": 97,
+                    "label": "SmpLop"
+                },
+                "slot_10": {
+                    "MIDI_CC": 104,
+                    "label": "VCAAtk"
+                },
+                "slot_11": {
+                    "MIDI_CC": 106,
+                    "label": "VCADec"
+                },
+                "slot_12": {
+                    "MIDI_CC": 108,
+                    "label": "VCASus"
+                },
+                "slot_13": {
+                    "MIDI_CC": 110,
+                    "label": "VCARel"
+                },
+                "slot_14": {
+                    "MIDI_CC": 105,
+                    "label": "FltAtk"
+                },
+                "slot_15": {
+                    "MIDI_CC": 107,
+                    "label": "FltDec"
+                },
+                "slot_16": {
+                    "MIDI_CC": 109,
+                    "label": "FltSus"
+                },
+                "slot_17": {
+                    "MIDI_CC": 111,
+                    "label": "FltRel"
+                },
+                "slot_18": {
+                    "MIDI_CC": 112,
+                    "label": "FltCut"
+                },
+                "slot_19": {
+                    "MIDI_CC": 113,
+                    "label": "FltRes"
+                },
+                "slot_20": {
+                    "MIDI_CC": 114,
+                    "label": "FltHP"
+                },
+                "slot_21": {
+                    "MIDI_CC": 115,
+                    "label": "FltEnv"
+                },
+                "slot_22": {
+                    "MIDI_CC": 116,
+                    "label": "FltMod"
+                },
+                "slot_23": {
+                    "MIDI_CC": 94,
+                    "label": "MetNoi"
+                },
+                "slot_24": {
+                    "MIDI_CC": 119,
+                    "label": "LFOWav"
+                },
+                "slot_25": {
+                    "MIDI_CC": 122,
+                    "label": "LFORat"
+                },
+                "slot_26": {
+                    "MIDI_CC": 121,
+                    "label": "LFOTun"
+                },
+                "slot_27": {
+                    "MIDI_CC": 124,
+                    "label": "LFOVCA"
+                },
+                "slot_28": {
+                    "MIDI_CC": 125,
+                    "label": "LFOFlt"
+                },
+                "slot_29": {
+                    "MIDI_CC": 96,
+                    "label": "LFOSnc"
+                },
+                "slot_30": {
+                    "MIDI_CC": 64,
+                    "label": "SelInst"
+                }
+            },
+            "row_defs": {
+                "C 1": {
+                    "label": "CHH",
+                    "always_show": true
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "instrument_data": {
+        "AB-KD": {
+            "midi_port": 1,
+            "midi_chan": 1,
+            "default_note": "C 1",
+            "default_patt": "P3",
+            "poly_spread": "off",
+            "no_xpose": true,
+            "no_fts": true,
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                },
+                "slot_3": {
+                    "MIDI_CC": 7,
+                    "label": "Volume"
+                },
+                "slot_4": {
+                    "MIDI_CC": 100,
+                    "label": "Tune"
+                },
+                "slot_5": {
+                    "MIDI_CC": 101,
+                    "label": "Pitch"
+                },
+                "slot_6": {
+                    "MIDI_CC": 102,
+                    "label": "Decay"
+                },
+                "slot_7": {
+                    "MIDI_CC": 103,
+                    "label": "Harmncs"
+                },
+                "slot_8": {
+                    "MIDI_CC": 104,
+                    "label": "Pulse"
+                },
+                "slot_9": {
+                    "MIDI_CC": 105,
+                    "label": "Noise"
+                },
+                "slot_10": {
+                    "MIDI_CC": 106,
+                    "label": "Attack"
+                },
+                "slot_11": {
+                    "MIDI_CC": 107,
+                    "label": "EQ"
+                },
+                "slot_12": {
+                    "MIDI_CC": 113,
+                    "label": "Comp"
+                },
+                "slot_13": {
+                    "MIDI_CC": 114,
+                    "label": "Gate"
+                },
+                "slot_14": {
+                    "MIDI_CC": 115,
+                    "label": "MetNois"
+                },
+                "slot_15": {
+                    "MIDI_CC": 116,
+                    "label": "EnvAmt"
+                },
+                "slot_16": {
+                    "MIDI_CC": 90,
+                    "label": "EnvAtt"
+                },
+                "slot_17": {
+                    "MIDI_CC": 91,
+                    "label": "EnvDec"
+                },
+                "slot_18": {
+                    "MIDI_CC": 119,
+                    "label": "LFOWav"
+                },
+                "slot_19": {
+                    "MIDI_CC": 121,
+                    "label": "LFOInt"
+                },
+                "slot_20": {
+                    "MIDI_CC": 122,
+                    "label": "LFORat"
+                },
+                "slot_21": {
+                    "MIDI_CC": 64,
+                    "label": "SelInst"
+                }
+            },
+            "row_defs": {
+                "C 1": {
+                    "label": "KD ",
+                    "always_show": true
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,191 @@
+{
+    "instrument_data": {
+        "AB-MK2": {
+            "midi_port": 1,
+            "midi_chan": 16,
+            "default_note": "C 1",
+            "default_patt": "CK",
+            "poly_spread": "off",
+            "no_xpose": true,
+            "no_fts": true,
+            "row_defs": {
+                "C 1": {
+                    "label": "KD ",
+                    "always_show": true
+                },
+                "C#1": {
+                    "label": "KD+6",
+                    "always_show": false
+                },
+                "D 1": {
+                    "label": "KD12",
+                    "always_show": false
+                },
+                "D#1": {
+                    "label": "KD18",
+                    "always_show": false
+                },
+                "E 1": {
+                    "label": "MB ",
+                    "always_show": true
+                },
+                "F 1": {
+                    "label": "MB+6",
+                    "always_show": false
+                },
+                "F#1": {
+                    "label": "MB12",
+                    "always_show": false
+                },
+                "G 1": {
+                    "label": "MB18",
+                    "always_show": false
+                },
+                "G#1": {
+                    "label": "CHH",
+                    "always_show": true
+                },
+                "A 1": {
+                    "label": "CH+6",
+                    "always_show": false
+                },
+                "A#1": {
+                    "label": "CH12",
+                    "always_show": false
+                },
+                "B 1": {
+                    "label": "CH18",
+                    "always_show": false
+                },
+                "C 2": {
+                    "label": "OHH",
+                    "always_show": true
+                },
+                "C#2": {
+                    "label": "OH+6",
+                    "always_show": false
+                },
+                "D 2": {
+                    "label": "OH12",
+                    "always_show": false
+                },
+                "D#2": {
+                    "label": "OH18",
+                    "always_show": false
+                },
+                "E 2": {
+                    "label": "CLP",
+                    "always_show": true
+                },
+                "F 2": {
+                    "label": "CL+6",
+                    "always_show": false
+                },
+                "F#2": {
+                    "label": "CL12",
+                    "always_show": false
+                },
+                "G 2": {
+                    "label": "CL18",
+                    "always_show": false
+                },
+                "G#2": {
+                    "label": "RIM",
+                    "always_show": true
+                },
+                "A 2": {
+                    "label": "RM+6",
+                    "always_show": false
+                },
+                "A#2": {
+                    "label": "RM12",
+                    "always_show": false
+                },
+                "B 2": {
+                    "label": "RM18",
+                    "always_show": false
+                },
+                "C 3": {
+                    "label": "CRH",
+                    "always_show": true
+                },
+                "C#3": {
+                    "label": "CR+6",
+                    "always_show": false
+                },
+                "D 3": {
+                    "label": "CR12",
+                    "always_show": false
+                },
+                "D#3": {
+                    "label": "CR18",
+                    "always_show": false
+                },
+                "E 3": {
+                    "label": "RID",
+                    "always_show": true
+                },
+                "F 3": {
+                    "label": "RD+6",
+                    "always_show": false
+                },
+                "F#3": {
+                    "label": "RD12",
+                    "always_show": false
+                },
+                "G 3": {
+                    "label": "RD18",
+                    "always_show": false
+                },
+                "G#3": {
+                    "label": "X1 ",
+                    "always_show": true
+                },
+                "A 3": {
+                    "label": "X1+6",
+                    "always_show": false
+                },
+                "A#3": {
+                    "label": "X112",
+                    "always_show": false
+                },
+                "B 3": {
+                    "label": "X118",
+                    "always_show": false
+                },
+                "C 4": {
+                    "label": "X2 ",
+                    "always_show": true
+                },
+                "C#4": {
+                    "label": "X2+6",
+                    "always_show": false
+                },
+                "D 4": {
+                    "label": "X212",
+                    "always_show": false
+                },
+                "D#4": {
+                    "label": "X218",
+                    "always_show": false
+                },
+                "E 4": {
+                    "label": "FM ",
+                    "always_show": true
+                },
+                "F 4": {
+                    "label": "FM+6",
+                    "always_show": false
+                },
+                "F#4": {
+                    "label": "FM12",
+                    "always_show": false
+                },
+                "G 4": {
+                    "label": "FM18",
+                    "always_show": false
+                }
+            }
+        }
+    }
+}
