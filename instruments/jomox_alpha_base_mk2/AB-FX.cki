@@ -3,7 +3,7 @@
         "AB-FX": {
             "midi_port": 1,
             "midi_chan": 16,
-            "default_note": "C 1",
+            "default_note": "C 3",
             "default_patt": "P3",
             "poly_spread": "off",
             "no_xpose": true,
@@ -177,7 +177,7 @@
                 }
             },
             "row_defs": {
-                "C 1": {
+                "C 3": {
                     "label": "FX ",
                     "always_show": true
                 }

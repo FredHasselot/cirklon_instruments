@@ -3,7 +3,7 @@
         "AB-CLP": {
             "midi_port": 1,
             "midi_chan": 5,
-            "default_note": "C 1",
+            "default_note": "C 3",
             "default_patt": "P3",
             "poly_spread": "off",
             "no_xpose": true,
@@ -125,7 +125,7 @@
                 }
             },
             "row_defs": {
-                "C 1": {
+                "C 3": {
                     "label": "CLP",
                     "always_show": true
                 }
