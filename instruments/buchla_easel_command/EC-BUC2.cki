@@ -20,10 +20,6 @@
                     "label": "PressCV"
                 },
                 "slot_4": {
-                    "MIDI_CC": 3,
-                    "label": "PrsSlew"
-                },
-                "slot_5": {
                     "MIDI_CC": 120,
                     "label": "Pul Off"
                 }

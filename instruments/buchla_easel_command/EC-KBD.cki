@@ -46,6 +46,10 @@
                 "slot_10": {
                     "MIDI_CC": 123,
                     "label": "EG Off"
+                },
+                "slot_11": {
+                    "MIDI_CC": 120,
+                    "label": "Pul Off"
                 }
             },
             "row_defs": {

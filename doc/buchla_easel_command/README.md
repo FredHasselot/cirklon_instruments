@@ -59,15 +59,15 @@ The 208MIDI implementation uses a small, deliberate set of MIDI CCs:
 
 | CC  | Label    | Slot Name | Description |
 |-----|----------|-----------|-------------|
-| 1   | Timbre   | `Timbre`  | Mod wheel — timbre control (CH 1, 2, 6, 8) |
-| 2   | Mod Amt  | `Mod Amt` | Breath — modulation amount (CH 1, 2, 6, 8) |
+| 1   | Timbre   | `Timbre`  | Mod wheel — timbre control (CH 1, 2, 6, 8 — *not* CH 3) |
+| 2   | Mod Amt  | `Mod Amt` | Breath — modulation amount (CH 1, 2, 6, 8 — *not* CH 3) |
 | 3   | PrsSlew  | `PrsSlew` | Slew rate of the pressure CV (CH 1, 2, 3, 6, 8) |
-| 5   | Porta    | `Porta`   | Portamento rate (all pitch-bearing channels) |
-| 9   | PB Dpth  | `PB Dpth` | Pitchbend depth, ±1-12 semitones (global, value 0-127 = 10/step on the 218eV3) |
-| 14  | PressCV  | `PressCV` | Pressure CV (alternative to channel pressure / aftertouch) |
-| 120 | Pul Off  | `Pul Off` | Turn off Pulser |
-| 121 | Reset    | `Reset`   | Reset pressure and oscillator control to 0v |
-| 123 | EG Off   | `EG Off`  | Turn off Envelope Generator |
+| 5   | Porta    | `Porta`   | Portamento rate (CH 1, 2, 3 only — keyboard / C.Osc / M.Osc pitch lines) |
+| 9   | PB Dpth  | `PB Dpth` | Pitchbend depth, ±1-12 semitones, global setting (CH 1, 2, 3, 6, 7, 8, 9) |
+| 14  | PressCV  | `PressCV` | Pressure CV — alternative to channel pressure / aftertouch (CH 1, 2, 3, 7, 8, 10) |
+| 120 | Pul Off  | `Pul Off` | Turn off Pulser (CH that fire Pulser: 1, 7, 8, 10) |
+| 121 | Reset    | `Reset`   | Reset pressure and oscillator control to 0v (CH 1, 2, 3, 6, 7, 8, 9) |
+| 123 | EG Off   | `EG Off`  | Turn off Envelope Generator (CH that fire EG: 1, 6, 9) |
 
 > **No 14-bit (MSB/LSB) controllers, no NRPNs, no SysEx are documented.**
 

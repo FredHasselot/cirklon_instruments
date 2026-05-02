@@ -32,18 +32,14 @@
                     "label": "PrsSlew"
                 },
                 "slot_7": {
-                    "MIDI_CC": 5,
-                    "label": "Porta"
-                },
-                "slot_8": {
                     "MIDI_CC": 9,
                     "label": "PB Dpth"
                 },
-                "slot_9": {
+                "slot_8": {
                     "MIDI_CC": 121,
                     "label": "Reset"
                 },
-                "slot_10": {
+                "slot_9": {
                     "MIDI_CC": 120,
                     "label": "Pul Off"
                 }

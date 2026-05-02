@@ -20,22 +20,14 @@
                     "label": "PressCV"
                 },
                 "slot_4": {
-                    "MIDI_CC": 3,
-                    "label": "PrsSlew"
-                },
-                "slot_5": {
-                    "MIDI_CC": 5,
-                    "label": "Porta"
-                },
-                "slot_6": {
                     "MIDI_CC": 9,
                     "label": "PB Dpth"
                 },
-                "slot_7": {
+                "slot_5": {
                     "MIDI_CC": 121,
                     "label": "Reset"
                 },
-                "slot_8": {
+                "slot_6": {
                     "MIDI_CC": 120,
                     "label": "Pul Off"
                 }

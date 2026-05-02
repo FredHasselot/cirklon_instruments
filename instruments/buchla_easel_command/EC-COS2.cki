@@ -24,8 +24,8 @@
                     "label": "Mod Amt"
                 },
                 "slot_5": {
-                    "MIDI_CC": 5,
-                    "label": "Porta"
+                    "MIDI_CC": 3,
+                    "label": "PrsSlew"
                 },
                 "slot_6": {
                     "MIDI_CC": 9,
