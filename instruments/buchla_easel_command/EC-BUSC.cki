@@ -1,0 +1,43 @@
+{
+    "instrument_data": {
+        "EC-BUSC": {
+            "midi_port": 1,
+            "midi_chan": 4,
+            "default_note": "C 1",
+            "default_patt": "P3",
+            "poly_spread": "off",
+            "no_xpose": false,
+            "no_fts": false,
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                }
+            },
+            "row_defs": {
+                "C 0": {
+                    "label": "Seq",
+                    "always_show": true
+                },
+                "D#0": {
+                    "label": "Rnd",
+                    "always_show": true
+                },
+                "F#0": {
+                    "label": "EG",
+                    "always_show": true
+                },
+                "A 0": {
+                    "label": "Pul",
+                    "always_show": true
+                },
+                "C 1": {
+                    "label": "BusC",
+                    "always_show": true
+                }
+            }
+        }
+    }
+}

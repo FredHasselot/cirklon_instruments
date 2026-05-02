@@ -1,0 +1,43 @@
+{
+    "instrument_data": {
+        "EC-BUC2": {
+            "midi_port": 1,
+            "midi_chan": 10,
+            "default_note": "C 1",
+            "default_patt": "P3",
+            "poly_spread": "off",
+            "no_xpose": false,
+            "no_fts": false,
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                },
+                "slot_3": {
+                    "MIDI_CC": 14,
+                    "label": "PressCV"
+                },
+                "slot_4": {
+                    "MIDI_CC": 3,
+                    "label": "PrsSlew"
+                },
+                "slot_5": {
+                    "MIDI_CC": 120,
+                    "label": "Pul Off"
+                }
+            },
+            "row_defs": {
+                "A 0": {
+                    "label": "Pul",
+                    "always_show": true
+                },
+                "C 1": {
+                    "label": "BusC",
+                    "always_show": true
+                }
+            }
+        }
+    }
+}

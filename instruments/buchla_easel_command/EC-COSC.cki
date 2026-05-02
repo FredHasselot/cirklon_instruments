@@ -1,0 +1,71 @@
+{
+    "instrument_data": {
+        "EC-COSC": {
+            "midi_port": 1,
+            "midi_chan": 2,
+            "default_note": "C 1",
+            "default_patt": "P3",
+            "poly_spread": "off",
+            "no_xpose": false,
+            "no_fts": false,
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                },
+                "slot_3": {
+                    "MIDI_CC": 1,
+                    "label": "Timbre"
+                },
+                "slot_4": {
+                    "MIDI_CC": 2,
+                    "label": "Mod Amt"
+                },
+                "slot_5": {
+                    "MIDI_CC": 14,
+                    "label": "PressCV"
+                },
+                "slot_6": {
+                    "MIDI_CC": 3,
+                    "label": "PrsSlew"
+                },
+                "slot_7": {
+                    "MIDI_CC": 5,
+                    "label": "Porta"
+                },
+                "slot_8": {
+                    "MIDI_CC": 9,
+                    "label": "PB Dpth"
+                },
+                "slot_9": {
+                    "MIDI_CC": 121,
+                    "label": "Reset"
+                }
+            },
+            "row_defs": {
+                "C 0": {
+                    "label": "Seq",
+                    "always_show": true
+                },
+                "D#0": {
+                    "label": "Rnd",
+                    "always_show": true
+                },
+                "F#0": {
+                    "label": "EG",
+                    "always_show": true
+                },
+                "A 0": {
+                    "label": "Pul",
+                    "always_show": true
+                },
+                "C 1": {
+                    "label": "C.Osc",
+                    "always_show": true
+                }
+            }
+        }
+    }
+}

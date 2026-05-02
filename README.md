@@ -28,6 +28,8 @@ cirklon_instruments/
 │   ├── 2box_drumit/              # 2Box DrumIt
 │   ├── analog_heat_fx/           # Elektron Analog Heat +FX
 │   ├── analog_rytm_mk2/          # Elektron Analog Rytm MKII
+│   ├── buchla_easel_command/     # Buchla Easel Command (208C)
+│   │   └── EC-KBD/COSC/MOSC/... # 10 P3/CK patterns (CH 1-10)
 │   ├── digitone_ii/              # Elektron Digitone II
 │   │   ├── multi_p3_mode/        # Synth tracks P3 (melodic)
 │   │   └── fx_p3_mode/           # Global FX P3
@@ -173,6 +175,28 @@ CK pattern for electronic drum module:
 📚 **[Full 2Box DrumIt Documentation](doc/2box_drumit/)**
 - Key mapping, articulations, and setup guide
 
+### 🌀 Buchla Easel Command (208C)
+**Location:** `instruments/buchla_easel_command/`
+
+10 P3/CK patterns mirroring the 208MIDI v31.0 channel routing:
+
+1. **EC-KBD** (CH 1) — Keyboard pitch + all CCs (timbre, mod, pressure, velocity)
+2. **EC-COSC** (CH 2) — Complex Oscillator pitch + timbre + mod + pressure
+3. **EC-MOSC** (CH 3) — Modulation Oscillator pitch + pressure (no timbre/mod)
+4. **EC-BUSC** (CH 4) — Internal Bus C → AuxCard / 200e modules
+5. **EC-TRIG** (CH 5) — CK pattern, drum-style triggers (Seq/Rnd/EG/Pulser)
+6. **EC-COS2 / MOS2 / COS3 / MOS3** (CH 6-9) — Oscillators paired with EG/Pulser triggers
+7. **EC-BUC2** (CH 10) — Bus C + pressure + Pulser
+
+Key features:
+- Triggers internal Sequencer / Random / Envelope Generator / Pulser via the lowest MIDI octave
+- Decoupled pitch lines for keyboard, Complex Osc, and Modulation Osc
+- 9 documented MIDI CCs (Timbre, Mod Amt, Pressure CV, Slew, Portamento, PB Depth, Reset, Pulser Off, EG Off)
+- No NRPN, no SysEx (deliberate, minimal MIDI surface)
+
+📚 **[Full Buchla Easel Command Documentation](doc/buchla_easel_command/)**
+- 208MIDI implementation, channel routing, trigger map, and more
+
 ## Installation
 
 1. Copy the desired .cki files to your Cirklon's SD card
@@ -213,6 +237,7 @@ Created for [Patrick Pattern](https://soundcloud.com/patrick-packard) production
 - [GR-Mega Product Page](https://tastychips.nl/product/gr-mega/) - Tasty Chips Electronics
 - [Jomox Alpha Base MK2](https://www.jomox.de/alpha-base/) - Jomox Official
 - [2Box Drums](https://www.2box-drums.com/) - 2Box Official
+- [Buchla 208MIDI Implementation v8 (PDF)](https://buchla.com/guides/208C_%20208MIDI_MIDI_Implementation_v8_for_v31.2.pdf) - Buchla Official
 
 ### Resources
 - [Sequentix Official Website](https://www.sequentix.com)

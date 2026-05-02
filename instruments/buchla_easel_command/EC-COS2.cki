@@ -1,0 +1,55 @@
+{
+    "instrument_data": {
+        "EC-COS2": {
+            "midi_port": 1,
+            "midi_chan": 6,
+            "default_note": "C 1",
+            "default_patt": "P3",
+            "poly_spread": "off",
+            "no_xpose": false,
+            "no_fts": false,
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                },
+                "slot_3": {
+                    "MIDI_CC": 1,
+                    "label": "Timbre"
+                },
+                "slot_4": {
+                    "MIDI_CC": 2,
+                    "label": "Mod Amt"
+                },
+                "slot_5": {
+                    "MIDI_CC": 5,
+                    "label": "Porta"
+                },
+                "slot_6": {
+                    "MIDI_CC": 9,
+                    "label": "PB Dpth"
+                },
+                "slot_7": {
+                    "MIDI_CC": 121,
+                    "label": "Reset"
+                },
+                "slot_8": {
+                    "MIDI_CC": 123,
+                    "label": "EG Off"
+                }
+            },
+            "row_defs": {
+                "F#0": {
+                    "label": "EG",
+                    "always_show": true
+                },
+                "C 1": {
+                    "label": "C.Osc",
+                    "always_show": true
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "instrument_data": {
+        "EC-TRIG": {
+            "midi_port": 1,
+            "midi_chan": 5,
+            "default_note": "C 0",
+            "default_patt": "CK",
+            "poly_spread": "off",
+            "no_xpose": true,
+            "no_fts": true,
+            "row_defs": {
+                "C 0": {
+                    "label": "Seq",
+                    "always_show": true
+                },
+                "C#0": {
+                    "label": "Seq2",
+                    "always_show": false
+                },
+                "D 0": {
+                    "label": "Seq3",
+                    "always_show": false
+                },
+                "D#0": {
+                    "label": "Rnd",
+                    "always_show": true
+                },
+                "E 0": {
+                    "label": "Rnd2",
+                    "always_show": false
+                },
+                "F 0": {
+                    "label": "Rnd3",
+                    "always_show": false
+                },
+                "F#0": {
+                    "label": "EG",
+                    "always_show": true
+                },
+                "G 0": {
+                    "label": "EG2",
+                    "always_show": false
+                },
+                "G#0": {
+                    "label": "EG3",
+                    "always_show": false
+                },
+                "A 0": {
+                    "label": "Pul",
+                    "always_show": true
+                },
+                "A#0": {
+                    "label": "Pul2",
+                    "always_show": false
+                },
+                "B 0": {
+                    "label": "Pul3",
+                    "always_show": false
+                }
+            }
+        }
+    }
+}
