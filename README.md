@@ -38,6 +38,10 @@ cirklon_instruments/
 │   │   ├── alpha_base_mk2.cki   # CK pattern (all instruments)
 │   │   ├── AB-KD/MB/CHH/...     # 11 P3 instruments
 │   │   └── AB-FX.cki            # FX global P3
+│   ├── roland_tr1000/            # Roland TR-1000 Rhythm Performer
+│   │   ├── tr1000.cki           # CK pattern (10 instruments + TRG)
+│   │   ├── TR-BD/SD/LT/HT/...   # 10 P3 instruments
+│   │   └── TR-FX.cki            # FX global P3
 │   └── machinedrum_sps1_mk2+/    # Elektron Machinedrum definitions
 │       ├── hybrid_mode/          # Hybrid approach (1 CK + 4 P3)
 │       ├── pure_p3_mode/         # 16 individual P3 patterns
@@ -175,6 +179,30 @@ CK pattern for electronic drum module:
 📚 **[Full 2Box DrumIt Documentation](doc/2box_drumit/)**
 - Key mapping, articulations, and setup guide
 
+### 🥁 Roland TR-1000 Rhythm Performer
+**Location:** `instruments/roland_tr1000/`
+
+Two complementary modes (single MIDI channel, default CH10):
+
+1. **CK Pattern Mode** - `tr1000.cki`
+   - 10 instruments triggered by note (GM-style), single channel
+   - Hidden Layer A / Layer B alternate-note rows per voice (25 rows total)
+   - Ideal for live drumming
+
+2. **P3 Multi-Instrument Mode** - 11 P3 instruments
+   - One P3 per voice, exposing only its real CCs from the chart:
+     - **TR-BD / SD / LT / HT**: Tune, Decay, Mix, Ctrl 1/2/3, Level (7 CCs each)
+     - **TR-RS / HC / CH / OH / CC / RC**: Tune, Decay, Ctrl, Level (4 CCs each)
+   - **TR-FX**: global Delay, Reverb, Master FX, Analog FX, Filter, Drive, Morph (14 CCs)
+
+Key features:
+- Based on the official MIDI Implementation Chart v1.11 (Oct. 2025)
+- No NRPN, no SysEx, no aftertouch, no pitch bend (minimal MIDI surface)
+- Note numbers reconfigurable on the machine (`MENU > SYSTEM > MIDI > Inst Note`)
+
+📚 **[Full Roland TR-1000 Documentation](doc/roland_tr1000/)**
+- MIDI implementation, note map, CC reference, and setup guide
+
 ### 🌀 Buchla Easel Command (208C)
 **Location:** `instruments/buchla_easel_command/`
 
@@ -237,6 +265,7 @@ Created for [Patrick Pattern](https://soundcloud.com/patrick-packard) production
 - [GR-Mega Product Page](https://tastychips.nl/product/gr-mega/) - Tasty Chips Electronics
 - [Jomox Alpha Base MK2](https://www.jomox.de/alpha-base/) - Jomox Official
 - [2Box Drums](https://www.2box-drums.com/) - 2Box Official
+- [Roland TR-1000 MIDI Implementation Chart v1.11 (PDF)](https://static.roland.com/assets/media/pdf/TR-1000_MIDI_ImpleChart_eng01_W.pdf) - Roland Official
 - [Buchla 208MIDI Implementation v8 (PDF)](https://buchla.com/guides/208C_%20208MIDI_MIDI_Implementation_v8_for_v31.2.pdf) - Buchla Official
 
 ### Resources

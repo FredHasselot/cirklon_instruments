@@ -1,0 +1,43 @@
+{
+    "instrument_data": {
+        "TR-RC": {
+            "midi_port": 1,
+            "midi_chan": 10,
+            "default_note": "D#4",
+            "default_patt": "P3",
+            "poly_spread": "off",
+            "no_xpose": true,
+            "no_fts": true,
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                },
+                "slot_3": {
+                    "MIDI_CC": 114,
+                    "label": "Tune"
+                },
+                "slot_4": {
+                    "MIDI_CC": 115,
+                    "label": "Decay"
+                },
+                "slot_5": {
+                    "MIDI_CC": 116,
+                    "label": "Ctrl"
+                },
+                "slot_6": {
+                    "MIDI_CC": 117,
+                    "label": "Level"
+                }
+            },
+            "row_defs": {
+                "D#4": {
+                    "label": "RC ",
+                    "always_show": true
+                }
+            }
+        }
+    }
+}

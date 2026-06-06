@@ -1,0 +1,115 @@
+{
+    "instrument_data": {
+        "TR-1000": {
+            "midi_port": 1,
+            "midi_chan": 10,
+            "default_note": "C 3",
+            "default_patt": "CK",
+            "poly_spread": "off",
+            "no_xpose": true,
+            "no_fts": true,
+            "row_defs": {
+                "C 3": {
+                    "label": "BD ",
+                    "always_show": true
+                },
+                "B 2": {
+                    "label": "BD-A",
+                    "always_show": false
+                },
+                "D#8": {
+                    "label": "BD-B",
+                    "always_show": false
+                },
+                "C#3": {
+                    "label": "RS ",
+                    "always_show": true
+                },
+                "G#4": {
+                    "label": "RS-B",
+                    "always_show": false
+                },
+                "D 3": {
+                    "label": "SD ",
+                    "always_show": true
+                },
+                "E 3": {
+                    "label": "SD-A",
+                    "always_show": false
+                },
+                "G#8": {
+                    "label": "SD-B",
+                    "always_show": false
+                },
+                "D#3": {
+                    "label": "HC ",
+                    "always_show": true
+                },
+                "F#4": {
+                    "label": "HC-B",
+                    "always_show": false
+                },
+                "F#3": {
+                    "label": "CH ",
+                    "always_show": true
+                },
+                "G#3": {
+                    "label": "CH-B",
+                    "always_show": false
+                },
+                "G 3": {
+                    "label": "LT ",
+                    "always_show": true
+                },
+                "F 3": {
+                    "label": "LT-A",
+                    "always_show": false
+                },
+                "A 8": {
+                    "label": "LT-B",
+                    "always_show": false
+                },
+                "A#3": {
+                    "label": "OH ",
+                    "always_show": true
+                },
+                "A#4": {
+                    "label": "OH-B",
+                    "always_show": false
+                },
+                "C#4": {
+                    "label": "CC ",
+                    "always_show": true
+                },
+                "C#5": {
+                    "label": "CC-B",
+                    "always_show": false
+                },
+                "D 4": {
+                    "label": "HT ",
+                    "always_show": true
+                },
+                "C 4": {
+                    "label": "HT-A",
+                    "always_show": false
+                },
+                "E 9": {
+                    "label": "HT-B",
+                    "always_show": false
+                },
+                "D#4": {
+                    "label": "RC ",
+                    "always_show": true
+                },
+                "D#5": {
+                    "label": "RC-B",
+                    "always_show": false
+                },
+                "C 7": {
+                    "label": "TRG",
+                    "always_show": true
+                }
+            }
+        }
+    }
+}
