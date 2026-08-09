@@ -3,7 +3,7 @@
         "TR-FX": {
             "midi_port": 1,
             "midi_chan": 10,
-            "default_note": "C 3",
+            "default_note": "C 0",
             "default_patt": "P3",
             "poly_spread": "off",
             "no_xpose": true,
@@ -73,7 +73,7 @@
                 }
             },
             "row_defs": {
-                "C 3": {
+                "C 0": {
                     "label": "FX ",
                     "always_show": true
                 }
