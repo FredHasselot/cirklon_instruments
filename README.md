@@ -42,6 +42,8 @@ cirklon_instruments/
 │   │   ├── tr1000.cki           # CK pattern (10 instruments + TRG)
 │   │   ├── TR-BD/SD/LT/HT/...   # 10 P3 instruments
 │   │   └── TR-FX.cki            # FX global P3
+│   ├── cyclone_tt303/            # Cyclone Analogic TT-303 Bass Bot
+│   │   └── TT-303.cki           # Single P3 (bassline + Slide + Sustain)
 │   └── machinedrum_sps1_mk2+/    # Elektron Machinedrum definitions
 │       ├── hybrid_mode/          # Hybrid approach (1 CK + 4 P3)
 │       ├── pure_p3_mode/         # 16 individual P3 patterns
@@ -203,6 +205,24 @@ Key features:
 📚 **[Full Roland TR-1000 Documentation](doc/roland_tr1000/)**
 - MIDI implementation, note map, CC reference, and setup guide
 
+### 🔊 Cyclone Analogic TT-303 Bass Bot
+**Location:** `instruments/cyclone_tt303/`
+
+A single P3 instrument — a deliberately simple, monophonic bass synth (TB-303 clone):
+
+- **TT-303.cki** - Bassline P3
+  - Melodic note line on a single channel (1-10)
+  - CC 65 (Slide / portamento) + CC 64 (Sustain)
+  - Accent driven by note velocity (≥ 112 = accent)
+
+Key features:
+- Based on the InstaDJ 2.0 MIDI Implementation Chart (Bass Bot manual v2.0)
+- Panel knobs (Tuning, Cutoff, Resonance, Env Mod, Decay, Accent) are hardware-only — not MIDI-controllable
+- No aftertouch, no pitch bend, no program change, no NRPN
+
+📚 **[Full Cyclone TT-303 Documentation](doc/cyclone_tt303/)**
+- MIDI implementation, accent/slide handling, and setup guide
+
 ### 🌀 Buchla Easel Command (208C)
 **Location:** `instruments/buchla_easel_command/`
 
@@ -266,6 +286,7 @@ Created for [Patrick Pattern](https://soundcloud.com/patrick-packard) production
 - [Jomox Alpha Base MK2](https://www.jomox.de/alpha-base/) - Jomox Official
 - [2Box Drums](https://www.2box-drums.com/) - 2Box Official
 - [Roland TR-1000 MIDI Implementation Chart v1.11 (PDF)](https://static.roland.com/assets/media/pdf/TR-1000_MIDI_ImpleChart_eng01_W.pdf) - Roland Official
+- [Cyclone Analogic Bass Bot User Manual v2.0 (PDF)](https://www.cyclone-analogic.fr/img/cms/The-Bass-Bot-English-2.0.pdf) - Cyclone Analogic Official
 - [Buchla 208MIDI Implementation v8 (PDF)](https://buchla.com/guides/208C_%20208MIDI_MIDI_Implementation_v8_for_v31.2.pdf) - Buchla Official
 
 ### Resources
