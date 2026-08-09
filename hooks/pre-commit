@@ -1,0 +1,57 @@
+#!/bin/bash
+
+# Format de version : major.minor.build
+# Major : 0 (pre-release)
+# Minor : 1 (fonctionnalité Machinedrum)
+# Build : nombre de commits
+
+# Compte le nombre de commits (+1 pour le commit en cours)
+BUILD=$(($(git rev-list --count HEAD 2>/dev/null || echo 0) + 1))
+VERSION="0.1.$BUILD"
+
+# Motif restreint au badge de version du projet. Les références de manuels
+# (v1.11, v2.0, v31.0, v1.20, v8) ne matchent pas et restent intactes.
+VERSION_PATTERN='v0\.1\.[0-9]+'
+
+if [ ! -f "README.md" ]; then
+    exit 0
+fi
+
+CURRENT_VERSION=$(grep -oE "$VERSION_PATTERN" README.md | head -1)
+
+if [ -z "$CURRENT_VERSION" ]; then
+    echo "pre-commit : aucun badge de version v0.1.x trouvé dans README.md — commit interrompu" >&2
+    exit 1
+fi
+
+if [ "$CURRENT_VERSION" = "v$VERSION" ]; then
+    echo "Version déjà à jour : v$VERSION"
+    exit 0
+fi
+
+# Le badge est dans un encadré ASCII : on compense la différence de largeur sur
+# les espaces qui le précèdent, sinon la bordure de droite se décale.
+# sed -E : la syntaxe BRE \+ n'est pas un quantificateur pour le sed de BSD/macOS
+WIDTH_DIFF=$(( ${#CURRENT_VERSION} - ${#VERSION} - 1 ))
+
+if [ "$WIDTH_DIFF" -gt 0 ]; then
+    PADDING=$(printf '%*s' "$WIDTH_DIFF" '')
+    sed -i '' -E "s/$VERSION_PATTERN/${PADDING}v$VERSION/" README.md
+elif [ "$WIDTH_DIFF" -lt 0 ]; then
+    SPACES_TO_REMOVE=$(( -WIDTH_DIFF ))
+    sed -i '' -E "s/ {$SPACES_TO_REMOVE}$VERSION_PATTERN/v$VERSION/" README.md
+else
+    sed -i '' -E "s/$VERSION_PATTERN/v$VERSION/" README.md
+fi
+
+# Vérifie que le remplacement a bien eu lieu avant d'annoncer un succès
+NEW_VERSION=$(grep -oE "$VERSION_PATTERN" README.md | head -1)
+
+if [ "$NEW_VERSION" != "v$VERSION" ]; then
+    echo "pre-commit : échec de la mise à jour ($CURRENT_VERSION -> v$VERSION), README.md inchangé — commit interrompu" >&2
+    exit 1
+fi
+
+git add README.md
+
+echo "Version mise à jour : $CURRENT_VERSION -> v$VERSION"
