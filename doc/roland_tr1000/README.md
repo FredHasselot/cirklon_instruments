@@ -85,11 +85,16 @@ P3 exposes only the CCs that actually exist for that voice in the chart.
 | `TR-OH.cki` | TR-OH | A#3  | 106-109 | Tune, Decay, Ctrl, Level |
 | `TR-CC.cki` | TR-CC | C#4  | 110-113 | Tune, Decay, Ctrl, Level |
 | `TR-RC.cki` | TR-RC | D#4  | 114-117 | Tune, Decay, Ctrl, Level |
-| `TR-FX.cki` | TR-FX | C 3  | 9, 12-21, 89-91 | Ext In, Delay, Master FX, Analog FX, Filter, Drive, Morph, Reverb |
+| `TR-FX.cki` | TR-FX | C 0  | 9, 12-21, 89-91 | Ext In, Delay, Master FX, Analog FX, Filter, Drive, Morph, Reverb |
 
-> The four "drum" voices (BD, SD, LT, HT) expose **3 Ctrl** parameters each
-> (deeper synthesis); the percussion/cymbal voices (RS, HC, CH, OH, CC, RC)
-> expose a **single Ctrl**. This mirrors the chart exactly.
+> The four "drum" voices (BD, SD, LT, HT) expose **3 Ctrl** parameters each;
+> the percussion/cymbal voices (RS, HC, CH, OH, CC, RC) expose a **single Ctrl**.
+> This mirrors the chart exactly.
+
+> **Why TR-FX uses note C 0.** Every voice lives on channel 10, so any note sent
+> from the FX track would hit a voice — C 3 is note 36, the bass drum. C 0 (note 0)
+> is assigned to nothing on the TR-1000, the lowest note in the chart being 35.
+> The FX track can therefore carry steps without triggering a sound.
 
 ---
 
@@ -133,6 +138,18 @@ P3 exposes only the CCs that actually exist for that voice in the chart.
 | RC | 114 | 115 | 116 | 117 |
 
 > **No NRPN, no SysEx, no aftertouch, no pitch bend are documented.**
+
+### What Mix and Ctrl actually do
+
+Two entries in the table above are easy to misread.
+
+**Mix** is not an effect send. The Reference Manual describes the `[MIX]` knob as
+*"Adjusts the mix balance for layers A/B"* — it doses the balance between the two
+layers of the voice. It has nothing to do with reverb or delay.
+
+**Ctrl 1/2/3 are not fixed parameters.** The manual describes the `[CTRL 1-3]` knobs
+as *"Controls what is set with the [KNOB ASSIGN] button"*. Nothing is wired to them
+out of the factory, which is why they can appear to do nothing. See the next section.
 
 ---
 
@@ -192,12 +209,93 @@ P3 exposes only the CCs that actually exist for that voice in the chart.
 | 8  | `TR-OH` | A#3 | Open hi-hat |
 | 9  | `TR-CC` | C#4 | Crash cymbal |
 | 10 | `TR-RC` | D#4 | Ride cymbal |
-| 11 | `TR-FX` | C 3 | Global Delay / Reverb / Master FX / Filter / Drive / Morph |
+| 11 | `TR-FX` | C 0 | Global Delay / Reverb / Master FX / Filter / Drive / Morph |
 
 3. **Sequencing**:
-   - Trigger each voice on its own track and automate its CCs per step.
    - All P3 instruments share channel 10 — the note determines which voice plays.
-   - Use `TR-FX` to ride the global Delay/Reverb/Master FX from the sequencer.
+   - The CCs declared in these files are Cirklon **track values**: real-time knobs on
+     the TRACK page, not per-step automation. See "Track values are not step
+     automation" below.
+   - `TR-FX` carries the machine-wide effects. It is a convenience grouping, not a
+     separate MIDI destination — the same CC sent from `TR-BD` does exactly the same
+     thing.
+
+---
+
+## Controlling the FX
+
+### The global effects are machine-wide
+
+CC 9, 12-21 and 89-91 act on the whole TR-1000. There is no MIDI channel, note or
+track that scopes them to one voice. Which voices feed the delay is decided **on the
+machine**, not over MIDI.
+
+Two of these CCs are switches, not amounts:
+
+- **CC 15 `MASTER FX ON`** — while the master effect is off, `MFX Ct1/2/3` (CC 16-18)
+  produce nothing. Those three are generic controls whose function depends on the
+  master effect type selected on the machine.
+- **CC 19 `ANALOG FX ON`** — the `[ON]` button of the analog effect section, which also
+  holds `[FILTER]` (CC 20) and `[DRIVE]` (CC 21).
+
+### Per-instrument sends do exist — but have no dedicated CC
+
+Each instrument carries its own MIXER parameters:
+
+| Parameter | Range | Reference Manual wording |
+|-----------|-------|--------------------------|
+| `RVB SEND` | 0-100 % | *Adjusts the level of audio sent to the reverb effect* |
+| `DLY SEND` | 0-100 % | *Adjusts the level of audio sent to the delay effect* |
+| `FX ROUTE` | THROUGH / MASTER / … | *THROUGH: The signal bypasses master and analog effects* |
+| `PAN`      | L100-CENTER-R100 | stereo position |
+
+None of them appears in the MIDI chart. On the machine they are reached by holding a
+track select button `[BD]`-`[RC]` and turning the `REVERB [LEVEL]` or `DELAY [LEVEL]`
+knob.
+
+> **If the effects seem dead on one voice, check `FX ROUTE` first.** A voice set to
+> `THROUGH` bypasses the master and analog effects entirely, whatever CC you send.
+
+### Reaching them over MIDI: KNOB ASSIGN
+
+The `Ctrl` CCs are the way in. The Reference Manual:
+
+> *You can assign parameters to each knob in the Instrument controlling section to
+> control the pattern while it plays back. You can assign up to four parameters to a
+> knob, and set the minimum and maximum values per parameter.*
+
+To drive the bass drum's reverb send from the sequencer:
+
+1. On the TR-1000, press `[KNOB ASSIGN]`
+2. Turn the BD `CTRL 1` knob to select it for editing
+3. Assign `RVB SEND`, and set its minimum and maximum
+4. From the Cirklon, **CC 25** (`BD CTRL1`) now drives the bass drum's reverb send
+
+Up to four parameters per knob means BD, SD, LT and HT expose as many as twelve
+assignable parameters each over MIDI; RS, HC, CH, OH, CC and RC have a single `Ctrl`,
+so four.
+
+### Track values are not step automation
+
+The CCs declared in these `.cki` files land in the Cirklon's **track values** — the
+sub-page reached by pressing `TRACK` while already on the TRACK page. Six slots per
+row, up to 30 rows browsed with the ROW encoder, edited live with the six encoders.
+They can be stored per SONG or SCENE and are re-sent when a song is recalled. Placing
+steps in a pattern does **not** move them.
+
+Per-step automation is a different mechanism: the P3 pattern's **aux rows**, four per
+pattern (aux A to D), each assignable to any CC by holding the ROW encoder and turning
+it one step. So four CCs can be automated per step, per pattern — not fourteen.
+
+A step's aux flag is independent from its gate flag:
+
+| Flag | Cirklon manual wording |
+|------|------------------------|
+| `gate` | *Trigger the note* |
+| `aux A-D status` | *Trigger the associated CC or event* |
+
+A CC can therefore be sent on a step whose gate is off — select the aux row before
+pressing the step keys, and no note is emitted.
 
 ---
 
@@ -227,8 +325,10 @@ dynamics; the TR-1000 maps incoming velocity to its accent/level behaviour.
 ### Official Documentation
 
 - [TR-1000 MIDI Implementation Chart v1.11 (Roland PDF)](https://static.roland.com/assets/media/pdf/TR-1000_MIDI_ImpleChart_eng01_W.pdf) — primary reference for this collection
+- [TR-1000 Reference Manual (Roland PDF)](https://static.roland.com/assets/media/pdf/TR-1000_reference_eng02_W.pdf) — source for KNOB ASSIGN, the MIXER parameters (RVB/DLY SEND, FX ROUTE) and the Mix / Ctrl knob descriptions
 - [Roland Support — TR-1000 Owner's Manuals](https://www.roland.com/global/support/by_product/tr-1000/owners_manuals/)
 - [Roland TR-1000 product page](https://www.roland.com/global/products/tr-1000/)
+- [Cirklon Operation Manual v1.22 (Sequentix PDF)](https://cdn.shopify.com/s/files/1/0757/8429/0571/files/cirklon_operation_manual_1.22.pdf) — source for track values (ch. 9) and the aux row / gate flag distinction (ch. 3)
 
 ### Community
 
