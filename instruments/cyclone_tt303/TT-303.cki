@@ -1,0 +1,29 @@
+{
+    "instrument_data": {
+        "TT-303": {
+            "midi_port": 1,
+            "midi_chan": 1,
+            "default_note": "C 2",
+            "default_patt": "P3",
+            "poly_spread": "off",
+            "no_xpose": false,
+            "no_fts": false,
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                },
+                "slot_3": {
+                    "MIDI_CC": 65,
+                    "label": "Slide"
+                },
+                "slot_4": {
+                    "MIDI_CC": 64,
+                    "label": "Sustain"
+                }
+            }
+        }
+    }
+}
