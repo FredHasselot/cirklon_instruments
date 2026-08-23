@@ -1,6 +1,6 @@
 ```
 ╔════════════════════════════════════════════════════════════════════════════════════════╗
-║  (c) Fred Hasselot                                                            v0.1.53  ║
+║  (c) Fred Hasselot                                                            v0.1.59  ║
 ║  cirklon instruments definitions                                                       ║
 ║                                                                                        ║
 ║   ██████ ██ ██████  ██   ██ ██       ██████  ███    ██                                 ║
@@ -192,15 +192,19 @@ Two complementary modes (single MIDI channel, default CH10):
    - Ideal for live drumming
 
 2. **P3 Multi-Instrument Mode** - 11 P3 instruments
-   - One P3 per voice, exposing only its real CCs from the chart:
+   - One P3 per voice, its own CCs placed first:
      - **TR-BD / SD / LT / HT**: Tune, Decay, Mix, Ctrl 1/2/3, Level (7 CCs each)
      - **TR-RS / HC / CH / OH / CC / RC**: Tune, Decay, Ctrl, Level (4 CCs each)
    - **TR-FX**: global Delay, Reverb, Master FX, Analog FX, Filter, Drive, Morph (14 CCs)
 
 Key features:
 - Based on the official MIDI Implementation Chart v1.11 (Oct. 2025)
+- **All 12 definitions expose the full set of 66 CCs** (68 track value slots, 12 rows)
+  — every CC is machine-wide on channel 10, so any track reaches any parameter
 - No NRPN, no SysEx, no aftertouch, no pitch bend (minimal MIDI surface)
 - Note numbers reconfigurable on the machine (`MENU > SYSTEM > MIDI > Inst Note`)
+- CCs silent? Check `MENU > SYSTEM > MIDI > Rx Edit Data` is **ON** — see the
+  troubleshooting section in the full documentation
 
 📚 **[Full Roland TR-1000 Documentation](doc/roland_tr1000/)**
 - MIDI implementation, note map, CC reference, and setup guide
