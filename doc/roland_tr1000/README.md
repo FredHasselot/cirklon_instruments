@@ -30,10 +30,18 @@ implementation — a deliberately simple, readable MIDI surface.
 Two complementary modes are provided. They are not exclusive — load the CK file
 for live drumming and the P3 files for per-instrument CC automation.
 
+**Every one of the 12 definitions exposes all 66 CCs of the chart** as track values
+(68 slots = 2 track controls + 66 CCs, spread over 12 rows of six). All CCs are
+machine-wide on channel 10, so any track can address any parameter — you never have
+to switch track to reach a CC. Each file only differs in its default note and in the
+ordering of its track values.
+
 ### CK Pattern Mode — `tr1000.cki`
 
 A single CK pattern on channel 10 with one row per instrument, plus hidden
-alternate-note rows for the TR-1000's Layer A / Layer B note assignments.
+alternate-note rows for the TR-1000's Layer A / Layer B note assignments. It also
+carries the full set of 66 CCs as track values, so the live mode gives access to
+every parameter without loading a P3.
 
 | Row | Label | MIDI Note | Cirklon | Visible |
 |-----|-------|-----------|---------|---------|
@@ -70,26 +78,34 @@ alternate-note rows for the TR-1000's Layer A / Layer B note assignments.
 
 ### P3 Multi-Instrument Mode
 
-10 P3 instruments (one per voice) plus a global FX P3, all on channel 10. Each
-P3 exposes only the CCs that actually exist for that voice in the chart.
+10 P3 instruments (one per voice) plus a global FX P3, all on channel 10. Each P3
+exposes the 66 CCs of the chart, with its own voice placed first for quick access.
 
-| File | Inst Name | Note | CCs | Parameters |
-|------|-----------|------|-----|------------|
-| `TR-BD.cki` | TR-BD | C 3  | 22-28 | Tune, Decay, Mix, Ctrl 1/2/3, Level |
-| `TR-SD.cki` | TR-SD | D 3  | 29-31, 46-49 | Tune, Decay, Mix, Ctrl 1/2/3, Level |
-| `TR-LT.cki` | TR-LT | G 3  | 50-56 | Tune, Decay, Mix, Ctrl 1/2/3, Level |
-| `TR-HT.cki` | TR-HT | D 4  | 57-63 | Tune, Decay, Mix, Ctrl 1/2/3, Level |
-| `TR-RS.cki` | TR-RS | C#3  | 80-83 | Tune, Decay, Ctrl, Level |
-| `TR-HC.cki` | TR-HC | D#3  | 84-87 | Tune, Decay, Ctrl, Level |
-| `TR-CH.cki` | TR-CH | F#3  | 102-105 | Tune, Decay, Ctrl, Level |
-| `TR-OH.cki` | TR-OH | A#3  | 106-109 | Tune, Decay, Ctrl, Level |
-| `TR-CC.cki` | TR-CC | C#4  | 110-113 | Tune, Decay, Ctrl, Level |
-| `TR-RC.cki` | TR-RC | D#4  | 114-117 | Tune, Decay, Ctrl, Level |
-| `TR-FX.cki` | TR-FX | C 0  | 9, 12-21, 89-91 | Ext In, Delay, Master FX, Analog FX, Filter, Drive, Morph, Reverb |
+| File | Inst Name | Note | Slots 3+ (own voice first) |
+|------|-----------|------|-----------------------------|
+| `TR-BD.cki` | TR-BD | C 3  | 22-28, then FX, then the 9 other voices |
+| `TR-SD.cki` | TR-SD | D 3  | 29-31 / 46-49, then FX, then the 9 other voices |
+| `TR-LT.cki` | TR-LT | G 3  | 50-56, then FX, then the 9 other voices |
+| `TR-HT.cki` | TR-HT | D 4  | 57-63, then FX, then the 9 other voices |
+| `TR-RS.cki` | TR-RS | C#3  | 80-83, then FX, then the 9 other voices |
+| `TR-HC.cki` | TR-HC | D#3  | 84-87, then FX, then the 9 other voices |
+| `TR-CH.cki` | TR-CH | F#3  | 102-105, then FX, then the 9 other voices |
+| `TR-OH.cki` | TR-OH | A#3  | 106-109, then FX, then the 9 other voices |
+| `TR-CC.cki` | TR-CC | C#4  | 110-113, then FX, then the 9 other voices |
+| `TR-RC.cki` | TR-RC | D#4  | 114-117, then FX, then the 9 other voices |
+| `TR-FX.cki` | TR-FX | C 0  | 9 / 12-21 / 89-91, then the 10 voices |
+
+The FX block always follows the same order: 9, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+21, 89, 90, 91. The voice blocks always follow BD, SD, LT, HT, RS, HC, CH, OH, CC,
+RC. No CC appears twice in a definition.
 
 > The four "drum" voices (BD, SD, LT, HT) expose **3 Ctrl** parameters each;
 > the percussion/cymbal voices (RS, HC, CH, OH, CC, RC) expose a **single Ctrl**.
 > This mirrors the chart exactly.
+
+> **Track value labels** are prefixed with the voice (`BD Tune`, `SD Dcay`,
+> `RC Lvl`) and kept to seven characters so they fit the Cirklon display. The
+> global FX CCs keep their unprefixed names (`Ext In`, `Dly Lvl`, `Rev Lvl`).
 
 > **Why TR-FX uses note C 0.** Every voice lives on channel 10, so any note sent
 > from the FX track would hit a voice — C 3 is note 36, the bass drum. C 0 (note 0)
@@ -296,6 +312,71 @@ A step's aux flag is independent from its gate flag:
 
 A CC can therefore be sent on a step whose gate is off — select the aux row before
 pressing the step keys, and no note is emitted.
+
+---
+
+## Troubleshooting — CCs do nothing
+
+Work through this list in order. Every point is sourced from the manuals.
+
+### 1. `Rx Edit Data` must be ON
+
+`MENU > SYSTEM > MIDI` (Reference Manual p. 47):
+
+> *Rx Edit Data — OFF, ON — Specifies whether CC messages are received (ON) or are not.*
+
+This single switch silences **every** CC at once. It is the first thing to check when
+nothing responds at all. Its companion `Tx Edit Data` governs transmission, and
+`Rx Program Change` governs kit recall — neither affects CC reception.
+
+### 2. Half the CCs do nothing by design
+
+These CCs are wired to knobs that control nothing out of the factory, or that need a
+specific kit to be audible:
+
+| CCs | Why they appear dead |
+|-----|----------------------|
+| 25, 26, 27 (BD Ctrl 1-3) | `[CTRL 1-3]`: *"Controls what is set with the [KNOB ASSIGN] button"* — nothing assigned by default |
+| 46, 47, 48 (SD Ctrl 1-3) | same |
+| 53, 54, 55 (LT Ctrl 1-3) | same |
+| 60, 61, 62 (HT Ctrl 1-3) | same |
+| 82, 86, 104, 108, 112, 116 (RS/HC/CH/OH/CC/RC Ctrl) | same |
+| 24, 31, 52, 59 (BD/SD/LT/HT Mix) | `[MIX]`: *"Adjusts the mix balance for layers A/B"* — inaudible if the INST has no layer B loaded |
+
+That is 4 out of 7 CCs on BD/SD/LT/HT and 1 out of 4 on the percussion voices.
+`Tune`, `Decay` and `Level` are the ones that always respond. Assign the Ctrl knobs
+via `[KNOB ASSIGN]` (see "Reaching them over MIDI" above) to bring the rest to life.
+
+### 3. Turn MOTION off while testing
+
+`MOTION [ON]`: *"If this is ON, knob operation data (MOTION) is played back"*. Recorded
+knob motions replay continuously and overwrite incoming CC values. Switch it off before
+concluding that a CC is dead.
+
+### 4. Track values only send when you turn the encoder
+
+Cirklon manual, ch. 9. A track value emits a CC when its encoder is turned, when the
+value is re-sent (double-press the encoder), or when a SONG/SCENE that stored it is
+recalled. Placing steps in a pattern never moves a track value — see "Track values are
+not step automation" above.
+
+### 5. Aux rows are not wired to these CCs
+
+Cirklon manual 3-20:
+
+> *In a new P3 pattern, the aux rows are assigned to some commonly used MIDI CC numbers.*
+
+The CCs declared in these `.cki` files do **not** populate the aux rows. A fresh P3
+pattern sends whatever CCs the Cirklon defaults to, which the TR-1000 ignores. Reassign
+each aux row by holding the ROW encoder and turning it one step, then picking the CC.
+
+### 6. Channel and port
+
+The CCs travel on the Pattern Channel — `Pattern Ch.` in `MENU > SYSTEM > MIDI`,
+*"the MIDI transmit/receive channel of the pattern sequencer"*, default 10. `Kit Ch.`
+(default 1) is only *"the channel for program change messages that switch kits"* and
+plays no part in CC reception. The `.cki` files use `midi_port: 1` — change it if the
+TR-1000 hangs off another Cirklon output.
 
 ---
 
