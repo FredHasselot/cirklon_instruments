@@ -1,0 +1,43 @@
+{
+    "instrument_data": {
+        "TR-OH": {
+            "midi_port": 1,
+            "midi_chan": 10,
+            "default_note": "A#3",
+            "default_patt": "P3",
+            "poly_spread": "off",
+            "no_xpose": true,
+            "no_fts": true,
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                },
+                "slot_3": {
+                    "MIDI_CC": 106,
+                    "label": "Tune"
+                },
+                "slot_4": {
+                    "MIDI_CC": 107,
+                    "label": "Decay"
+                },
+                "slot_5": {
+                    "MIDI_CC": 108,
+                    "label": "Ctrl"
+                },
+                "slot_6": {
+                    "MIDI_CC": 109,
+                    "label": "Level"
+                }
+            },
+            "row_defs": {
+                "A#3": {
+                    "label": "OH ",
+                    "always_show": true
+                }
+            }
+        }
+    }
+}

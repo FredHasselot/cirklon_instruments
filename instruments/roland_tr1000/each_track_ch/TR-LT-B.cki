@@ -1,0 +1,155 @@
+{
+    "instrument_data": {
+        "TR-LT-B": {
+            "midi_port": 1,
+            "midi_chan": 6,
+            "default_note": "F 7",
+            "default_patt": "P3",
+            "poly_spread": "off",
+            "no_xpose": true,
+            "no_fts": true,
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                }
+            },
+            "row_defs": {
+                "F 7": {
+                    "label": "LT-B",
+                    "always_show": true
+                },
+                "C 0": {
+                    "label": "Sl01",
+                    "always_show": false
+                },
+                "C#0": {
+                    "label": "Sl02",
+                    "always_show": false
+                },
+                "D 0": {
+                    "label": "Sl03",
+                    "always_show": false
+                },
+                "D#0": {
+                    "label": "Sl04",
+                    "always_show": false
+                },
+                "E 0": {
+                    "label": "Sl05",
+                    "always_show": false
+                },
+                "F 0": {
+                    "label": "Sl06",
+                    "always_show": false
+                },
+                "F#0": {
+                    "label": "Sl07",
+                    "always_show": false
+                },
+                "G 0": {
+                    "label": "Sl08",
+                    "always_show": false
+                },
+                "G#0": {
+                    "label": "Sl09",
+                    "always_show": false
+                },
+                "A 0": {
+                    "label": "Sl10",
+                    "always_show": false
+                },
+                "A#0": {
+                    "label": "Sl11",
+                    "always_show": false
+                },
+                "B 0": {
+                    "label": "Sl12",
+                    "always_show": false
+                },
+                "C 1": {
+                    "label": "Sl13",
+                    "always_show": false
+                },
+                "C#1": {
+                    "label": "Sl14",
+                    "always_show": false
+                },
+                "D 1": {
+                    "label": "Sl15",
+                    "always_show": false
+                },
+                "D#1": {
+                    "label": "Sl16",
+                    "always_show": false
+                },
+                "E 1": {
+                    "label": "AB01",
+                    "always_show": false
+                },
+                "F 1": {
+                    "label": "AB02",
+                    "always_show": false
+                },
+                "F#1": {
+                    "label": "AB03",
+                    "always_show": false
+                },
+                "G 1": {
+                    "label": "AB04",
+                    "always_show": false
+                },
+                "G#1": {
+                    "label": "AB05",
+                    "always_show": false
+                },
+                "A 1": {
+                    "label": "AB06",
+                    "always_show": false
+                },
+                "A#1": {
+                    "label": "AB07",
+                    "always_show": false
+                },
+                "B 1": {
+                    "label": "AB08",
+                    "always_show": false
+                },
+                "C 2": {
+                    "label": "AB09",
+                    "always_show": false
+                },
+                "C#2": {
+                    "label": "AB10",
+                    "always_show": false
+                },
+                "D 2": {
+                    "label": "AB11",
+                    "always_show": false
+                },
+                "D#2": {
+                    "label": "AB12",
+                    "always_show": false
+                },
+                "E 2": {
+                    "label": "AB13",
+                    "always_show": false
+                },
+                "F 2": {
+                    "label": "AB14",
+                    "always_show": false
+                },
+                "F#2": {
+                    "label": "AB15",
+                    "always_show": false
+                },
+                "G 2": {
+                    "label": "AB16",
+                    "always_show": false
+                }
+            }
+        }
+    }
+}

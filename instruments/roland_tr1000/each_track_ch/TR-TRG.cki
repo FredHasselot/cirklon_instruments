@@ -1,0 +1,27 @@
+{
+    "instrument_data": {
+        "TR-TRG": {
+            "midi_port": 1,
+            "midi_chan": 15,
+            "default_note": "E 3",
+            "default_patt": "P3",
+            "poly_spread": "off",
+            "no_xpose": true,
+            "no_fts": true,
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                }
+            },
+            "row_defs": {
+                "E 3": {
+                    "label": "TRG",
+                    "always_show": true
+                }
+            }
+        }
+    }
+}
