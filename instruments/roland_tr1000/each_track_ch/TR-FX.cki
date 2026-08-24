@@ -1,0 +1,83 @@
+{
+    "instrument_data": {
+        "TR-FX": {
+            "midi_port": 1,
+            "midi_chan": 10,
+            "default_note": "E 8",
+            "default_patt": "P3",
+            "poly_spread": "off",
+            "no_xpose": true,
+            "no_fts": true,
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                },
+                "slot_3": {
+                    "MIDI_CC": 9,
+                    "label": "Ext In"
+                },
+                "slot_4": {
+                    "MIDI_CC": 12,
+                    "label": "Dly Lvl"
+                },
+                "slot_5": {
+                    "MIDI_CC": 13,
+                    "label": "Dly Tim"
+                },
+                "slot_6": {
+                    "MIDI_CC": 14,
+                    "label": "Dly Fbk"
+                },
+                "slot_7": {
+                    "MIDI_CC": 15,
+                    "label": "MFX On"
+                },
+                "slot_8": {
+                    "MIDI_CC": 16,
+                    "label": "MFX Ct1"
+                },
+                "slot_9": {
+                    "MIDI_CC": 17,
+                    "label": "MFX Ct2"
+                },
+                "slot_10": {
+                    "MIDI_CC": 18,
+                    "label": "MFX Ct3"
+                },
+                "slot_11": {
+                    "MIDI_CC": 19,
+                    "label": "AnFX On"
+                },
+                "slot_12": {
+                    "MIDI_CC": 20,
+                    "label": "Filter"
+                },
+                "slot_13": {
+                    "MIDI_CC": 21,
+                    "label": "Drive"
+                },
+                "slot_14": {
+                    "MIDI_CC": 89,
+                    "label": "Morph"
+                },
+                "slot_15": {
+                    "MIDI_CC": 90,
+                    "label": "Rev Tim"
+                },
+                "slot_16": {
+                    "MIDI_CC": 91,
+                    "label": "Rev Lvl"
+                }
+            },
+            "row_defs": {
+                "E 8": {
+                    "label": "FX ",
+                    "always_show": true
+                }
+            }
+        }
+    }
+}

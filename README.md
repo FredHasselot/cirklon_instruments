@@ -1,6 +1,6 @@
 ```
 ╔════════════════════════════════════════════════════════════════════════════════════════╗
-║  (c) Fred Hasselot                                                            v0.1.59  ║
+║  (c) Fred Hasselot                                                            v0.1.61  ║
 ║  cirklon instruments definitions                                                       ║
 ║                                                                                        ║
 ║   ██████ ██ ██████  ██   ██ ██       ██████  ███    ██                                 ║
@@ -38,10 +38,14 @@ cirklon_instruments/
 │   │   ├── alpha_base_mk2.cki   # CK pattern (all instruments)
 │   │   ├── AB-KD/MB/CHH/...     # 11 P3 instruments
 │   │   └── AB-FX.cki            # FX global P3
-│   ├── roland_tr1000/            # Roland TR-1000 Rhythm Performer
-│   │   ├── tr1000.cki           # CK pattern (10 instruments + TRG)
-│   │   ├── TR-BD/SD/LT/HT/...   # 10 P3 instruments
-│   │   └── TR-FX.cki            # FX global P3
+│   ├── roland_tr1000/            # Roland TR-1000 Rhythm Creator
+│   │   ├── single_ch/           # MIDI Mode = Single Ch. (12 files)
+│   │   │   ├── tr1000.cki       # CK pattern (10 instruments + TRG)
+│   │   │   ├── TR-BD/SD/LT/HT/… # 10 P3 instruments
+│   │   │   └── TR-FX.cki        # FX global P3
+│   │   └── each_track_ch/       # MIDI Mode = Each Track Ch. (16 files)
+│   │       ├── TR-BD-A/B, …     # 1 channel per track, 1-15
+│   │       └── TR-FX.cki        # FX global P3 on the Pattern Channel
 │   ├── cyclone_tt303/            # Cyclone Analogic TT-303 Bass Bot
 │   │   └── TT-303.cki           # Single P3 (bassline + Slide + Sustain)
 │   └── machinedrum_sps1_mk2+/    # Elektron Machinedrum definitions
@@ -181,33 +185,39 @@ CK pattern for electronic drum module:
 📚 **[Full 2Box DrumIt Documentation](doc/2box_drumit/)**
 - Key mapping, articulations, and setup guide
 
-### 🥁 Roland TR-1000 Rhythm Performer
+### 🥁 Roland TR-1000 Rhythm Creator
 **Location:** `instruments/roland_tr1000/`
 
-Two complementary modes (single MIDI channel, default CH10):
+Two sets, one per value of `MENU > SYSTEM > MIDI > MIDI Mode`. Pick the mode on the
+machine first — the sets are not interchangeable.
 
-1. **CK Pattern Mode** - `tr1000.cki`
-   - 10 instruments triggered by note (GM-style), single channel
-   - Hidden Layer A / Layer B alternate-note rows per voice (25 rows total)
-   - Ideal for live drumming
-
-2. **P3 Multi-Instrument Mode** - 11 P3 instruments
-   - One P3 per voice, its own CCs placed first:
+1. **`single_ch/`** — `MIDI Mode = Single Ch.`, everything on one channel (default 10)
+   - `tr1000.cki`: CK pattern, 25 note rows (10 voices + TRG, hidden Layer A/B rows),
+     all 66 CCs as track values. Ideal for live drumming.
+   - 11 P3 instruments, each exposing only its own CCs:
      - **TR-BD / SD / LT / HT**: Tune, Decay, Mix, Ctrl 1/2/3, Level (7 CCs each)
      - **TR-RS / HC / CH / OH / CC / RC**: Tune, Decay, Ctrl, Level (4 CCs each)
-   - **TR-FX**: global Delay, Reverb, Master FX, Analog FX, Filter, Drive, Morph (14 CCs)
+     - **TR-FX**: global Delay, Reverb, Master FX, Analog FX, Filter, Drive, Morph (14 CCs)
+
+2. **`each_track_ch/`** — `MIDI Mode = Each Track Ch.` (firmware 1.20), one channel per track
+   - 15 P3 instruments on channels 1-15: BD/SD/LT/HT take two channels each (one per
+     layer), the six percussion voices one each, TRG on 15
+   - Uniform notes: 40 for the voice, 89 for its alternate layer, plus hidden slice rows
+   - `TR-FX` on the Pattern Channel for the machine-wide effects
+   - Required to sequence individual slices. Not tested against hardware.
 
 Key features:
-- Based on the official MIDI Implementation Chart v1.11 (Oct. 2025)
-- **All 12 definitions expose the full set of 66 CCs** (68 track value slots, 12 rows)
-  — every CC is machine-wide on channel 10, so any track reaches any parameter
+- Based on the official MIDI Implementation Chart v1.20 (Apr. 2026) — its 66 CCs are
+  unchanged from v1.11
+- The chart's **66 CCs are the machine's entire MIDI surface** — GEN, FILTER, AMP, CMP,
+  IFX, MOD and the MIXER sends have no CC and are reachable only through `KNOB ASSIGN`
+  (up to four parameters per `Ctrl` knob)
 - No NRPN, no SysEx, no aftertouch, no pitch bend (minimal MIDI surface)
 - Note numbers reconfigurable on the machine (`MENU > SYSTEM > MIDI > Inst Note`)
-- CCs silent? Check `MENU > SYSTEM > MIDI > Rx Edit Data` is **ON** — see the
-  troubleshooting section in the full documentation
+- CCs silent? Check `MENU > SYSTEM > MIDI > Rx Edit Data` is **ON**
 
 📚 **[Full Roland TR-1000 Documentation](doc/roland_tr1000/)**
-- MIDI implementation, note map, CC reference, and setup guide
+- MIDI implementation, both MIDI modes, CC reference, and what has no CC at all
 
 ### 🔊 Cyclone Analogic TT-303 Bass Bot
 **Location:** `instruments/cyclone_tt303/`
@@ -289,7 +299,7 @@ Created for [Patrick Pattern](https://soundcloud.com/patrick-packard) production
 - [GR-Mega Product Page](https://tastychips.nl/product/gr-mega/) - Tasty Chips Electronics
 - [Jomox Alpha Base MK2](https://www.jomox.de/alpha-base/) - Jomox Official
 - [2Box Drums](https://www.2box-drums.com/) - 2Box Official
-- [Roland TR-1000 MIDI Implementation Chart v1.11 (PDF)](https://static.roland.com/assets/media/pdf/TR-1000_MIDI_ImpleChart_eng01_W.pdf) - Roland Official
+- [Roland TR-1000 MIDI Implementation Chart v1.20 (PDF)](https://static.roland.com/assets/media/pdf/TR-1000_MIDIImpleChart_eng02_W.pdf) - Roland Official
 - [Cyclone Analogic Bass Bot User Manual v2.0 (PDF)](https://www.cyclone-analogic.fr/img/cms/The-Bass-Bot-English-2.0.pdf) - Cyclone Analogic Official
 - [Buchla 208MIDI Implementation v8 (PDF)](https://buchla.com/guides/208C_%20208MIDI_MIDI_Implementation_v8_for_v31.2.pdf) - Buchla Official
 

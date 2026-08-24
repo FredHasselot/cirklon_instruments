@@ -1,0 +1,111 @@
+{
+    "instrument_data": {
+        "TR-RS": {
+            "midi_port": 1,
+            "midi_chan": 9,
+            "default_note": "E 3",
+            "default_patt": "P3",
+            "poly_spread": "off",
+            "no_xpose": true,
+            "no_fts": true,
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                },
+                "slot_3": {
+                    "MIDI_CC": 80,
+                    "label": "Tune"
+                },
+                "slot_4": {
+                    "MIDI_CC": 81,
+                    "label": "Decay"
+                },
+                "slot_5": {
+                    "MIDI_CC": 82,
+                    "label": "Ctrl"
+                },
+                "slot_6": {
+                    "MIDI_CC": 83,
+                    "label": "Level"
+                }
+            },
+            "row_defs": {
+                "E 3": {
+                    "label": "RS ",
+                    "always_show": true
+                },
+                "F 7": {
+                    "label": "RS-B",
+                    "always_show": false
+                },
+                "C 0": {
+                    "label": "Sl01",
+                    "always_show": false
+                },
+                "C#0": {
+                    "label": "Sl02",
+                    "always_show": false
+                },
+                "D 0": {
+                    "label": "Sl03",
+                    "always_show": false
+                },
+                "D#0": {
+                    "label": "Sl04",
+                    "always_show": false
+                },
+                "E 0": {
+                    "label": "Sl05",
+                    "always_show": false
+                },
+                "F 0": {
+                    "label": "Sl06",
+                    "always_show": false
+                },
+                "F#0": {
+                    "label": "Sl07",
+                    "always_show": false
+                },
+                "G 0": {
+                    "label": "Sl08",
+                    "always_show": false
+                },
+                "G#0": {
+                    "label": "Sl09",
+                    "always_show": false
+                },
+                "A 0": {
+                    "label": "Sl10",
+                    "always_show": false
+                },
+                "A#0": {
+                    "label": "Sl11",
+                    "always_show": false
+                },
+                "B 0": {
+                    "label": "Sl12",
+                    "always_show": false
+                },
+                "C 1": {
+                    "label": "Sl13",
+                    "always_show": false
+                },
+                "C#1": {
+                    "label": "Sl14",
+                    "always_show": false
+                },
+                "D 1": {
+                    "label": "Sl15",
+                    "always_show": false
+                },
+                "D#1": {
+                    "label": "Sl16",
+                    "always_show": false
+                }
+            }
+        }
+    }
+}
