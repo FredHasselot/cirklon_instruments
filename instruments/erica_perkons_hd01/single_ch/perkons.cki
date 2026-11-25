@@ -1,0 +1,215 @@
+{
+    "instrument_data": {
+        "PERKONS": {
+            "midi_port": 1,
+            "midi_chan": 1,
+            "default_note": "C 3",
+            "default_patt": "CK",
+            "poly_spread": "off",
+            "no_xpose": true,
+            "no_fts": true,
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                },
+                "slot_3": {
+                    "MIDI_CC": 70,
+                    "label": "V1 Tune"
+                },
+                "slot_4": {
+                    "MIDI_CC": 71,
+                    "label": "V1 Dcy"
+                },
+                "slot_5": {
+                    "MIDI_CC": 72,
+                    "label": "V1 Pr1"
+                },
+                "slot_6": {
+                    "MIDI_CC": 73,
+                    "label": "V1 Pr2"
+                },
+                "slot_7": {
+                    "MIDI_CC": 74,
+                    "label": "V1 Cut"
+                },
+                "slot_8": {
+                    "MIDI_CC": 75,
+                    "label": "V1 Drv"
+                },
+                "slot_9": {
+                    "MIDI_CC": 76,
+                    "label": "V1 FX"
+                },
+                "slot_10": {
+                    "MIDI_CC": 77,
+                    "label": "V1 Lvl"
+                },
+                "slot_11": {
+                    "MIDI_CC": 78,
+                    "label": "V1 Alg"
+                },
+                "slot_12": {
+                    "MIDI_CC": 79,
+                    "label": "V1 Mode"
+                },
+                "slot_13": {
+                    "MIDI_CC": 80,
+                    "label": "V1 Filt"
+                },
+                "slot_14": {
+                    "MIDI_CC": 81,
+                    "label": "V2 Tune"
+                },
+                "slot_15": {
+                    "MIDI_CC": 82,
+                    "label": "V2 Dcy"
+                },
+                "slot_16": {
+                    "MIDI_CC": 83,
+                    "label": "V2 Pr1"
+                },
+                "slot_17": {
+                    "MIDI_CC": 84,
+                    "label": "V2 Pr2"
+                },
+                "slot_18": {
+                    "MIDI_CC": 85,
+                    "label": "V2 Cut"
+                },
+                "slot_19": {
+                    "MIDI_CC": 86,
+                    "label": "V2 Drv"
+                },
+                "slot_20": {
+                    "MIDI_CC": 87,
+                    "label": "V2 FX"
+                },
+                "slot_21": {
+                    "MIDI_CC": 88,
+                    "label": "V2 Lvl"
+                },
+                "slot_22": {
+                    "MIDI_CC": 89,
+                    "label": "V2 Alg"
+                },
+                "slot_23": {
+                    "MIDI_CC": 90,
+                    "label": "V2 Mode"
+                },
+                "slot_24": {
+                    "MIDI_CC": 91,
+                    "label": "V2 Filt"
+                },
+                "slot_25": {
+                    "MIDI_CC": 92,
+                    "label": "V3 Tune"
+                },
+                "slot_26": {
+                    "MIDI_CC": 93,
+                    "label": "V3 Dcy"
+                },
+                "slot_27": {
+                    "MIDI_CC": 94,
+                    "label": "V3 Pr1"
+                },
+                "slot_28": {
+                    "MIDI_CC": 95,
+                    "label": "V3 Pr2"
+                },
+                "slot_29": {
+                    "MIDI_CC": 96,
+                    "label": "V3 Cut"
+                },
+                "slot_30": {
+                    "MIDI_CC": 97,
+                    "label": "V3 Drv"
+                },
+                "slot_31": {
+                    "MIDI_CC": 98,
+                    "label": "V3 FX"
+                },
+                "slot_32": {
+                    "MIDI_CC": 99,
+                    "label": "V3 Lvl"
+                },
+                "slot_33": {
+                    "MIDI_CC": 100,
+                    "label": "V3 Alg"
+                },
+                "slot_34": {
+                    "MIDI_CC": 101,
+                    "label": "V3 Mode"
+                },
+                "slot_35": {
+                    "MIDI_CC": 102,
+                    "label": "V3 Filt"
+                },
+                "slot_36": {
+                    "MIDI_CC": 103,
+                    "label": "V4 Tune"
+                },
+                "slot_37": {
+                    "MIDI_CC": 104,
+                    "label": "V4 Dcy"
+                },
+                "slot_38": {
+                    "MIDI_CC": 105,
+                    "label": "V4 Pr1"
+                },
+                "slot_39": {
+                    "MIDI_CC": 106,
+                    "label": "V4 Pr2"
+                },
+                "slot_40": {
+                    "MIDI_CC": 107,
+                    "label": "V4 Cut"
+                },
+                "slot_41": {
+                    "MIDI_CC": 108,
+                    "label": "V4 Drv"
+                },
+                "slot_42": {
+                    "MIDI_CC": 109,
+                    "label": "V4 FX"
+                },
+                "slot_43": {
+                    "MIDI_CC": 110,
+                    "label": "V4 Lvl"
+                },
+                "slot_44": {
+                    "MIDI_CC": 111,
+                    "label": "V4 Alg"
+                },
+                "slot_45": {
+                    "MIDI_CC": 112,
+                    "label": "V4 Mode"
+                },
+                "slot_46": {
+                    "MIDI_CC": 113,
+                    "label": "V4 Filt"
+                }
+            },
+            "row_defs": {
+                "C 3": {
+                    "label": "V1",
+                    "always_show": true
+                },
+                "C#3": {
+                    "label": "V2",
+                    "always_show": true
+                },
+                "D 3": {
+                    "label": "V3",
+                    "always_show": true
+                },
+                "D#3": {
+                    "label": "V4",
+                    "always_show": true
+                }
+            }
+        }
+    }
+}
