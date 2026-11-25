@@ -121,7 +121,17 @@ These files have not been tested on a Pērkons. The manual leaves three points o
 2. **Reference pitch in Multi mode.** The manual does not say which note plays the voice
    at its knob pitch. `PK-VOICE` defaults to C 3 (note 36). Adjust after listening.
 3. **Switch values.** The Algo, Mode and Filter switches have three positions. The manual
-   does not give the CC value ranges for each position.
+   does not give the CC value ranges for each position. The likely split is in thirds:
+   **0-42 / 43-85 / 86-127**. This comes from Percolator, a third-party plugin modelled on
+   the Pērkons, not from a measurement on the hardware. Which end of the Filter switch
+   is HP is not documented either.
+
+The knobs cover 0-127. Tune is centred: 64 is the middle of its travel (midi.guide).
+
+No other source settles these points: the forum threads repeat the manual, and the
+firmware reverse-engineering project does not document MIDI note handling. To confirm,
+send notes from the Cirklon across several octaves and sweep CC 78-80 while watching the
+switch LEDs.
 
 ## Sources
 
@@ -129,3 +139,9 @@ These files have not been tested on a Pērkons. The manual leaves three points o
 - [Pērkons configuration settings 1.3 (PDF)](https://erp.ericasynths.lv/media/PERKONS_Configuration_settings.pdf) - Erica Synths Official
 - [Pērkons HD-01 Update 1.3 changelog](https://www.ericasynths.lv/news/post/perkons1-3) - Erica Synths Official
 - [Pērkons 1.1 update changelog](https://www.ericasynths.lv/news/perkons-11-update/) - Erica Synths Official
+
+Third-party, not official:
+
+- [midi.guide - Pērkons HD-01](https://midi.guide/d/erica-synths/perkons-hd-01/) - community CC database, same 44 CCs as the manual
+- [ModWiggler - Erica Perkons thread](https://www.modwiggler.com/forum/viewtopic.php?t=253005&start=1400) - confirms C, C#, D, D# for voices 1-4, no octave
+- [Percolator](https://github.com/saustin2010/mpc-vst-percolator) - plugin modelled on the Pērkons (not an emulation), source of the switch thirds
