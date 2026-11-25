@@ -1,6 +1,6 @@
 ```
 ╔════════════════════════════════════════════════════════════════════════════════════════╗
-║  (c) Fred Hasselot                                                            v0.1.61  ║
+║  (c) Fred Hasselot                                                            v0.1.64  ║
 ║  cirklon instruments definitions                                                       ║
 ║                                                                                        ║
 ║   ██████ ██ ██████  ██   ██ ██       ██████  ███    ██                                 ║
@@ -48,6 +48,9 @@ cirklon_instruments/
 │   │       └── TR-FX.cki        # FX global P3 on the Pattern Channel
 │   ├── cyclone_tt303/            # Cyclone Analogic TT-303 Bass Bot
 │   │   └── TT-303.cki           # Single P3 (bassline + Slide + Sustain)
+│   ├── erica_perkons_hd01/       # Erica Synths Pērkons HD-01
+│   │   ├── multi_ch/            # MIDI mode = Multi: PK-VOICE P3, CH 1-4
+│   │   └── single_ch/           # MIDI mode = Single: perkons.cki CK
 │   └── machinedrum_sps1_mk2+/    # Elektron Machinedrum definitions
 │       ├── hybrid_mode/          # Hybrid approach (1 CK + 4 P3)
 │       ├── pure_p3_mode/         # 16 individual P3 patterns
@@ -237,6 +240,31 @@ Key features:
 📚 **[Full Cyclone TT-303 Documentation](doc/cyclone_tt303/)**
 - MIDI implementation, accent/slide handling, and setup guide
 
+### 🥁 Erica Synths Pērkons HD-01
+**Location:** `instruments/erica_perkons_hd01/`
+
+Two sets, one per MIDI mode of the configuration menu (SHIFT + MOD). Pick the mode on
+the machine first.
+
+1. **`multi_ch/PK-VOICE.cki`** — `MIDI mode = Multi` (recommended)
+   - One P3 for the four voices: assign it to four tracks on channels 1-4
+   - Chromatic notes (firmware 1.1): the note sets the pitch of the voice
+   - 11 CCs per voice (70-80): Tune, Decay, Param 1/2, Cutoff, Drive, FX Send, Level,
+     Algo / Mode / Filter switches
+
+2. **`single_ch/perkons.cki`** — `MIDI mode = Single`
+   - One CK track, 4 note rows (Voice 1-4 = C, C#, D, D#)
+   - All 44 CCs (70-113) as track values
+
+Key features:
+- Based on the official manual rev. 10/26 (firmware 1.3)
+- No CC for the BBD delay, tempo or master level
+- Firmware 1.3 adds a `MIDI CC FILTER`: keep it **OFF**, or every CC is ignored
+- Not tested against hardware: note octave (Single) and reference pitch (Multi) to confirm
+
+📚 **[Full Erica Synths Pērkons HD-01 Documentation](doc/erica_perkons_hd01/)**
+- CC reference, configuration menu settings, and open points
+
 ### 🌀 Buchla Easel Command (208C)
 **Location:** `instruments/buchla_easel_command/`
 
@@ -301,6 +329,7 @@ Created for [Patrick Pattern](https://soundcloud.com/patrick-packard) production
 - [2Box Drums](https://www.2box-drums.com/) - 2Box Official
 - [Roland TR-1000 MIDI Implementation Chart v1.20 (PDF)](https://static.roland.com/assets/media/pdf/TR-1000_MIDIImpleChart_eng02_W.pdf) - Roland Official
 - [Cyclone Analogic Bass Bot User Manual v2.0 (PDF)](https://www.cyclone-analogic.fr/img/cms/The-Bass-Bot-English-2.0.pdf) - Cyclone Analogic Official
+- [Erica Synths Pērkons HD-01 Manual rev. 10/26 (PDF)](https://erp.ericasynths.lv/media/PERKONS_manual_10_26.pdf) - Erica Synths Official
 - [Buchla 208MIDI Implementation v8 (PDF)](https://buchla.com/guides/208C_%20208MIDI_MIDI_Implementation_v8_for_v31.2.pdf) - Buchla Official
 
 ### Resources

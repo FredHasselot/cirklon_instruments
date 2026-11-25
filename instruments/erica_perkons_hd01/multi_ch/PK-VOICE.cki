@@ -1,0 +1,65 @@
+{
+    "instrument_data": {
+        "PK-VOICE": {
+            "midi_port": 1,
+            "midi_chan": 1,
+            "default_note": "C 3",
+            "default_patt": "P3",
+            "poly_spread": "off",
+            "no_xpose": false,
+            "no_fts": false,
+            "track_values": {
+                "slot_1": {
+                    "track_control": "quant%"
+                },
+                "slot_2": {
+                    "track_control": "leng%"
+                },
+                "slot_3": {
+                    "MIDI_CC": 70,
+                    "label": "Tune"
+                },
+                "slot_4": {
+                    "MIDI_CC": 71,
+                    "label": "Decay"
+                },
+                "slot_5": {
+                    "MIDI_CC": 72,
+                    "label": "Param 1"
+                },
+                "slot_6": {
+                    "MIDI_CC": 73,
+                    "label": "Param 2"
+                },
+                "slot_7": {
+                    "MIDI_CC": 74,
+                    "label": "Cutoff"
+                },
+                "slot_8": {
+                    "MIDI_CC": 75,
+                    "label": "Drive"
+                },
+                "slot_9": {
+                    "MIDI_CC": 76,
+                    "label": "FX Send"
+                },
+                "slot_10": {
+                    "MIDI_CC": 77,
+                    "label": "Level"
+                },
+                "slot_11": {
+                    "MIDI_CC": 78,
+                    "label": "Algo"
+                },
+                "slot_12": {
+                    "MIDI_CC": 79,
+                    "label": "Mode"
+                },
+                "slot_13": {
+                    "MIDI_CC": 80,
+                    "label": "Filter"
+                }
+            }
+        }
+    }
+}

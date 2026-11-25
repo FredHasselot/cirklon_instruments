@@ -9,6 +9,7 @@
 - [GR-Mega](gr_mega/) - Granular synthesis, MIDI CC/NRPN reference, multi-layer
 - [Jomox Alpha Base MK2](jomox_alpha_base_mk2/) - 11 instruments, FM matrix, FX routing
 - [2Box DrumIt](2box_drumit/) - Key mapping, articulations, setup guide
+- [Erica Synths Pērkons HD-01](erica_perkons_hd01/) - Multi/Single MIDI modes, CC reference, firmware 1.3 settings
 
 ## Technical Documentation
 
